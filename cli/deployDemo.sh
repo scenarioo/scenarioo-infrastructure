@@ -95,7 +95,7 @@ else
 fi
 
 echo "Generate new list of demos: page/demos.json"
-jq -s '.' demos/*.json > page/demos.json
+jq -s '.' demos/*.json > overviewpage/demos.json
 
 echo "DONE"
 
