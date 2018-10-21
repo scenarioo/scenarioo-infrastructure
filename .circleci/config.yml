@@ -23,3 +23,9 @@ jobs:
           - run:
               name: Deploy server
               command: ansible-playbook ./site.yml -i ./ansible/hosts_aws
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - deploy
