@@ -6,7 +6,6 @@ BRANCH=$1
 BUILD_NUMBER=$2
 TRIGGERED_BY=$3
 PR_URL=$4
-PR_NUMBER=$5
 
 # OTHER VARS
 BUILD_URL="https://circleci.com/gh/scenarioo/scenarioo/$2"
@@ -74,7 +73,6 @@ JSON=$(cat << EOF
     "buildNumber":      "$BUILD_NUMBER",
     "triggeredBy":      "$TRIGGERED_BY",
     "pullRequestUrl":   "$PR_URL",
-    "pullRequestNumber":"$PR_NUMBER",
     "buildUrl":         "$BUILD_URL",
     "warArtifact":      "$WAR_ARTIFACT",
     "warArtifactSha256":"$WAR_ARTIFACT_SHA256",
