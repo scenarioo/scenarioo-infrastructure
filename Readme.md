@@ -28,7 +28,7 @@ Then execute: `./runAnsible.sh`
 ## CLI Usage
 
 The CLI tool `infra.sh` is used to add new demos:
- - ./infra.sh deployDemo <branchName> <buildNumber> <triggeredBy> <pullrequestURL> <pullrequestNumber>
+ - `./infra.sh deployDemo <branchName> <buildNumber> <triggeredBy> <pullrequestURL> <pullrequestNumber>`
     
 ## Config
 Configuration is done in `config.json` and under `demos/<branch>.json`.
