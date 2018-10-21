@@ -69,6 +69,7 @@ fi
 JSON=$(cat << EOF
 {
     "branchName":       "$BRANCH",
+    "encodedBranchName":"$ENCODED_BRANCH",
     "timestamp":        "$TIMESTAMP",
     "buildNumber":      "$BUILD_NUMBER",
     "triggeredBy":      "$TRIGGERED_BY",

@@ -69,7 +69,7 @@
         function createListItem(demo) {
             const listItem = d.createElement("li");
             listItem.appendChild(createDateElement(demo));
-            const demoLink = createLinkWithText("../scenarioo-" + demo.branchName, demo.branchName);
+            const demoLink = createLinkWithText("../scenarioo-" + demo.encodedBranchName, demo.branchName);
             listItem.appendChild(demoLink);
             listItem.appendChild(d.createElement("br"));
             listItem.appendChild(createBranchInfoElement(demo));
