@@ -1,0 +1,69 @@
+#
+# Deploys / updates an already deployed branch
+#
+- name: Load config.json
+  include_vars:
+    file: "demos/{{ branch }}.json"
+    name: branchConfig
+
+- name: "{{ branch }} - Create context config"
+  template:
+    src: branch-context-config.xml.j2
+    dest: "{{ config.tomcatFolder }}/conf/Catalina/localhost/scenarioo-{{ branch }}.xml"
+
+- name: "{{ branch }} - Create docu artifacts folder"
+  file: path="{{ config.scenariooDocuFolder }}/{{ branch }}" state=directory
+
+- name: "{{ branch }} - Check status of downloaded artifacts"
+  stat: path="{{ config.scenariooDocuFolder }}/{{ branch }}/{{ item.build }}.downloaded"
+  register: stat_artifacts_cmd
+  with_items: "{{ branchConfig.docuArtifacts }}"
+- set_fact: stat_artifacts="{{ stat_artifacts_cmd.results }}"
+
+# stat_artifacts.stat.exists = true/false
+# stat_artifacts.item = { build: "", url: "", sha256: ""}
+
+- name: "{{ branch }} - Download missing docu artifacts"
+  get_url:
+    url: "{{ artifact.item.url }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
+    dest: "{{ config.scenariooDocuFolder }}/{{ branch }}/{{ artifact.item.build }}.zip"
+  when: artifact.stat.exists == false
+  with_items: "{{ stat_artifacts }}"
+  loop_control:
+      loop_var: artifact
+
+- name: "{{ branch }} - Unarchive downloaded docu artifacts"
+  unarchive:
+    src: "{{ config.scenariooDocuFolder }}/{{ branch }}/{{ artifact.item.build }}.zip"
+    dest: "{{ config.scenariooDocuFolder }}/{{ branch }}"
+    remote_src: yes
+  when: artifact.stat.exists == false
+  with_items: "{{ stat_artifacts }}"
+  loop_control:
+      loop_var: artifact
+
+- name: "{{ branch }} - Mark artifacts as downloaded"
+  template:
+    src: downloadedArtifact.j2
+    dest: "{{ config.scenariooDocuFolder }}/{{ branch }}/{{ artifact.item.build }}.downloaded"
+  when: artifact.stat.exists == false
+  with_items: "{{ stat_artifacts }}"
+  loop_control:
+      loop_var: artifact
+
+- name: "{{ branch }} - Delete downloaded docu artifacts ZIPs"
+  file: path="{{ config.scenariooDocuFolder }}/{{ branch }}/{{ artifact.item.build }}.zip" state=absent
+  when: artifact.stat.exists == false
+  with_items: "{{ stat_artifacts }}"
+  loop_control:
+      loop_var: artifact
+
+- name: "{{ branch }} - Ensure correct permissions"
+  file: dest="{{ config.scenariooDocuFolder }}/{{ branch }}" owner=tomcat group=tomcat recurse=yes
+
+- name: "{{ branch }} - Download & deploy war"
+  get_url:
+    url: "{{ branchConfig.warArtifact }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
+    dest: "{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war"
+    sha256sum: "{{ branchConfig.warArtifactSha256 }}"     # Will only download if checksum changed
+  no_log: true  # Don't show CIRCLE_TOKEN in logs

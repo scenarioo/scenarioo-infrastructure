@@ -1,5 +1,5 @@
 .idea/
 .vagrant/
-roles/
-!roles/cleanupBranch
-!roles/deployBranch
+roles/*
+!/roles/deployBranch/
+!/roles/cleanupBranch/

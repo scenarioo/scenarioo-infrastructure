@@ -1,0 +1,14 @@
+#
+# Undeploys a branch and cleans up remaining data
+#
+- name: "{{ branch }} - Delete WAR"
+  file: path="{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war" state=absent
+
+- name: "{{ branch }} - Wait for WAR to become undeployed"
+  wait_for: path="{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}" state=absent
+
+- name: "{{ branch }} - Delete context config"
+  file: path="{{ config.tomcatFolder }}/conf/Catalina/localhost/scenarioo-{{ branch }}.xml" state=absent
+
+- name: "{{ branch }} - Remove scenarioo data"
+  file: path="{{ config.scenariooDocuFolder }}/{{ branch }}" state=absent
