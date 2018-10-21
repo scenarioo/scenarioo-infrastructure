@@ -2,7 +2,7 @@
 
 We use ansible to setup our main server which runs:
 - Tomcat for the demos
-- Ngnix for routing
+- Ngnix as a proxy
 - Overview of all demos: http://demo.scenarioo.org/overview
 
 ## Development
@@ -62,10 +62,13 @@ Configuration is done in `config.json` and under `demos/<branch>.json`.
 
 
 ## Ansible
-**Important:** The target host to be provisioned has to have Python 2.7 installed!** Otherwise ansible will abort with a not so helpful SSH error.
+**Important:** The target host to be provisioned has to have Python 2.7 installed! Otherwise ansible will abort with a not so helpful SSH error.
+
 Ansible relies on the following environment vars when executed:
 - `TOMCAT_USER_PASSWORD`: Used to secure the publish scenarioo docu endpoint. Defaults to: 'scenarioo' and user is always 'scenarioo'.
 - `CIRLCE_TOKEN`: Used to download WAR and scenarioo docu artifacts from CircleCI
+
+**CircleCI:** Set these environment variables in the organsation context "scenarioo". 
 
 ### Directory paths
 **Tomcat:**
