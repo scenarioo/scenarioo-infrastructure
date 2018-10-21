@@ -26,11 +26,15 @@ ARTIFACT_URL="https://circleci.com/api/v1.1/project/github/scenarioo/scenarioo/$
 
 echo "Getting list of artifacts ..."
 ARTIFACTS=`curl -s $ARTIFACT_URL`
+echo "curl -s $ARTIFACT_URL"
 abort_on_curl_failure $? $ARTIFACT_URL
+echo $ARTIFACTS
+echo "Getting WAR"
 WAR_ARTIFACT=`echo $ARTIFACTS | jq -r '.[] | select(.path=="scenarioo.war") | .url'`
 WAR_ARTIFACT_SHA256_URL=`echo $ARTIFACTS | jq -r '.[] | select(.path=="scenarioo.war.sha256") | .url'`
 WAR_ARTIFACT_SHA256=`curl -s $WAR_ARTIFACT_SHA256_URL`
 abort_on_curl_failure $? $WAR_ARTIFACT_SHA256_URL
+Echo "Getting E2E docu"
 DOCU_ARTIFACT=`echo $ARTIFACTS | jq -r '.[] | select(.path=="e2eScenariooDocu.zip") | .url'`
 DOCU_ARTIFACT_SHA256_URL=`echo $ARTIFACTS | jq -r '.[] | select(.path=="e2eScenariooDocu.zip.sha256") | .url'`
 DOCU_ARTIFACT_SHA256=`curl -s $DOCU_ARTIFACT_SHA256_URL`
