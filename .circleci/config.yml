@@ -14,10 +14,10 @@ jobs:
           - run:
               name: Install ansible
               command: |
-                sudo apt-get install software-properties-common -yqq
-                sudo apt-add-repository ppa:ansible/ansible -y
-                sudo apt-get update -yqq
-                sudo apt-get install ansible -yqq
+                sudo echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" >> /etc/apt/sources.list
+                sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+                sudo apt-get update -yq
+                sudo apt-get install ansible -yq
           - run:
               name: Deploy server
               command: ansible-playbook ./site.yml -i ./ansible/hosts_aws
