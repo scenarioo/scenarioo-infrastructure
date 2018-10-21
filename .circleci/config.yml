@@ -7,7 +7,6 @@ jobs:
     working_directory: ~/infra
     steps:
           - checkout
-
           # Add keys of AWS host
           - add_ssh_keys:
                 fingerprints:
@@ -16,7 +15,7 @@ jobs:
               name: Install ansible
               command: |
                 sudo apt-get install software-properties-common -yqq
-                sudo apt-add-repository ppa:ansible/ansible -yqq
+                sudo apt-add-repository ppa:ansible/ansible -y
                 sudo apt-get update -yqq
                 sudo apt-get install ansible -yqq
           - run:
