@@ -1,0 +1,61 @@
+[
+  {
+    "branchName": "develop_circleci",
+    "timestamp": "1540117349",
+    "buildNumber": "117",
+    "triggeredBy": "cgrossde",
+    "pullRequestUrl": "http://github.com",
+    "pullRequestNumber": "12",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/117",
+    "warArtifact": "https://117-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "ad5ca926cc3bc8213635643f549ded7c393bc53630ea58f1cb3387e5c3418932",
+    "docuArtifacts": [
+      {
+        "url": "https://117-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "3d69d407c77ad62d7407ee029bb8c295966c1e4f5839d52e121604de3aed3ca0",
+        "build": "117"
+      },
+      {
+        "url": "https://117-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "1d69d407c77ad62d7407ee029bb8c295966c1e4f5839d52e121604de3aed3ca0",
+        "build": "110"
+      }
+    ]
+  },
+  {
+    "branchName": "feature-755-investigate-building-docker-image",
+    "timestamp": "1540116755",
+    "buildNumber": "116",
+    "triggeredBy": "cgrossde",
+    "pullRequestUrl": "http://github.com",
+    "pullRequestNumber": "12",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/116",
+    "warArtifact": "https://116-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "22a60aa34c93e034da53db4fc5a8bf95e5d2f3b9464ed1719857cc8650b2952e",
+    "docuArtifacts": [
+      {
+        "url": "https://116-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "b049f4e39ea841bbe92452f026f0fb7100de19a671b298d12dd716d2354b79b3",
+        "build": "116"
+      }
+    ]
+  },
+  {
+    "branchName": "master_circleci",
+    "timestamp": "1540117315",
+    "buildNumber": "118",
+    "triggeredBy": "cgrossde",
+    "pullRequestUrl": "http://github.com",
+    "pullRequestNumber": "20",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/118",
+    "warArtifact": "https://118-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "8f24379b33b1be1dad0c3848d64c92d32bfb2f0c58a5a7e8bde8ba756f6f8e31",
+    "docuArtifacts": [
+      {
+        "url": "https://118-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "756aaa7d064d98d4864fb7e2bab5520e28863bc56e6c027e6f32189c39db8031",
+        "build": "118"
+      }
+    ]
+  }
+]

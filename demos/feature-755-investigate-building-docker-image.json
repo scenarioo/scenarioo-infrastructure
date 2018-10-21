@@ -1,0 +1,18 @@
+{
+  "branchName": "feature-755-investigate-building-docker-image",
+  "timestamp": "1540116755",
+  "buildNumber": "116",
+  "triggeredBy": "cgrossde",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/773",
+  "pullRequestNumber": "773",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/116",
+  "warArtifact": "https://116-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "22a60aa34c93e034da53db4fc5a8bf95e5d2f3b9464ed1719857cc8650b2952e",
+  "docuArtifacts": [
+    {
+      "url": "https://116-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "b049f4e39ea841bbe92452f026f0fb7100de19a671b298d12dd716d2354b79b3",
+      "build": "116"
+    }
+  ]
+}

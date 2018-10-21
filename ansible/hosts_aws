@@ -1,0 +1,9 @@
+[all:vars]
+env=vagrant
+
+[mainserver]
+34.240.14.243
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=ubuntu

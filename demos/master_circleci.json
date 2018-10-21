@@ -1,0 +1,18 @@
+{
+  "branchName": "master_circleci",
+  "timestamp": "1540117315",
+  "buildNumber": "118",
+  "triggeredBy": "cgrossde",
+  "pullRequestUrl": "",
+  "pullRequestNumber": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/118",
+  "warArtifact": "https://118-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "8f24379b33b1be1dad0c3848d64c92d32bfb2f0c58a5a7e8bde8ba756f6f8e31",
+  "docuArtifacts": [
+    {
+      "url": "https://118-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "756aaa7d064d98d4864fb7e2bab5520e28863bc56e6c027e6f32189c39db8031",
+      "build": "118"
+    }
+  ]
+}

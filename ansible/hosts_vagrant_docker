@@ -1,0 +1,8 @@
+[all:vars]
+env=vagrant
+[mainserver]
+host.docker.internal:2222
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=vagrant

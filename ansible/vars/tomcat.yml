@@ -1,0 +1,18 @@
+tomcat_version: 8.5.12
+tomcat_use_java: true   # Also install Java
+tomcat_use_apr: false   # Could provide more performance, disable for now
+tomcat_use_custom_server_xml: true
+tomcat_custom_server_xml: ./ansible/files/server.xml
+tomcat_roles:
+  - manager
+  - manager-gui
+  - manager-script
+  - manager-jmx
+  - admin
+  - admin-gui
+  - admin-script
+  - scenarioo-build-publisher
+tomcat_users:
+  - name: scenarioo
+    password: "{{ lookup('env', 'TOMCAT_USER_PASSWORD') or 'scenarioo' }}"
+    roles: scenarioo-build-publisher

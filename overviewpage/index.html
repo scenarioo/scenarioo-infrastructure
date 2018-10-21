@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title>Demos</title>
+    <style>
+        .page-container {
+            width: 650px;
+            margin: 0 auto;
+            padding-top: 30px;
+            font-family: Verdana, Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            padding-bottom: 15px;
+        }
+
+        .branch-info {
+            font-size: 80%;
+            padding-left: 10px;
+        }
+
+        .date {
+            float: right;
+            color: #999;
+            font-size: 80%;
+        }
+    </style>
+    <script type="text/javascript">
+        const d = document;
+        window.onload = function () {
+            const getDemoRequest = new Request('demos.json');
+            fetch(getDemoRequest)
+                .then(response => response.json())
+                .then(updateDemos);
+        };
+
+        function updateDemos(demos) {
+            console.log(demos);
+            const list = d.querySelector('.page-container ul');
+            // develop/master first, after that order chronologically
+            demos.sort((a, b) => {
+                if (a.branchName.indexOf("master") === 0 || a.branchName.indexOf("develop") === 0) {
+                    return -1;
+                }
+                if (b.branchName.indexOf("master") === 0 || b.branchName.indexOf("develop") === 0) {
+                    return 1;
+                }
+                if (a.timestamp > b.timestamp) {
+                    return 1;
+                }
+                if (a.timestamp === b.timestamp) {
+                    return 0;
+                }
+                return -1;
+
+            });
+            for (const demo of demos) {
+                list.appendChild(createListItem(demo));
+            }
+        }
+
+        function createListItem(demo) {
+            const listItem = d.createElement("li");
+            listItem.appendChild(createDateElement(demo));
+            const demoLink = createLinkWithText("../scenarioo-" + demo.branchName, demo.branchName);
+            listItem.appendChild(demoLink);
+            listItem.appendChild(d.createElement("br"));
+            listItem.appendChild(createBranchInfoElement(demo));
+            return listItem;
+        }
+
+        function createDateElement(demo) {
+            const date = new Date(demo.timestamp * 1000);
+            const dateString = `${padZero(date.getDate())}.${padZero(date.getMonth()+1)}.${date.getFullYear()}`;
+            const timeString = `${padZero(date.getHours())}:${padZero(date.getMinutes())}`;
+            const dateElement = d.createElement("div");
+            dateElement.className = "date";
+            dateElement.appendChild(d.createTextNode(`${dateString} ${timeString}`));
+            return dateElement;
+        }
+
+        function createBranchInfoElement(demo) {
+            const infoElement = d.createElement("span");
+            infoElement.className = "branch-info";
+            const infoString = `${demo.triggeredBy}`;
+            infoElement.appendChild(d.createTextNode(infoString));
+            if (demo.buildUrl) {
+                const ciLink = createLinkWithText(demo.buildUrl, `CI Build #${demo.buildNumber}`);
+                infoElement.appendChild(d.createTextNode(" - "));
+                infoElement.appendChild(ciLink);
+            }
+            if (demo.pullRequestUrl) {
+                const prLink = createLinkWithText(demo.pullRequestUrl, `PR #${demo.pullRequestNumber}`);
+                infoElement.appendChild(d.createTextNode(" - "));
+                infoElement.appendChild(prLink);
+            }
+            return infoElement;
+        }
+
+        function padZero(number) {
+            if( number < 10) {
+                return '0' + number;
+            }
+            return number;
+        }
+
+        function createLinkWithText(url, text) {
+            const link = d.createElement("a");
+            link.href = url;
+            link.target = "_blank";
+            link.appendChild(d.createTextNode(text));
+            return link;
+        }
+    </script>
+</head>
+<body>
+<div class="page-container">
+    <h1>Demos</h1>
+    <ul>
+    </ul>
+</div>
+</body>
+</html>
