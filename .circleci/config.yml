@@ -22,7 +22,7 @@ jobs:
               name: Deploy server
               command: |
                 ansible-galaxy install -r requirements.yml
-                ansible-playbook ./site.yml -i ./ansible/hosts_aws
+                ansible-playbook ./site.yml -e 'host_key_checking=False' -i ./ansible/hosts_aws
 
 workflows:
   version: 2
