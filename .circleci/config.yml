@@ -22,12 +22,12 @@ jobs:
               name: Deploy server
               command: |
                 ansible-galaxy install -r requirements.yml
-                export ANSIBLE_HOST_KEY_CHECKING=False
+                export ANSIBLE_HOST_KEY_CHECKING=False    # TODO: Add known_hosts to repository
                 ansible-playbook ./site.yml -i ./ansible/hosts_aws
 
 workflows:
   version: 2
-  build_and_test:
+  deploy_infrastructure:
     jobs:
       - deploy:
           # Get environment vars: https://circleci.com/docs/2.0/contexts/
