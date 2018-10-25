@@ -42,6 +42,7 @@
   with_items: "{{ stat_artifacts }}"
   loop_control:
       loop_var: artifact
+  no_log: true  # Output is massive
 
 - name: "{{ branch }} - Mark artifacts as downloaded"
   template:
