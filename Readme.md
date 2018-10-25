@@ -14,7 +14,7 @@ To test and run this ansible playbook locally you need to install:
 **Ansible installed:** 
 ```
 ansible-galaxy install -r requirements.yml
-ansible-playbook site.yml -i ./ansible/hosts_vagrant --key-file "./docker-ansible-runner/vagrant.key"
+ansible-playbook site.yml -i ./hosts/hosts_vagrant --key-file "./docker-ansible-runner/vagrant.key"
 ```
 
 **Else use provided docker image:**
@@ -23,15 +23,17 @@ If you don't have Ansible installed you can use the dockerized version. Build do
 docker build -t docker-ansible-runner docker-ansible-runner
 ```
 
-Then execute: `./runAnsible.sh`
+Then execute: `./infra.sh runAnsible vagrant`
 
 ## CLI Usage
 
 The CLI tool `infra.sh` is used to add new demos:
  - `./infra.sh deployDemo <branchName> <buildNumber> <triggeredBy> <pullrequestURL> <pullrequestNumber>`
+ - `./infra.sh runAnsible <vagrant|aws>`
     
 ## Config
 Configuration is done in `config.json` and under `demos/<branch>.json`.
+
 **config.json**
 - `scenariooDocuFolder`: Where to store scenarioo docu for each branch
 - `maxConcurrentDemos`: Limit the number of demos running in parallel (first in, first out)
@@ -62,11 +64,11 @@ Configuration is done in `config.json` and under `demos/<branch>.json`.
 
 
 ## Ansible
-**Important:** The target host to be provisioned has to have Python 2.7 installed! Otherwise ansible will abort with a not so helpful SSH error.
 
 Ansible relies on the following environment vars when executed:
 - `TOMCAT_USER_PASSWORD`: Used to secure the publish scenarioo docu endpoint. Defaults to: 'scenarioo' and user is always 'scenarioo'.
 - `CIRLCE_TOKEN`: Used to download WAR and scenarioo docu artifacts from CircleCI
+- `NGINX_ADDITIONAL_DOMAIN`: Useful if server runs under different domain than demo.scenarioo.org
 
 **CircleCI:** Set these environment variables in the organsation context "scenarioo". 
 

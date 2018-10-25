@@ -1,35 +1,36 @@
 ---
 - name: Setup scenarioo server for Demos and Ci?
   hosts: mainserver
-  become: True                    # We need root rights to install stuff
-  vars_files:
-    - ./ansible/vars/tomcat.yml   # Tomcat config
-    - ./ansible/vars/nginx.yml    # Nginx config
-  roles:
-    - christopherdavenport.universal-tomcat
-    - geerlingguy.nginx
-  tasks:
+  become: True        # We need root rights to install stuff
 
+  #
+  # CONFIG & VARIABLES
+  #
+  pre_tasks:
+      - name: Load config.json
+        include_vars:
+          file: config.json
+          name: config
+
+      - name: Get active branches             # Active branche = branch with a config file under ./demos/
+        set_fact: active_branches="{{lookup('fileglob', './demos/*.json').split(',') | map('basename') | map('regex_replace', '(.*).json', '\\1') | list}}"
+
+      - name: Get currently deployed branches # Currently deployed = branch with scenarioo-<branch>.war in webapps
+        shell: ls -1  {{ config.tomcatFolder }}/webapps | grep '.war' | sed -e 's/^scenarioo-\(.*\).war/\1/'
+        register: deployed_branches_cmd
+      - set_fact: deployed_branches="{{ deployed_branches_cmd.stdout_lines }}"
+
+  # See roles/ folder
+  roles:
+    - tomcat
+    - nginx
+    - docker
+
+  tasks:
     - name: Install unzip (needed to extract artifact docu)
       package:
         name: unzip
         state: present
-
-    #
-    # CONFIG & VARIABLES
-    #
-    - name: Load config.json
-      include_vars:
-        file: config.json
-        name: config
-
-    - name: Get active branches           # Active branche = branch with a config file under ./demos/
-      set_fact: active_branches="{{lookup('fileglob', './demos/*.json').split(',') | map('basename') | map('regex_replace', '(.*).json', '\\1') | list}}"
-
-    - name: Get currently deployed branches
-      shell: ls -1  {{ config.tomcatFolder }}/webapps | grep '.war' | sed -e 's/^scenarioo-\(.*\).war/\1/'
-      register: deployed_branches_cmd
-    - set_fact: deployed_branches="{{ deployed_branches_cmd.stdout_lines }}"
 
     #
     # CLEANUP OLD BRANCHES
