@@ -31,6 +31,7 @@
   with_items: "{{ stat_artifacts }}"
   loop_control:
       loop_var: artifact
+  no_log: true  # Don't show CIRCLE_TOKEN in logs
 
 - name: "{{ branch }} - Unarchive downloaded docu artifacts"
   unarchive:
@@ -59,7 +60,7 @@
       loop_var: artifact
 
 - name: "{{ branch }} - Ensure correct permissions"
-  file: dest="{{ config.scenariooDocuFolder }}/{{ branch }}" owner=tomcat group=tomcat recurse=yes
+  file: dest="{{ config.scenariooDocuFolder }}/{{ branch }}" owner=tomcat8 group=tomcat8 recurse=yes
 
 - name: "{{ branch }} - Download & deploy war"
   get_url:

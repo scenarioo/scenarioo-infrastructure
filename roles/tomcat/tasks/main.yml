@@ -1,0 +1,11 @@
+#
+# Installs and configures nginx
+#
+- name: Install tomcat 8
+  apt: name=tomcat8 state=latest
+  become: yes
+
+- name: Copy server.xml
+  copy:
+    src: server.xml
+    dest: "{{ config.tomcatFolder }}/conf"

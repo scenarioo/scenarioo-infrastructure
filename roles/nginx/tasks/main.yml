@@ -1,0 +1,17 @@
+#
+# Installs and configures nginx
+#
+- name: Install latest nginx
+  apt: name=nginx state=latest
+
+- name: Start nginx
+  service:
+      name: nginx
+      state: started
+
+- name: Copy config file
+  template:
+    src: demo.scenarioo.org.conf.j2
+    dest: /etc/nginx/sites-enabled/demo.scenarioo.org.cfg
+  notify: Restart nginx
+
