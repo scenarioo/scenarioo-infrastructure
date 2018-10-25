@@ -1,5 +1,5 @@
 #!/bin/bash
-# DESCRIPTION: Run ansible on AWS / Vagrant. Use ALTERNATIVE_SSH_KEY for different ssh key.
+# DESCRIPTION: <target> <alterntiveSSHKey> Run ansible on AWS / Vagrant.
 
 # INPUT DATA
 TARGET=$1
@@ -19,6 +19,12 @@ case $TARGET in
     exit 1
 esac
 
+# Give option to provide different SSH_KEY
+if [[ ! $ALTERNATIVE_SSH_KEY == "" ]]; then
+    echo "Using SSH key: $ALTERNATIVE_SSH_KEY"
+    SSH_KEY="$ALTERNATIVE_SSH_KEY"
+fi
+
 # Make a SSH test connection
 if [[ ! $TARGET == "vagrant" ]]; then
     HOST_PORT=`cat $TARGET_HOST_FILE | grep -A 1 mainserver | grep -v mainserver`
@@ -32,14 +38,9 @@ if [[ ! $TARGET == "vagrant" ]]; then
     ssh $SSH_ARGS
     if [[ $? -ne 0 ]]; then
         echo "Test connection to AWS host failed (exit code=$?): ssh $SSH_ARGS"
+        echo "Provide path to ssh key as second param."
         exit 1;
     fi
-fi
-
-# Give option to provide different SSH_KEY
-if [[ ! $ALTERNATIVE_SSH_KEY == "" ]]; then
-    echo "Using SSH key: $ALTERNATIVE_SSH_KEY"
-    SSH_KEY="$ALTERNATIVE_SSH_KEY"
 fi
 
 # Check if ansible image was already built
@@ -60,6 +61,7 @@ docker run --rm -it \
   -v $(pwd):/ansible/playbooks \
   -e CIRLCE_TOKEN=$CIRLCE_TOKEN \
   -e TOMCAT_USER_PASSWORD=$TOMCAT_USER_PASSWORD \
+  -e NGINX_ADDITIONAL_DOMAIN=$NGINX_ADDITIONAL_DOMAIN \
   docker-ansible-runner site.yml  -v -i $TARGET_HOST_FILE
 
 
