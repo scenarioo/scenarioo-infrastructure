@@ -2,10 +2,30 @@
 # Installs and configures nginx
 #
 - name: Install tomcat 8
-  apt: name=tomcat8 state=latest
-  become: yes
+  apt:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - tomcat8
+    - tomcat8-admin
 
 - name: Copy server.xml
   copy:
     src: server.xml
     dest: "{{ config.tomcatFolder }}/conf"
+  notify: Restart tomcat
+
+- name: Copy tomcat-users.xml
+  template:
+    src: tomcat-users.xml.j2
+    dest: "{{ config.tomcatFolder }}/conf/tomcat-users.xml"
+  notify: Restart tomcat
+
+- name: Copy setenv.sh for memory settings
+  copy:
+    src: setenv.sh
+    dest: /usr/share/tomcat8/bin
+  notify: Restart tomcat
+
+# Run handlers now => e.g. restart tomcat at this point if needed
+- meta: flush_handlers

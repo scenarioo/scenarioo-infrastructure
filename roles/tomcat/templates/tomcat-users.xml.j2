@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcat-users>
+    <role rolename="scenarioo-build-publisher"/>
+    <user username="scenarioo" password="{{ lookup('env', 'TOMCAT_USER_PASSWORD') or 'scenarioo' }}" roles="scenarioo-build-publisher"/>
+    <user username="netdata" password="netdata" roles="manager-gui"/>
+</tomcat-users>
