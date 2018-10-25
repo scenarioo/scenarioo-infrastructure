@@ -23,8 +23,8 @@
   # See roles/ folder
   roles:
     - tomcat
-    - nginx
     - docker
+    - nginx
 
   tasks:
     - name: Install unzip (needed to extract artifact docu)
