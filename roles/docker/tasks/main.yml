@@ -21,7 +21,7 @@
     - docker-ce
     - python3-pip
 
-- name: install docker-py package
+- name: Install pip docker package
   pip: name=docker
 
 # https://github.com/docker-library/elasticsearch/issues/111
@@ -44,3 +44,23 @@
       xpack.ml.enabled: "false"
       xpack.security.enabled: "false"
       ES_JAVA_OPTS: -Xms512m -Xmx512m
+
+- file: path=/docker/netdata/overrides/python.d state=directory
+- name: Copy netdata config
+  copy:
+    src: netdata/overrides
+    dest: /docker/netdata
+
+- name: Run netdata
+  docker_container:
+    name: netdata
+    image: titpetric/netdata:1.8
+    state: started
+    ports:
+      - "127.0.0.1:19999:19999"
+    capabilities:
+      - SYS_PTRACE
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /docker/netdata/overrides:/etc/netdata/override
