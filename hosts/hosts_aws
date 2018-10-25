@@ -2,7 +2,7 @@
 env=vagrant
 
 [mainserver]
-34.240.14.243
+54.229.54.235
 
 [all:vars]
 ansible_connection=ssh
