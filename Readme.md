@@ -85,3 +85,12 @@ Ansible relies on the following environment vars when executed:
 **Scenarioo:**
 - `/scenarioo/overviewpage`
 - `/scenarioo/data/<branchName>`
+
+
+### Memory calculations
+
+To get the most out of the box without running into Java OutOfMemoryExceptions we need to keep an eye on memory:
+
+- System: 1GB
+- Elasticsearch: 0.8GB  (500MB Java + docker overhead)  see `roles/docker/tasks/main.yml`
+- Tomcat: 6GB (1GB per demo is a good measure)  see `roles/tomcat/files/setenv.sh`
