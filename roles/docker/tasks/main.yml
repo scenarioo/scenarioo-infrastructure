@@ -1,3 +1,6 @@
+#
+# Installs docker and runs desired containers (e.g. elasticsearch
+#
 - name: Add Docker GPG key
   apt_key: url=https://download.docker.com/linux/ubuntu/gpg
 
@@ -5,7 +8,7 @@
   apt_repository:
     repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ansible_distribution_release}} stable
 
-- name: Install list of packages
+- name: Install docker & dependencies
   apt:
     name: "{{ item }}"
     state: present
@@ -16,3 +19,28 @@
     - curl
     - software-properties-common
     - docker-ce
+    - python3-pip
+
+- name: install docker-py package
+  pip: name=docker
+
+# https://github.com/docker-library/elasticsearch/issues/111
+- name: Set sysctl vm.max_map_count
+  sysctl:
+    name: vm.max_map_count
+    value: 262144
+    state: present
+
+- name: Running elasticsearch
+  docker_container:
+    name: elasticsearch-5
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.6.9
+    state: started
+    ports:
+      - "127.0.0.1:9200:9200"
+      - "127.0.0.1:9300:9300"
+    env:
+      cluster.name: elasticsearch
+      xpack.ml.enabled: "false"
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
