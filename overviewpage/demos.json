@@ -28,24 +28,6 @@
     ]
   },
   {
-    "branchName": "feature/755-Test-branch",
-    "encodedBranchName": "feature-755-Test-branch",
-    "timestamp": "1540191695",
-    "buildNumber": "187",
-    "triggeredBy": "cgrossde",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/187",
-    "warArtifact": "https://187-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "8ea3c14add8e2efcf6fbc46ec78577d2e2a54e08c5fbef95e0a6ebda3020bc22",
-    "docuArtifacts": [
-      {
-        "url": "https://187-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "0f5d5c450ee3fb3882c67c49bb00f754ecfed7f15849aeaee2039eb0cac79069",
-        "build": "187"
-      }
-    ]
-  },
-  {
     "branchName": "feature/755-investigate-building-docker-image",
     "encodedBranchName": "feature-755-investigate-building-docker-image",
     "timestamp": "1540165190",
