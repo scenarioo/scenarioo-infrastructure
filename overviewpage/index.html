@@ -69,7 +69,7 @@
         function createListItem(demo) {
             const listItem = d.createElement("li");
             listItem.appendChild(createDateElement(demo));
-            const demoLink = createLinkWithText("../scenarioo-" + demo.encodedBranchName, demo.branchName);
+            const demoLink = createLinkWithText("/scenarioo-" + demo.encodedBranchName, demo.branchName);
             listItem.appendChild(demoLink);
             listItem.appendChild(d.createElement("br"));
             listItem.appendChild(createBranchInfoElement(demo));
@@ -112,6 +112,10 @@
         }
 
         function createLinkWithText(url, text) {
+            // Don't loose port for relative URLs in Chrome: https://bugs.chromium.org/p/chromium/issues/detail?id=128539
+            if (url.indexOf("/") === 0) {
+                url = location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '') + url + "/?";
+            }
             const link = d.createElement("a");
             link.href = url;
             link.target = "_blank";

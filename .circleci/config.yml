@@ -12,7 +12,7 @@ jobs:
                 fingerprints:
                   - "29:5a:f5:86:2d:e0:60:e1:7f:22:7c:0e:ad:2b:1c:40"
           - run:
-              name: Install ansible
+              name: Install ansible # Maybe pip install ansible?
               command: |
                 sudo /bin/su -c "echo \"deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main\" >> /etc/apt/sources.list"
                 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
@@ -21,9 +21,8 @@ jobs:
           - run:
               name: Deploy server
               command: |
-                ansible-galaxy install -r requirements.yml
                 export ANSIBLE_HOST_KEY_CHECKING=False    # TODO: Add known_hosts to repository
-                ansible-playbook ./site.yml -i ./ansible/hosts_aws
+                ansible-playbook ./site.yml -i ./hosts/hosts_aws
 
 workflows:
   version: 2
