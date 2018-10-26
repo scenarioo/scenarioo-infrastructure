@@ -41,10 +41,10 @@ abort_on_curl_failure $? $DOCU_ARTIFACT_SHA256_URL
 
 DOCU_ARTIFACT_ITEM=$(cat << EOM
 {
-        "url": "$DOCU_ARTIFACT",
-        "sha256": "$DOCU_ARTIFACT_SHA256",
-        "build": "$BUILD_NUMBER"
-    }
+    "url": "$DOCU_ARTIFACT",
+    "sha256": "$DOCU_ARTIFACT_SHA256",
+    "build": "$BUILD_NUMBER"
+}
 EOM
 )
 
@@ -56,7 +56,7 @@ if [[ -f $CONFIG_FILE ]]; then
     EXISTING_ITEMS=`jq ".docuArtifacts" $CONFIG_FILE`
     if [[ -z `jq -r ".docuArtifacts[] | select(.sha256==\"$DOCU_ARTIFACT_SHA256\") | .url" $CONFIG_FILE` ]]; then
         # Prepend new docu in DOCU_ARTIFACT_LIST
-        DOCU_ARTIFACT_LIST=`jq ".docuArtifacts |= $DOCU_ARTIFACT_LIST + . | .docuArtifacts" $CONFIG_FILE`
+        DOCU_ARTIFACT_LIST=`jq ".docuArtifacts |= $DOCU_ARTIFACT_LIST + . | .docuArtifacts | sort_by(.build)" $CONFIG_FILE`
     else
         DOCU_ARTIFACT_LIST="$EXISTING_ITEMS"
     fi
@@ -91,12 +91,4 @@ else
     echo $JSON | jq '.' > $CONFIG_FILE
 fi
 
-echo "Generate new list of demos: page/demos.json"
-jq -s '.' demos/*.json > overviewpage/demos.json
-
-echo "DONE"
-
-
-
-
-
+./updateOverview.sh
