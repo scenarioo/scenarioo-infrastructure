@@ -27,9 +27,12 @@ Then execute: `./infra.sh runAnsible vagrant`
 
 ## CLI Usage
 
-The CLI tool `infra.sh` is used to add new demos:
+The CLI tool `infra.sh` is used to manage demos and run ansible:
  - `./infra.sh deployDemo <branchName> <buildNumber> <triggeredBy> <pullrequestURL> <pullrequestNumber>`
- - `./infra.sh runAnsible <vagrant|aws>`
+ - `./infra.sh undeployDemo <branchName>`
+ - `./infra.sh runAnsible <vagrant|aws> <pathToAlternativeSSHKey>`
+ - `./infra.sh updateOverview`
+ - `./infra.sh cleanupDemos`
     
 ## Config
 Configuration is done in `config.json` and under `demos/<branch>.json`.
@@ -39,6 +42,7 @@ Configuration is done in `config.json` and under `demos/<branch>.json`.
 - `maxConcurrentDemos`: Limit the number of demos running in parallel (first in, first out)
 - `maxBuildsPerDemo`: Limit the number of builds we keep for each demo
 - `persistentBranches`: List of demo branches that will not be removed => used for master and develop
+- `tomcatFolder`: Tomcat base folder
 
 **demos/<branch>.json:** For each demo branch
 ```
@@ -74,10 +78,10 @@ Ansible relies on the following environment vars when executed:
 
 ### Directory paths
 **Tomcat:**
-- `/opt/tomcat/webapps` 
-- `/opt/tomcat/logs` 
-- `/opt/tomcat/conf` 
-- `/opt/tomcat/bin`
+- `/var/lib/tomcat8/webapps` 
+- `/var/lib/tomcat8/logs` 
+- `/var/lib/tomcat8/conf` 
+- `/usr/share/tomcat8/bin`
 
 **Nginx:**
 - `/etc/nginx/sites-enabled` 
