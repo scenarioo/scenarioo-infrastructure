@@ -22,6 +22,7 @@ jobs:
               name: Deploy server
               command: |
                 export ANSIBLE_HOST_KEY_CHECKING=False    # TODO: Add known_hosts to repository
+                export NGINX_ADDITIONAL_DOMAIN=scenarioo.cgross-aws.de    # TODO: Remove once migrated
                 ansible-playbook ./site.yml -i ./hosts/hosts_aws
 
 workflows:
