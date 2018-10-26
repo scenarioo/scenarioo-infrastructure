@@ -1,5 +1,5 @@
 #!/bin/bash
-# DESCRIPTION: Deploys or updated a demo
+# DESCRIPTION: <branch> <buildNumber> <triggeredBy> <prUrl> Deploys or updates a demo
 
 # INPUT DATA
 BRANCH=$1
@@ -91,4 +91,4 @@ else
     echo $JSON | jq '.' > $CONFIG_FILE
 fi
 
-./updateOverview.sh
+./cli/updateOverview.sh

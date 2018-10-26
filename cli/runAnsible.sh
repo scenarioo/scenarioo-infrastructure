@@ -1,5 +1,5 @@
 #!/bin/bash
-# DESCRIPTION: <target> <alterntiveSSHKey> Run ansible on AWS / Vagrant.
+# DESCRIPTION: <target> <alternativeSSHKey> Run ansible on AWS / Vagrant.
 
 # INPUT DATA
 TARGET=$1
