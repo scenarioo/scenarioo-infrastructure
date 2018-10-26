@@ -8,10 +8,6 @@ ENCODED_BRANCH=`echo $BRANCH | tr / - | sed 's/#//g'`
 CONFIG_FILE="demos/$ENCODED_BRANCH.json"
 
 rm $CONFIG_FILE
+echo "Removed branch: $BRANCH"
 
 ./cli/updateOverview.sh
-
-
-
-
-

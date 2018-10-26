@@ -2,7 +2,7 @@
   "scenariooDocuFolder": "/scenarioo/data",
   "tomcatFolder": "/var/lib/tomcat8",
   "defaultScenariooBranch": "master_circleci",
-  "maxConcurrentDemos": 2,
-  "maxBuildsPerDemo": 8,
+  "maxConcurrentDemos": 6,
+  "maxBuildsPerDemo": 5,
   "persistentBranches": ["master_circleci", "develop_circleci"]
 }

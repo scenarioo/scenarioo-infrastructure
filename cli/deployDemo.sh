@@ -62,6 +62,12 @@ if [[ -f $CONFIG_FILE ]]; then
     fi
 fi
 
+# Limit the docu artifact list to maxBuildsPerDemo
+MAX_BUILDS_PER_DEMO=`jq '.maxBuildsPerDemo' config.json`
+ARTIFACTS_TO_BE_REMOVED=`echo $DOCU_ARTIFACT_LIST | jq -r "[. | sort_by(.build) | .[:-$MAX_BUILDS_PER_DEMO] | .[].build] | @csv"`
+echo "Removing builds: $ARTIFACTS_TO_BE_REMOVED"
+DOCU_ARTIFACT_LIST=`echo $DOCU_ARTIFACT_LIST | jq ". | sort_by(.build) | .[-$MAX_BUILDS_PER_DEMO:]"`
+
 # Final JSON
 JSON=$(cat << EOF
 {
@@ -91,4 +97,7 @@ else
     echo $JSON | jq '.' > $CONFIG_FILE
 fi
 
-./cli/updateOverview.sh
+echo "Demo $ENCODED_BRANCH added. Starting cleanup ..."
+echo
+
+./cli/cleanupDemos.sh
