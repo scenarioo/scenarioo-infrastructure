@@ -1,5 +1,5 @@
 #!/bin/bash
-# DESCRIPTION: Enforces maxConcurrentDemos and maxBuildsPerDemo
+# DESCRIPTION: Enforces maxConcurrentDemos
 
 ./cli/updateOverview.sh
 

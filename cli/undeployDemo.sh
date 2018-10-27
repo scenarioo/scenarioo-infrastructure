@@ -4,7 +4,7 @@
 # INPUT DATA
 BRANCH=$1
 
-ENCODED_BRANCH=`echo $BRANCH | tr / - | sed 's/#//g'`
+ENCODED_BRANCH=`echo $BRANCH | tr / _ | sed 's/#//g'`
 CONFIG_FILE="demos/$ENCODED_BRANCH.json"
 
 rm $CONFIG_FILE

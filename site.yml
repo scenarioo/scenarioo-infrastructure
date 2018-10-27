@@ -27,10 +27,14 @@
     - nginx
 
   tasks:
-    - name: Install unzip (needed to extract artifact docu)
-      package:
-        name: unzip
+    - name: Install unzip and jq (needed to extract artifact docu and read JSONs)
+      apt:
+        name: "{{ packages }}"
         state: present
+      vars:
+        packages:
+        - jq
+        - unzip
 
     #
     # CLEANUP OLD BRANCHES
