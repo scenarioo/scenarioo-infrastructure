@@ -27,4 +27,8 @@ workflows:
     jobs:
       - deploy:
           # Get environment vars: https://circleci.com/docs/2.0/contexts/
-          context: scenarioo
+          context: Scenarioo
+          filters:
+            branches:
+              only: master  # Avoid deployment being triggered for PRs
+
