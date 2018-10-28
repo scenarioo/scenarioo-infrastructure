@@ -29,6 +29,11 @@ for DIR in $BUILDS_FOLDER/*/; do
     if [[ $BUILD_CONFIG == "" ]]; then
         # Build config not found => remove build data
         echo "Removing build #$BUILD"
-        rm $BUILDS_FOLDER/build-$BUILD
+        BUILD_FOLDER="$BUILDS_FOLDER/build-$BUILD"
+        if [[ -d $BUILD_FOLDER ]]; then
+            rm -Rf $BUILD_FOLDER
+        else
+            echo "Build not found: $BUILD_FOLDER"
+        fi
     fi
 done
