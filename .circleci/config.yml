@@ -10,7 +10,7 @@ jobs:
           # Add keys of AWS host
           - add_ssh_keys:
                 fingerprints:
-                  - "ab:ce:2a:8f:f2:7a:82:93:de:d4:20:95:62:53:71:70"
+                  - "29:5a:f5:86:2d:e0:60:e1:7f:22:7c:0e:ad:2b:1c:40"
           - run:
               name: Install ansible # Maybe pip install ansible?
               command: |
