@@ -74,7 +74,9 @@ Ansible relies on the following environment vars when executed:
 - `TOMCAT_USER_PASSWORD`: Used to secure the publish scenarioo docu endpoint. Defaults to: 'scenarioo' and user is always 'scenarioo'.
 - `CIRLCE_TOKEN`: Used to download WAR and scenarioo docu artifacts from CircleCI
 
-**CircleCI:** Set these environment variables in the organsation context "scenarioo". 
+**CircleCI:** Set these environment variables in the organsation context "scenarioo"
+ * https://circleci.com/gh/organizations/scenarioo/settings#contexts
+ * Create `CIRCLE_TOKEN` here: https://circleci.com/gh/scenarioo/scenarioo/edit#api 
 
 ### Directory paths
 **Tomcat:**
