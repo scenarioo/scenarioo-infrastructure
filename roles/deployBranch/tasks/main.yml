@@ -96,6 +96,6 @@
 - name: "{{ branch }} - Trigger reimport of builds"
   uri:
     url: "http://{{ config.scenariooHost }}/scenarioo-{{ branch }}/rest/builds/updateAndImport"
-    status_code: 200
+    status_code: 204
   when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
 
