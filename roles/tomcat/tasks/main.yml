@@ -20,6 +20,7 @@
     src: tomcat-users.xml.j2
     dest: "{{ config.tomcatFolder }}/conf/tomcat-users.xml"
   notify: Restart tomcat
+  no_log: true  # Don't show TOMCAT_USER_PASSWORD
 
 - name: Copy setenv.sh for memory settings
   copy:
