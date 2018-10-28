@@ -56,6 +56,8 @@
 # Deleting builds that are present on disk but not in the branchConfig is cumbersome with ansible => Use a shellscript
 - name: "{{ branch }} - Cleanup builds"
   script: "cleanupBuilds.sh {{ branch }} {{ config.scenariooDocuFolder }}"
+  register: build_cleanup
+- debug: var=build_cleanup.stdout_lines # We want to see in CircleCI logs what happened during cleanup
 
 - name: "{{ branch }} - Mark artifacts as downloaded"
   template:
