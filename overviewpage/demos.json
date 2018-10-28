@@ -29,44 +29,6 @@
   },
   {
     "branchName": "feature/755-investigate-building-docker-image",
-    "encodedBranchName": "feature-755-investigate-building-docker-image",
-    "timestamp": "1540165190",
-    "buildNumber": "184",
-    "triggeredBy": "cgrossde",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/773",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/184",
-    "warArtifact": "https://184-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "79a921a489045465e8ff93fd90892a05e4235313f00d676651d1a9b097eca6f1",
-    "docuArtifacts": [
-      {
-        "url": "https://184-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "412e4b93bbf53fcd08021cd7bf1f59631701342ccd0e3abe105983a721d1388f",
-        "build": "184"
-      },
-      {
-        "url": "https://183-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "c0b5d2900a203ed2924673389ad067f08bcf0e17e9d66651fadf60ae349590b0",
-        "build": "183"
-      },
-      {
-        "url": "https://181-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "07427e975a916ed19ab1340cc6c6332419687ab0700048088e23fa549db4b771",
-        "build": "181"
-      },
-      {
-        "url": "https://179-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "e173fa8c23cd865b06486aecfc22ceb1ae420990dbc482247fda372b2113ebdd",
-        "build": "179"
-      },
-      {
-        "url": "https://116-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "b049f4e39ea841bbe92452f026f0fb7100de19a671b298d12dd716d2354b79b3",
-        "build": "116"
-      }
-    ]
-  },
-  {
-    "branchName": "feature/755-investigate-building-docker-image",
     "encodedBranchName": "feature_755-investigate-building-docker-image",
     "timestamp": "1540716590",
     "buildNumber": "201",
