@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name demo.scenarioo.org localhost {{ lookup('env', 'NGINX_ADDITIONAL_DOMAIN') }};
+    server_name {{ config.scenariooHost }} localhost;
 
     index index.html index.htm;
 

@@ -14,6 +14,7 @@ To test and run this ansible playbook locally you need to install:
 **Ansible installed:** 
 ```
 ansible-galaxy install -r requirements.yml
+export ENVIRONMENT=dev
 ansible-playbook site.yml -i ./hosts/hosts_vagrant --key-file "./docker-ansible-runner/vagrant.key"
 ```
 
@@ -72,7 +73,6 @@ Configuration is done in `config.json` and under `demos/<branch>.json`.
 Ansible relies on the following environment vars when executed:
 - `TOMCAT_USER_PASSWORD`: Used to secure the publish scenarioo docu endpoint. Defaults to: 'scenarioo' and user is always 'scenarioo'.
 - `CIRLCE_TOKEN`: Used to download WAR and scenarioo docu artifacts from CircleCI
-- `NGINX_ADDITIONAL_DOMAIN`: Useful if server runs under different domain than demo.scenarioo.org
 
 **CircleCI:** Set these environment variables in the organsation context "scenarioo". 
 

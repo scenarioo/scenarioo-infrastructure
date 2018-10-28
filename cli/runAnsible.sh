@@ -4,15 +4,18 @@
 # INPUT DATA
 TARGET=$1
 ALTERNATIVE_SSH_KEY=$2
+ENVIRONMENT=""
 
 case $TARGET in
     aws)
         TARGET_HOST_FILE=./hosts/hosts_aws
         SSH_KEY=$HOME/.ssh/id_rsa               # Use default ssh key
+        ENVIRONMENT="aws"
     ;;
     vagrant)
         TARGET_HOST_FILE=./hosts/hosts_vagrant_docker
         SSH_KEY=$(pwd)/docker-ansible-runner/vagrant.key
+        ENVIRONMENT="dev"
     ;;
     *)
     echo "Please provide a target. Possible values: aws, vagrant"
@@ -25,7 +28,7 @@ if [[ ! $ALTERNATIVE_SSH_KEY == "" ]]; then
     SSH_KEY="$ALTERNATIVE_SSH_KEY"
 fi
 
-# Make a SSH test connection
+# Make a SSH test connection if we are not using vagrant
 if [[ ! $TARGET == "vagrant" ]]; then
     HOST_PORT=`cat $TARGET_HOST_FILE | grep -A 1 mainserver | grep -v mainserver`
     HOST=`echo $HOST_PORT | sed -n -E 's/([a-zA-Z0-9\.]*):?.*/\1/p'`
@@ -61,7 +64,7 @@ docker run --rm -it \
   -v $(pwd):/ansible/playbooks \
   -e CIRLCE_TOKEN=$CIRLCE_TOKEN \
   -e TOMCAT_USER_PASSWORD=$TOMCAT_USER_PASSWORD \
-  -e NGINX_ADDITIONAL_DOMAIN=$NGINX_ADDITIONAL_DOMAIN \
+  -e ENVIRONMENT=$ENVIRONMENT
   docker-ansible-runner site.yml  -v -i $TARGET_HOST_FILE
 
 

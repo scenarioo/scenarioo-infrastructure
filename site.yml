@@ -7,18 +7,18 @@
   # CONFIG & VARIABLES
   #
   pre_tasks:
-      - name: Load config.json
-        include_vars:
-          file: config.json
-          name: config
+    - name: Load config.json
+      include_vars:
+        file: config.json
+        name: config
 
-      - name: Get active branches             # Active branche = branch with a config file under ./demos/
-        set_fact: active_branches="{{lookup('fileglob', './demos/*.json').split(',') | map('basename') | map('regex_replace', '(.*).json', '\\1') | list}}"
+    - name: Get active branches             # Active branche = branch with a config file under ./demos/
+      set_fact: active_branches="{{lookup('fileglob', './demos/*.json').split(',') | map('basename') | map('regex_replace', '(.*).json', '\\1') | list}}"
 
-      - name: Get currently deployed branches # Currently deployed = branch with scenarioo-<branch>.war in webapps
-        shell: ls -1  {{ config.tomcatFolder }}/webapps | grep '.war' | sed -e 's/^scenarioo-\(.*\).war/\1/'
-        register: deployed_branches_cmd
-      - set_fact: deployed_branches="{{ deployed_branches_cmd.stdout_lines }}"
+    - name: Get currently deployed branches # Currently deployed = branch with scenarioo-<branch>.war in webapps
+      shell: ls -1  {{ config.tomcatFolder }}/webapps | grep '.war' | sed -e 's/^scenarioo-\(.*\).war/\1/'
+      register: deployed_branches_cmd
+    - set_fact: deployed_branches="{{ deployed_branches_cmd.stdout_lines }}"
 
   # See roles/ folder
   roles:
