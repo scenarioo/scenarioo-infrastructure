@@ -22,6 +22,7 @@
     - name: Update package cache
       apt:
         update_cache: yes
+        cache_valid_time: 86400   # 24 hours
 
   # See roles/ folder
   roles:
