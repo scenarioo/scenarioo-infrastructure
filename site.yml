@@ -19,6 +19,9 @@
       shell: ls -1  {{ config.tomcatFolder }}/webapps | grep '.war' | sed -e 's/^scenarioo-\(.*\).war/\1/'
       register: deployed_branches_cmd
     - set_fact: deployed_branches="{{ deployed_branches_cmd.stdout_lines }}"
+    - name: Update package cache
+      apt:
+        update_cache: yes
 
   # See roles/ folder
   roles:
