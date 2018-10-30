@@ -13,8 +13,7 @@ jobs:
                   - "29:5a:f5:86:2d:e0:60:e1:7f:22:7c:0e:ad:2b:1c:40"
           - run:
               name: Install ansible
-              command: |
-                sudo pip install ansible --quiet
+              command: sudo pip install ansible --quiet
           - run:
               name: Deploy server
               command: |

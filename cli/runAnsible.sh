@@ -64,7 +64,7 @@ docker run --rm -it \
   -v $(pwd):/ansible/playbooks \
   -e CIRLCE_TOKEN=$CIRLCE_TOKEN \
   -e TOMCAT_USER_PASSWORD=$TOMCAT_USER_PASSWORD \
-  -e ENVIRONMENT=$ENVIRONMENT
+  -e ENVIRONMENT=$ENVIRONMENT \
   docker-ansible-runner site.yml  -v -i $TARGET_HOST_FILE
 
 
