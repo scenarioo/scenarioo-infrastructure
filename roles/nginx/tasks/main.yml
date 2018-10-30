@@ -15,3 +15,6 @@
     dest: /etc/nginx/sites-enabled/demo.scenarioo.org.cfg
   notify: Restart nginx
 
+# Run handlers now => Otherwise the very first deployment will fail
+- meta: flush_handlers
+
