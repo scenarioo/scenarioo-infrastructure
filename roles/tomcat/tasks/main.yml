@@ -5,9 +5,10 @@
   apt:
     name: "{{ item }}"
     state: latest
-  with_items:
-    - tomcat8
-    - tomcat8-admin
+  vars:
+    packages:
+      - tomcat8
+      - tomcat8-admin
 
 - name: Copy server.xml
   copy:

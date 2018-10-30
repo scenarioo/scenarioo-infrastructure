@@ -13,13 +13,14 @@
     name: "{{ item }}"
     state: present
     update_cache: yes
-  with_items:
-    - apt-transport-https
-    - ca-certificates
-    - curl
-    - software-properties-common
-    - docker-ce
-    - python3-pip
+  vars:
+    packages:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - software-properties-common
+      - docker-ce
+      - python3-pip
 
 - name: Install pip docker package
   pip: name=docker
