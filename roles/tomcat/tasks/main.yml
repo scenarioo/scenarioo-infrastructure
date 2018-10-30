@@ -3,7 +3,7 @@
 #
 - name: Install tomcat 8
   apt:
-    name: "{{ item }}"
+    name: "{{ packages }}"
     state: latest
   vars:
     packages:

@@ -10,7 +10,7 @@
 
 - name: Install docker & dependencies
   apt:
-    name: "{{ item }}"
+    name: "{{ packages }}"
     state: present
     update_cache: yes
   vars:
