@@ -1,7 +1,7 @@
 {
   "scenariooDocuFolder": "/scenarioo/data",
   "tomcatFolder": "/var/lib/tomcat8",
-  "scenariooHost": "demo-now.cgross-aws.de",
+  "scenariooHost": "scenarioov_2.cgross-aws.de",
   "defaultScenariooBranch": "master_circleci",
   "maxConcurrentDemos": 6,
   "maxBuildsPerDemo": 5,
