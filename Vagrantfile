@@ -16,5 +16,5 @@ Vagrant.configure(2) do |config|
   # Don't replace the default insecure key or our dockerized ansible won't be able to login
   config.ssh.insert_key = false
   config.vm.define "mainserver"
-  config.vm.provision "shell", inline: "apt-get -y update; apt-get -y install jq"
+  config.vm.provision "shell", inline: "apt-get -y update; apt-get -y install jq bats"
 end

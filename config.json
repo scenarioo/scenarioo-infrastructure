@@ -1,9 +1,10 @@
 {
-  "scenariooDocuFolder": "/scenarioo/data",
-  "tomcatFolder": "/var/lib/tomcat8",
-  "scenariooHost": "scenarioo.cgross-aws.de",
   "defaultScenariooBranch": "master_circleci",
+  "demoConfigFolder": "demos",
   "maxConcurrentDemos": 6,
   "maxBuildsPerDemo": 5,
-  "persistentBranches": ["master_circleci", "develop_circleci"]
+  "persistentBranches": ["master_circleci", "develop_circleci"],
+  "scenariooDocuFolder": "/scenarioo/data",
+  "scenariooHost": "scenarioo.cgross-aws.de",
+  "tomcatFolder": "/var/lib/tomcat8"
 }
