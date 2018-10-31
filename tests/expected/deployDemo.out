@@ -1,0 +1,34 @@
+WARNING: CIRLCE_TOKEN is not set. Without it we can't fetch artifacts from builds!
+Getting list of artifacts ...
+Getting WAR
+Getting E2E docu
+New branch config:
+{
+  "branchName": "testBranch",
+  "encodedBranchName": "testBranch",
+  "timestamp": "1540941380",
+  "buildNumber": "200",
+  "triggeredBy": "testUser",
+  "pullRequestUrl": "http://foobar/PR",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/200",
+  "warArtifact": "https://200-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "7e664d29b19fd46e1ec367ddb95fcaa97e0bd7aa71d3bd78be0b69d25143cb55",
+  "docuArtifacts": [
+    {
+      "url": "https://200-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "f2a030b5a32605c4df70fd3f61600c42ae31be1117cd5302df405e50386de8bc",
+      "build": "200"
+    }
+  ]
+}
+Writing config file tests/tmp/demos/testBranch.json...
+Demo testBranch added. Starting cleanup ...
+
+Updating list of demos: overviewpage/demos.json
+Persistent branches: "master","develop"
+Max demos:       2
+Total demos:     1
+Demos to remove: 0
+==================================
+==================================
+Updating list of demos: overviewpage/demos.json
