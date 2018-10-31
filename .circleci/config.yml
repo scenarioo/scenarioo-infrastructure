@@ -40,7 +40,7 @@ workflows:
       - test_scripts
       - deploy:
           requires:
-            - test
+            - test_scripts
           # Get environment vars: https://circleci.com/docs/2.0/contexts/
           context: Scenarioo    # https://circleci.com/gh/organizations/scenarioo/settings#contexts
           filters:
