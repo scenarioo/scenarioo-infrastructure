@@ -19,15 +19,30 @@ jobs:
               command: |
                 export ANSIBLE_HOST_KEY_CHECKING=False    # TODO: Add known_hosts to repository
                 ansible-playbook ./site.yml -i ./hosts/hosts_aws
+  test_scripts:
+    docker:
+      # See https://circleci.com/docs/2.0/circleci-images/ ...
+      - image: circleci/python:3.6-jessie-node-browsers
+    working_directory: ~/infra
+    steps:
+          - checkout
+          - run:
+              name: Install bats
+              command: sudo apt-get install bats
+          - run:
+              name: Run tests
+              command: bats tests/
 
 workflows:
   version: 2
   deploy_infrastructure:
     jobs:
+      - test_scripts
       - deploy:
+          requires:
+            - test_scripts
           # Get environment vars: https://circleci.com/docs/2.0/contexts/
           context: Scenarioo    # https://circleci.com/gh/organizations/scenarioo/settings#contexts
           filters:
             branches:
               only: master  # Avoid deployment being triggered for PRs
-

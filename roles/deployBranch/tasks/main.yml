@@ -3,7 +3,7 @@
 #
 - name: Load config.json
   include_vars:
-    file: "demos/{{ branch }}.json"
+    file: "{{ config.demoConfigFolder }}/{{ branch }}.json"
     name: branchConfig
 
 - name: "{{ branch }} - Create tomcat context config"
@@ -50,7 +50,7 @@
 
 - name: "{{ branch }} - Copy branchConfig"
   copy:
-    src: "demos/{{ branch }}.json"
+    src: "{{ config.demoConfigFolder }}/{{ branch }}.json"
     dest: "{{ config.scenariooDocuFolder }}/{{ branch }}/branchConfig.json"
 
 # Deleting builds that are present on disk but not in the branchConfig is cumbersome with ansible => Use a shellscript

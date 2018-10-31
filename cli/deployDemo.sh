@@ -1,6 +1,9 @@
 #!/bin/bash
 # DESCRIPTION: <branch> <buildNumber> <triggeredBy> <prUrl> Deploys or updates a demo
 
+CONFIG_FILE=${CONFIG_FILE:-config.json}
+DEMO_DIR=`jq -r '.demoConfigFolder' $CONFIG_FILE`
+
 # INPUT DATA
 BRANCH=$1
 BUILD_NUMBER=$2
@@ -11,7 +14,7 @@ PR_URL=$4
 BUILD_URL="https://circleci.com/gh/scenarioo/scenarioo/$2"
 ENCODED_BRANCH=`echo $BRANCH | tr / _ | sed 's/#//g'`
 TIMESTAMP=`date +%s`
-CONFIG_FILE="demos/$ENCODED_BRANCH.json"
+BRANCH_CONFIG_FILE="$DEMO_DIR/$ENCODED_BRANCH.json"
 
 # FETCH ARTIFACTS
 function abort_on_curl_failure() {
@@ -20,7 +23,10 @@ function abort_on_curl_failure() {
         exit $1
     fi
 }
-CIRCLE_TOKEN=dea62ff49e21fe99d62efec247ae394ff1d6944a
+# Warn if CIRLCE_TOKEN is empty
+if [[ $CIRLCE_TOKEN == "" ]]; then
+    echo "WARNING: CIRLCE_TOKEN is not set. Without it we can't fetch artifacts from builds!"
+fi
 ARTIFACT_URL="https://circleci.com/api/v1.1/project/github/scenarioo/scenarioo/${BUILD_NUMBER}/artifacts?circle-token=${CIRCLE_TOKEN}"
 
 echo "Getting list of artifacts ..."
@@ -29,11 +35,17 @@ abort_on_curl_failure $? $ARTIFACT_URL
 echo "Getting WAR"
 WAR_ARTIFACT=`echo $ARTIFACTS | jq -r '.[] | select(.path=="scenarioo.war") | .url'`
 WAR_ARTIFACT_SHA256_URL=`echo $ARTIFACTS | jq -r '.[] | select(.path=="scenarioo.war.sha256") | .url'`
+if [[ $WAR_ARTIFACT_SHA256_URL == "" ]]; then
+    echo "No WAR or WAR SHA256 found in list of artifacts: $ARTIFACTS"
+fi
 WAR_ARTIFACT_SHA256=`curl -s $WAR_ARTIFACT_SHA256_URL`
 abort_on_curl_failure $? $WAR_ARTIFACT_SHA256_URL
 echo "Getting E2E docu"
 DOCU_ARTIFACT=`echo $ARTIFACTS | jq -r '.[] | select(.path=="e2eScenariooDocu.zip") | .url'`
 DOCU_ARTIFACT_SHA256_URL=`echo $ARTIFACTS | jq -r '.[] | select(.path=="e2eScenariooDocu.zip.sha256") | .url'`
+if [[ $DOCU_ARTIFACT_SHA256_URL == "" ]]; then
+    echo "No docu or docu SHA256 found in list of artifacts: $ARTIFACTS"
+fi
 DOCU_ARTIFACT_SHA256=`curl -s $DOCU_ARTIFACT_SHA256_URL`
 abort_on_curl_failure $? $DOCU_ARTIFACT_SHA256_URL
 
@@ -51,22 +63,25 @@ EOM
 # Update docu artifact list if needed with new docu
 DOCU_ARTIFACT_LIST="[$DOCU_ARTIFACT_ITEM]"
 # Demo already exists
-if [[ -f $CONFIG_FILE ]]; then
+if [[ -f $BRANCH_CONFIG_FILE ]]; then
     # Check if current build is not in list
-    EXISTING_ITEMS=`jq ".docuArtifacts" $CONFIG_FILE`
-    if [[ -z `jq -r ".docuArtifacts[] | select(.sha256==\"$DOCU_ARTIFACT_SHA256\") | .url" $CONFIG_FILE` ]]; then
+    EXISTING_ITEMS=`jq ".docuArtifacts" $BRANCH_CONFIG_FILE`
+    if [[ -z `jq -r ".docuArtifacts[] | select(.sha256==\"$DOCU_ARTIFACT_SHA256\") | .url" $BRANCH_CONFIG_FILE` ]]; then
         # Prepend new docu in DOCU_ARTIFACT_LIST
-        DOCU_ARTIFACT_LIST=`jq ".docuArtifacts |= $DOCU_ARTIFACT_LIST + . | .docuArtifacts | sort_by(.build)" $CONFIG_FILE`
+        DOCU_ARTIFACT_LIST=`jq ".docuArtifacts |= $DOCU_ARTIFACT_LIST + . | .docuArtifacts | sort_by(.build)" $BRANCH_CONFIG_FILE`
     else
         DOCU_ARTIFACT_LIST="$EXISTING_ITEMS"
     fi
 fi
 
 # Limit the docu artifact list to maxBuildsPerDemo
-MAX_BUILDS_PER_DEMO=`jq '.maxBuildsPerDemo' config.json`
+MAX_BUILDS_PER_DEMO=`jq '.maxBuildsPerDemo' $CONFIG_FILE`
 ARTIFACTS_TO_BE_REMOVED=`echo $DOCU_ARTIFACT_LIST | jq -r "[. | sort_by(.build) | .[:-$MAX_BUILDS_PER_DEMO] | .[].build] | @csv"`
-echo "Removing builds: $ARTIFACTS_TO_BE_REMOVED"
-DOCU_ARTIFACT_LIST=`echo $DOCU_ARTIFACT_LIST | jq ". | sort_by(.build) | .[-$MAX_BUILDS_PER_DEMO:]"`
+
+if [[ $ARTIFACTS_TO_BE_REMOVED != "" ]]; then
+    echo "Removing builds: $ARTIFACTS_TO_BE_REMOVED"
+    DOCU_ARTIFACT_LIST=`echo $DOCU_ARTIFACT_LIST | jq ". | sort_by(.build) | .[-$MAX_BUILDS_PER_DEMO:]"`
+fi
 
 # Final JSON
 JSON=$(cat << EOF
@@ -86,6 +101,7 @@ EOF
 )
 
 # Print it once for feedback & debugging
+echo "New branch config:"
 echo $JSON | jq '.'
 
 # If last command failed the JSON was invalid
@@ -94,7 +110,8 @@ if [[ $? -gt 0 ]]; then
     echo "JSON invalid, will not write file"
 else
     # JSON valid => write config file
-    echo $JSON | jq '.' > $CONFIG_FILE
+    echo "Writing config file $BRANCH_CONFIG_FILE..."
+    echo $JSON | jq '.' > $BRANCH_CONFIG_FILE
 fi
 
 echo "Demo $ENCODED_BRANCH added. Starting cleanup ..."

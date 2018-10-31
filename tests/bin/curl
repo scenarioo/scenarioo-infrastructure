@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# https://pbrisbin.com/posts/mocking_bash/
+
+act-like /usr/bin/curl "$@"

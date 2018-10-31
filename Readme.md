@@ -34,15 +34,22 @@ The CLI tool `infra.sh` is used to manage demos and run ansible:
  - `./infra.sh runAnsible <vagrant|aws> <pathToAlternativeSSHKey>`
  - `./infra.sh updateOverview`
  - `./infra.sh cleanupDemos`
+ 
+### Tests
+
+There are some tests that ensure the generated branch config JSONs are correct, for more info look at [tests/Readme.md](tests/Readme.md)
     
 ## Config
 Configuration is done in `config.json` and under `demos/<branch>.json`.
 
 **config.json**
-- `scenariooDocuFolder`: Where to store scenarioo docu for each branch
-- `maxConcurrentDemos`: Limit the number of demos running in parallel (first in, first out)
+- `defaultScenariooBranch`: Branch we redirect to by default on demo.scenarioo.org
+- `demoConfigFolder`: Where are the config files for demos (useful to change for testing)
 - `maxBuildsPerDemo`: Limit the number of builds we keep for each demo
+- `maxConcurrentDemos`: Limit the number of demos running in parallel (first in, first out)
 - `persistentBranches`: List of demo branches that will not be removed => used for master and develop
+- `scenariooDocuFolder`: Where to store scenarioo docu for each branch
+- `scenariooHost`: Usually demo.scenarioo.org, can be changed for testing
 - `tomcatFolder`: Tomcat base folder
 
 **demos/<branch>.json:** For each demo branch
@@ -73,6 +80,7 @@ Configuration is done in `config.json` and under `demos/<branch>.json`.
 Ansible relies on the following environment vars when executed:
 - `TOMCAT_USER_PASSWORD`: Used to secure the publish scenarioo docu endpoint. Defaults to: 'scenarioo' and user is always 'scenarioo'.
 - `CIRLCE_TOKEN`: Used to download WAR and scenarioo docu artifacts from CircleCI
+- `CONFIG_FILE`: Optional. Allows to pass in a different config for testing. Defaults to `config.json`
 
 **CircleCI:** Set these environment variables in the organsation context "scenarioo"
  * https://circleci.com/gh/organizations/scenarioo/settings#contexts

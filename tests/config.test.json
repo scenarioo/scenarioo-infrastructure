@@ -1,0 +1,10 @@
+{
+  "defaultScenariooBranch": "master_circleci",
+  "demoConfigFolder": "tests/tmp/demos",
+  "maxConcurrentDemos": 2,
+  "maxBuildsPerDemo": 2,
+  "persistentBranches": ["master", "develop"],
+  "scenariooDocuFolder": "/scenarioo/data",
+  "scenariooHost": "localhost",
+  "tomcatFolder": "/var/lib/tomcat8"
+}

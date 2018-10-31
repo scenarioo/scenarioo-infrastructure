@@ -9,7 +9,7 @@
   pre_tasks:
     - name: Load config.json
       include_vars:
-        file: config.json
+        file: "{{ lookup('env', 'CONFIG_FILE') or 'config.json'"
         name: config
 
     - name: Get active branches             # Active branche = branch with a config file under ./demos/
@@ -19,6 +19,7 @@
       shell: ls -1  {{ config.tomcatFolder }}/webapps | grep '.war' | sed -e 's/^scenarioo-\(.*\).war/\1/'
       register: deployed_branches_cmd
     - set_fact: deployed_branches="{{ deployed_branches_cmd.stdout_lines }}"
+    
     - name: Update package cache
       apt:
         update_cache: yes
