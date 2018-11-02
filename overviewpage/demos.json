@@ -28,6 +28,24 @@
     ]
   },
   {
+    "branchName": "feature/724-spring-boot-migration",
+    "encodedBranchName": "feature_724-spring-boot-migration",
+    "timestamp": "1541182570",
+    "buildNumber": "222",
+    "triggeredBy": "cgrossde",
+    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/759",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/222",
+    "warArtifact": "https://222-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "5e33dc35f6748c7ccc9ab666befd08df686213ec0fb62086105ebeffca1856b1",
+    "docuArtifacts": [
+      {
+        "url": "https://222-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "4c79cc6e92ead493f62e1b4bdc96de9ebc95c08f74ff672b98c4dcefe6d36cb1",
+        "build": "222"
+      }
+    ]
+  },
+  {
     "branchName": "feature/755-investigate-building-docker-image",
     "encodedBranchName": "feature_755-investigate-building-docker-image",
     "timestamp": "1540948478",
