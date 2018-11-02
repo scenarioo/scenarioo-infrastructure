@@ -102,6 +102,24 @@
     ]
   },
   {
+    "branchName": "feature/775-open-points-circle-ci",
+    "encodedBranchName": "feature_775-open-points-circle-ci",
+    "timestamp": "1541182679",
+    "buildNumber": "223",
+    "triggeredBy": "cgrossde",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/223",
+    "warArtifact": "https://223-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "636bfe8844ab5c311c234965c0c2637257648d0070f230a07543efdb4855b191",
+    "docuArtifacts": [
+      {
+        "url": "https://223-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "2203dab80f3deb56652cc34f7a43184928265edde6bddde56dd43caac3a67b8c",
+        "build": "223"
+      }
+    ]
+  },
+  {
     "branchName": "master_circleci",
     "encodedBranchName": "master_circleci",
     "timestamp": "1540191396",
