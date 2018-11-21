@@ -31,36 +31,45 @@
             color: #999;
             font-size: 80%;
         }
+
+        .ci-status {
+            text-align: center;
+        }
     </style>
     <script type="text/javascript">
         const d = document;
         window.onload = function () {
             const getDemoRequest = new Request('demos.json');
             fetch(getDemoRequest)
-                .then(response => response.json())
-                .then(updateDemos);
+                .then(response = > response.json()
+        )
+        .
+            then(updateDemos);
         };
 
         function updateDemos(demos) {
             console.log(demos);
             const list = d.querySelector('.page-container ul');
             // develop/master first, after that order chronologically
-            demos.sort((a, b) => {
-                if (a.branchName.indexOf("master") === 0 || a.branchName.indexOf("develop") === 0) {
-                    return -1;
-                }
-                if (b.branchName.indexOf("master") === 0 || b.branchName.indexOf("develop") === 0) {
-                    return 1;
-                }
-                if (a.timestamp > b.timestamp) {
-                    return 1;
-                }
-                if (a.timestamp === b.timestamp) {
-                    return 0;
-                }
+            demos.sort((a, b) = > {
+                if(a.branchName.indexOf("master") === 0 || a.branchName.indexOf("develop") === 0
+        )
+            {
                 return -1;
+            }
+            if (b.branchName.indexOf("master") === 0 || b.branchName.indexOf("develop") === 0) {
+                return 1;
+            }
+            if (a.timestamp > b.timestamp) {
+                return 1;
+            }
+            if (a.timestamp === b.timestamp) {
+                return 0;
+            }
+            return -1;
 
-            });
+        })
+            ;
             for (const demo of demos) {
                 list.appendChild(createListItem(demo));
             }
@@ -78,7 +87,7 @@
 
         function createDateElement(demo) {
             const date = new Date(demo.timestamp * 1000);
-            const dateString = `${padZero(date.getDate())}.${padZero(date.getMonth()+1)}.${date.getFullYear()}`;
+            const dateString = `${padZero(date.getDate())}.${padZero(date.getMonth() + 1)}.${date.getFullYear()}`;
             const timeString = `${padZero(date.getHours())}:${padZero(date.getMinutes())}`;
             const dateElement = d.createElement("div");
             dateElement.className = "date";
@@ -105,7 +114,7 @@
         }
 
         function padZero(number) {
-            if( number < 10) {
+            if (number < 10) {
                 return '0' + number;
             }
             return number;
@@ -114,7 +123,7 @@
         function createLinkWithText(url, text) {
             // Don't loose port for relative URLs in Chrome: https://bugs.chromium.org/p/chromium/issues/detail?id=128539
             if (url.indexOf("/") === 0) {
-                url = location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '') + url + "/?";
+                url = location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '') + url + "/?";
             }
             const link = d.createElement("a");
             link.href = url;
@@ -129,6 +138,14 @@
     <h1>Scenarioo Demos</h1>
     <ul>
     </ul>
+    <br/>
+    <div class="ci-status">
+        Last deployment<br/><br/>
+        <a href="https://circleci.com/gh/scenarioo/scenarioo-infrastructure/tree/master">
+            <img src="https://circleci.com/gh/scenarioo/scenarioo-infrastructure/tree/master.svg?style=svg"
+                 alt="Build status infrastructure master"/>
+        </a>
+    </div>
 </div>
 </body>
 </html>
