@@ -1,0 +1,18 @@
+{
+  "branchName": "feature/778-spring-endpoint-security",
+  "encodedBranchName": "feature_778-spring-endpoint-security",
+  "timestamp": "1542806171",
+  "buildNumber": "248",
+  "triggeredBy": "mi-we",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/248",
+  "warArtifact": "https://248-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "17c64d8f70f72031fada937648dd4911923454a65e2e917838abd148ac636d99",
+  "docuArtifacts": [
+    {
+      "url": "https://248-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "7efdaac52766bba823135ac6899cd4fc62e478f6c4c2927cbd6f376f8d8386ec",
+      "build": "248"
+    }
+  ]
+}
