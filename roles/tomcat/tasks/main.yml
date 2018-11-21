@@ -29,5 +29,13 @@
     dest: /usr/share/tomcat8/bin
   notify: Restart tomcat
 
+- name: Restart tomcat every night at 2:30
+  cron:
+    name: "Restart tomcat every night"
+    minute: 30
+    hour: 2
+    job: "systemctl restart tomcat8 > /dev/null"
+
+
 # Run handlers now => e.g. restart tomcat at this point if needed
 - meta: flush_handlers
