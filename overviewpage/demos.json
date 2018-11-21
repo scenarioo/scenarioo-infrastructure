@@ -70,14 +70,22 @@
   {
     "branchName": "feature/778-spring-endpoint-security",
     "encodedBranchName": "feature-778-spring-endpoint-security",
-    "timestamp": "1542806171",
-    "buildNumber": "248",
+    "timestamp": "1542826711",
+    "buildNumber": "284",
     "triggeredBy": "mi-we",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/248",
-    "warArtifact": "https://248-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "17c64d8f70f72031fada937648dd4911923454a65e2e917838abd148ac636d99",
-    "docuArtifacts": []
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/284",
+    "warArtifact": "https://284-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "4e7ee439f960fe47e9a15423751cb808e7d6b474e6ff17d109a2fa8af11737b8",
+    "exampleDocuArtifact": "https://284-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "713e8199ea488f1be1da4284010def19c62a352630b610e3a5c9878c9a335af2",
+    "docuArtifacts": [
+      {
+        "url": "https://284-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "e95ad632c09e926b07e8528024ed51d31c1f8ccdcfc6954e084fd0d912c659fa",
+        "build": "284"
+      }
+    ]
   },
   {
     "branchName": "master_circleci",
