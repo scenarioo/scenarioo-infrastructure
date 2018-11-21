@@ -18,12 +18,12 @@
 # Deploy wiki example docu
 #
 
-- name: Check that the somefile.conf exists
+- name: "{{ branch }} - Does exampleDocu.sha256 exist"
   stat:
     path: config.scenariooDocuFolder + '/exampleDocu.sha256'
   register: example_docu_sha_file
 
-- name: Should we update the example docu
+- name: "{{ branch }} - Should we update the example docu"
   shell: "if [[ $(cat {{ config.scenariooDocuFolder }}/exampleDocu.sha256) == \"{{ branchConfig.exampleDocuArtifactSha256 }}\" ]]; then echo NO_UPDATE_NEEDED; else echo UPDATE; fi"
   args:
     executable: /bin/bash
