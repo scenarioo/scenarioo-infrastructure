@@ -1,0 +1,23 @@
+{
+  "branchName": "feature/724-spring-boot-migration",
+  "encodedBranchName": "feature_724-spring-boot-migration",
+  "timestamp": "1542794054",
+  "buildNumber": "239",
+  "triggeredBy": "",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/759",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/239",
+  "warArtifact": "https://239-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "8e838f954487d5e547bc147c519abadb544216bdf07f7827c795687101e8b298",
+  "docuArtifacts": [
+    {
+      "url": "https://222-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "4c79cc6e92ead493f62e1b4bdc96de9ebc95c08f74ff672b98c4dcefe6d36cb1",
+      "build": "222"
+    },
+    {
+      "url": "https://239-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "1bf271849f9c2a3588fed7d8ac069e6cd9e7dbadff3f244af8179e56ccff8769",
+      "build": "239"
+    }
+  ]
+}
