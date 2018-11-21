@@ -10,7 +10,7 @@ jobs:
           # Add keys of AWS host: https://circleci.com/gh/scenarioo/scenarioo-infrastructure/edit#ssh
           - add_ssh_keys:
                 fingerprints:
-                  - "29:5a:f5:86:2d:e0:60:e1:7f:22:7c:0e:ad:2b:1c:40"
+                  - "08:1e:d3:ab:aa:5c:a3:9e:51:e1:1b:6f:6e:99:e0:99"
           - run:
               name: Install ansible
               command: sudo pip install ansible --quiet
@@ -18,7 +18,7 @@ jobs:
               name: Deploy server
               command: |
                 export ANSIBLE_HOST_KEY_CHECKING=False    # TODO: Add known_hosts to repository
-                ansible-playbook ./site.yml -i ./hosts/hosts_aws
+                ansible-playbook ./site.yml -i ./hosts/hosts_demoserver_ovh
   test_scripts:
     docker:
       # See https://circleci.com/docs/2.0/circleci-images/ ...

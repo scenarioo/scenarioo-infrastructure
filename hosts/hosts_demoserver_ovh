@@ -1,0 +1,10 @@
+[all:vars]
+env=vagrant
+
+[mainserver]
+37.59.45.30
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=root
+ansible_python_interpreter=/usr/bin/python3

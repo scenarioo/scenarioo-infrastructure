@@ -5,6 +5,6 @@
   "maxBuildsPerDemo": 5,
   "persistentBranches": ["master_circleci", "develop_circleci"],
   "scenariooDocuFolder": "/scenarioo/data",
-  "scenariooHost": "scenarioo.cgross-aws.de",
+  "scenariooHost": "scenarioo-ovh.cgross-aws.de",
   "tomcatFolder": "/var/lib/tomcat8"
 }

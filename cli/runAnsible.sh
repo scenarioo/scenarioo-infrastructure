@@ -1,5 +1,5 @@
 #!/bin/bash
-# DESCRIPTION: <target> <alternativeSSHKey> Run ansible on AWS / Vagrant.
+# DESCRIPTION: <target> <alternativeSSHKey> Run ansible on aws / vagrant / demoserver.
 
 # INPUT DATA
 TARGET=$1
@@ -7,6 +7,11 @@ ALTERNATIVE_SSH_KEY=$2
 ENVIRONMENT=""
 
 case $TARGET in
+    demoserver)
+        TARGET_HOST_FILE=./hosts/hosts_demoserver_ovh
+        SSH_KEY=$HOME/.ssh/id_rsa               # Use default ssh key
+        ENVIRONMENT="demoserver"
+    ;;
     aws)
         TARGET_HOST_FILE=./hosts/hosts_aws
         SSH_KEY=$HOME/.ssh/id_rsa               # Use default ssh key
