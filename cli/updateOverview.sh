@@ -1,6 +1,10 @@
 #!/bin/bash
 # DESCRIPTION: Generates a new overviewpage/demos.json
 
+# bash 'strict mode': http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
+
 CONFIG_FILE=${CONFIG_FILE:-config.json}
 DEMO_DIR=`jq -r '.demoConfigFolder' $CONFIG_FILE`
 

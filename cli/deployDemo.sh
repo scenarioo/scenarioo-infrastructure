@@ -1,6 +1,10 @@
 #!/bin/bash
 # DESCRIPTION: <branch> <buildNumber> <triggeredBy> <prUrl> Deploys or updates a demo
 
+# bash 'strict mode': http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
+
 CONFIG_FILE=${CONFIG_FILE:-config.json}
 DEMO_DIR=`jq -r '.demoConfigFolder' $CONFIG_FILE`
 
@@ -24,7 +28,8 @@ function abort_on_curl_failure() {
     fi
 }
 # Warn if CIRLCE_TOKEN is empty
-if [[ $CIRLCE_TOKEN == "" ]]; then
+CIRCLE_TOKEN=${CIRLCE_TOKEN:-}
+if [[ -z $CIRCLE_TOKEN ]]; then
     echo "WARNING: CIRLCE_TOKEN is not set. Without it we can't fetch artifacts from builds!"
 fi
 ARTIFACT_URL="https://circleci.com/api/v1.1/project/github/scenarioo/scenarioo/${BUILD_NUMBER}/artifacts?circle-token=${CIRCLE_TOKEN}"
