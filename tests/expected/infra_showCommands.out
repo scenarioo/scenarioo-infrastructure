@@ -2,7 +2,7 @@ Command "" not found
 Available commands:
   cleanupDemos: Enforces maxConcurrentDemos
   deployDemo: <branch> <buildNumber> <triggeredBy> <prUrl> Deploys or updates a demo
-  runAnsible: <target> <alternativeSSHKey> Run ansible on AWS / Vagrant.
+  runAnsible: <target> <alternativeSSHKey> Run ansible on aws / vagrant / demoserver.
   runTests: Runs tests on infrastructure scripts
   undeployDemo: <branch> Undeploys a demo branch
   updateOverview: Generates a new overviewpage/demos.json
