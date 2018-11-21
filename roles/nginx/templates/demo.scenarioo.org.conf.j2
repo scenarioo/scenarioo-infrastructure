@@ -1,6 +1,15 @@
 server {
     listen 80;
-    server_name {{ config.scenariooHost }} localhost;
+    server_name build.scenarioo.org;
+
+    location = / {  # Redirect to overview
+        return 301 http://{{ config.scenariooHost }}/overview;
+    }
+}
+
+server {
+    listen 80;
+    server_name {{ config.scenariooHost }} build.scenarioo.org localhost;
 
     index index.html index.htm;
 
