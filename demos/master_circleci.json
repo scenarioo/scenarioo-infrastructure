@@ -8,6 +8,8 @@
   "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/189",
   "warArtifact": "https://189-10269178-gh.circle-artifacts.com/0/scenarioo.war",
   "warArtifactSha256": "cbd7ffc658cb1fb69b0a69bfa1367f34864b9912ba30a608e68ef2c4380daa8b",
+  "exampleDocuArtifact": "https://227-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "420d68a8e37e62c19d0b6af47bbb658c673c31746b651d6f90c23b2e5230e416",
   "docuArtifacts": [
     {
       "url": "https://189-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",

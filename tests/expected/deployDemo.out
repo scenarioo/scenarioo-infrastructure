@@ -2,22 +2,25 @@ WARNING: CIRLCE_TOKEN is not set. Without it we can't fetch artifacts from build
 Getting list of artifacts ...
 Getting WAR
 Getting E2E docu
+Getting example docu
 New branch config:
 {
   "branchName": "testBranch",
   "encodedBranchName": "testBranch",
-  "timestamp": "1540941380",
-  "buildNumber": "200",
+  "timestamp": "1541188077",
+  "buildNumber": "227",
   "triggeredBy": "testUser",
   "pullRequestUrl": "http://foobar/PR",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/200",
-  "warArtifact": "https://200-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "7e664d29b19fd46e1ec367ddb95fcaa97e0bd7aa71d3bd78be0b69d25143cb55",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/227",
+  "warArtifact": "https://227-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "5cbda4b2145d5a78d695a9a01f37717f2fdb0f69436ad55a28c4a0a00a1664cc",
+  "exampleDocuArtifact": "https://227-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "420d68a8e37e62c19d0b6af47bbb658c673c31746b651d6f90c23b2e5230e416",
   "docuArtifacts": [
     {
-      "url": "https://200-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "f2a030b5a32605c4df70fd3f61600c42ae31be1117cd5302df405e50386de8bc",
-      "build": "200"
+      "url": "https://227-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "321cf783e6b740b33e69735b513d8aa337bfc45482804162f3b3f39a84b6490e",
+      "build": "227"
     }
   ]
 }

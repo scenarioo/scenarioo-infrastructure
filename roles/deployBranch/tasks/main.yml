@@ -14,6 +14,52 @@
 - name: "{{ branch }} - Create docu artifacts folder"
   file: path="{{ config.scenariooDocuFolder }}/{{ branch }}" state=directory
 
+#
+# Deploy wiki example docu
+#
+
+- name: "{{ branch }} - Does exampleDocu.sha256 exist"
+  stat:
+    path: config.scenariooDocuFolder + '/exampleDocu.sha256'
+  register: example_docu_sha_file
+
+- name: "{{ branch }} - Should we update the example docu"
+  shell: "if [[ $(cat {{ config.scenariooDocuFolder }}/exampleDocu.sha256) == \"{{ branchConfig.exampleDocuArtifactSha256 }}\" ]]; then echo NO_UPDATE_NEEDED; else echo UPDATE; fi"
+  args:
+    executable: /bin/bash
+  register: example_docu_status
+  when: branchConfig.exampleDocuArtifactSha256 is defined
+
+- name: "{{ branch }} - Download example docu"
+  get_url:
+    url: "{{ branchConfig.exampleDocuArtifact }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
+    dest: "{{ config.scenariooDocuFolder }}/exampleDocu.zip"
+    sha256sum: "{{ branchConfig.exampleDocuArtifactSha256 }}"
+  no_log: true  # Don't show CIRCLE_TOKEN in logs
+  when:
+    - branchConfig.exampleDocuArtifactSha256 is defined
+    - example_docu_status.stdout == "UPDATE"
+
+- name: "{{ branch }} - Unarchive downloaded docu artifacts"
+  unarchive:
+    src: "{{ config.scenariooDocuFolder }}/exampleDocu.zip"
+    dest: "{{ config.scenariooDocuFolder }}/"
+    remote_src: yes
+  when:
+    - branchConfig.exampleDocuArtifactSha256 is defined
+    - example_docu_status.stdout == "UPDATE"
+  no_log: true  # Output is massive
+
+- name: "{{ branch }} - Update checksum of downloaded example docu"
+  shell: "echo {{ branchConfig.exampleDocuArtifactSha256 }} > {{ config.scenariooDocuFolder }}/exampleDocu.sha256"
+  when:
+    - branchConfig.exampleDocuArtifactSha256 is defined
+    - example_docu_status.stdout == "UPDATE"
+
+#
+# E2E branch docu deployment
+#
+
 # For each build downloaded we create a <buildNumber>.downloaded file in the scenarioo folder
 # This way we know that we don't have to download the artifact a second time
 # The following step checks for each docuArtifact if such a file exists and stores the result in stat_artifacts
@@ -74,6 +120,10 @@
   with_items: "{{ stat_artifacts }}"
   loop_control:
       loop_var: artifact
+
+#
+# Deployment of WAR
+#
 
 - name: "{{ branch }} - Ensure correct permissions"
   file: dest="{{ config.scenariooDocuFolder }}/{{ branch }}" owner=tomcat8 group=tomcat8 recurse=yes

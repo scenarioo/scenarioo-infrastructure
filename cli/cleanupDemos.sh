@@ -1,6 +1,11 @@
 #!/bin/bash
 # DESCRIPTION: Enforces maxConcurrentDemos
 
+# bash 'strict mode': http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
+
+
 CONFIG_FILE=${CONFIG_FILE:-config.json}
 DEMO_DIR=`jq -r '.demoConfigFolder' $CONFIG_FILE`
 
@@ -26,9 +31,10 @@ for PERSISTENT_BRANCH in $PERSISTENT_BRANCHES; do
 done
 
 NON_PERSISTENT_DEMOS_COUNT=`echo $NON_PERSISTENT_DEMOS | jq '. | length'`
-MAX_NON_PERSISTENT_DEMOS=`expr $MAX_CONCURRENT_DEMOS - $DEMO_COUNT + $NON_PERSISTENT_DEMOS_COUNT`
-DEMOS_TO_REMOVE=`expr $NON_PERSISTENT_DEMOS_COUNT - $MAX_NON_PERSISTENT_DEMOS`
+MAX_NON_PERSISTENT_DEMOS=$(($MAX_CONCURRENT_DEMOS - $DEMO_COUNT + $NON_PERSISTENT_DEMOS_COUNT))
+DEMOS_TO_REMOVE=$(($NON_PERSISTENT_DEMOS_COUNT - $MAX_NON_PERSISTENT_DEMOS))
 
+TO_BE_DELETED_DEMOS=""
 if [[ $DEMOS_TO_REMOVE -gt 0 ]]; then
     TO_BE_DELETED_DEMOS=`echo $NON_PERSISTENT_DEMOS | jq -r ".[-$DEMOS_TO_REMOVE:] | .[].encodedBranchName"`
 else
