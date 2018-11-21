@@ -11,7 +11,7 @@ DEMO_DIR=`jq -r '.demoConfigFolder' $CONFIG_FILE`
 # INPUT DATA
 BRANCH=$1
 
-ENCODED_BRANCH=`echo $BRANCH | tr / _ | sed 's/#//g'`
+ENCODED_BRANCH=`echo $BRANCH | sed 's/\//\-/' | sed 's/\#/\-/'`
 BRANCH_CONFIG_FILE="$DEMO_DIR/$ENCODED_BRANCH.json"
 
 rm $BRANCH_CONFIG_FILE

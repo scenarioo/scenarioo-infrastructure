@@ -16,7 +16,7 @@ PR_URL=$4
 
 # OTHER VARS
 BUILD_URL="https://circleci.com/gh/scenarioo/scenarioo/$2"
-ENCODED_BRANCH=`echo $BRANCH | tr / _ | sed 's/#//g'`
+ENCODED_BRANCH=`echo $BRANCH | sed 's/\//\-/' | sed 's/\#/\-/'`
 TIMESTAMP=`date +%s`
 BRANCH_CONFIG_FILE="$DEMO_DIR/$ENCODED_BRANCH.json"
 

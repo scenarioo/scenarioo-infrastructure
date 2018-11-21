@@ -2,7 +2,7 @@
   {
     "branchName": "demo2",
     "encodedBranchName": "demo2",
-    "timestamp": "1542821307",
+    "timestamp": "1542823025",
     "buildNumber": "230",
     "triggeredBy": "testUser",
     "pullRequestUrl": "http://foobar/PR",
@@ -22,7 +22,7 @@
   {
     "branchName": "demo3",
     "encodedBranchName": "demo3",
-    "timestamp": "1542821309",
+    "timestamp": "1542823026",
     "buildNumber": "232",
     "triggeredBy": "testUser",
     "pullRequestUrl": "http://foobar/PR",
