@@ -1,5 +1,25 @@
 [
   {
+    "branchName": "develop",
+    "encodedBranchName": "develop",
+    "timestamp": "1544019607",
+    "buildNumber": "311",
+    "triggeredBy": "bruderol",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/311",
+    "warArtifact": "https://311-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "2c8564b91cbcda1d8f4dc95da5abe39145638b2a1de84a69fa579969f5bee476",
+    "exampleDocuArtifact": "https://311-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "0f12f422e7a03e285025981d91a4aeb6bcd7cb506b23a41b907ec0806ac93df6",
+    "docuArtifacts": [
+      {
+        "url": "https://311-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "0f12f422e7a03e285025981d91a4aeb6bcd7cb506b23a41b907ec0806ac93df6",
+        "build": "311"
+      }
+    ]
+  },
+  {
     "branchName": "feature/724-spring-boot-migration",
     "encodedBranchName": "feature-724-spring-boot-migration",
     "timestamp": "1544011055",
@@ -101,31 +121,6 @@
         "url": "https://305-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "2aeb6a72ca48da0c38d2dd18473074c254231e02e0606e8b1becde5527620c00",
         "build": "305"
-      }
-    ]
-  },
-  {
-    "branchName": "master_circleci",
-    "encodedBranchName": "master_circleci",
-    "timestamp": "1540191396",
-    "buildNumber": "189",
-    "triggeredBy": "cgrossde",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/189",
-    "warArtifact": "https://189-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "cbd7ffc658cb1fb69b0a69bfa1367f34864b9912ba30a608e68ef2c4380daa8b",
-    "exampleDocuArtifact": "https://227-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "420d68a8e37e62c19d0b6af47bbb658c673c31746b651d6f90c23b2e5230e416",
-    "docuArtifacts": [
-      {
-        "url": "https://189-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "a5876df47e6a15d72999cdefa7b4d3d989c14a5de32d23686732474ef87b7ab8",
-        "build": "189"
-      },
-      {
-        "url": "https://118-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "756aaa7d064d98d4864fb7e2bab5520e28863bc56e6c027e6f32189c39db8031",
-        "build": "118"
       }
     ]
   },
