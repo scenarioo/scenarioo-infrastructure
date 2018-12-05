@@ -87,15 +87,15 @@
   {
     "branchName": "feature/778-spring-endpoint-security",
     "encodedBranchName": "feature-778-spring-endpoint-security",
-    "timestamp": "1544026517",
-    "buildNumber": "314",
+    "timestamp": "1544052642",
+    "buildNumber": "321",
     "triggeredBy": "bruderol",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/784",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/314",
-    "warArtifact": "https://314-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "036cf3b0cbaf15b90cec602601fe24235a0f6fc96dddbac85aca16e08d88e32c",
-    "exampleDocuArtifact": "https://314-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "66c1ed43a390b43da60e77b381e354abcf692bbcfd29e49ed6222d5c2eb3d2ce",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/321",
+    "warArtifact": "https://321-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "f1beb4f812992076dbe46b1caa3f832a789b772932fb9e003fa3f954c4194262",
+    "exampleDocuArtifact": "https://321-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "247ea86ad1e69b1481554123ba7d872512be434e28b984fc060a6a76a4c12132",
     "docuArtifacts": [
       {
         "url": "https://284-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
@@ -111,6 +111,11 @@
         "url": "https://314-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "f1dc0639a90d68b6a069c30527fbdc076ce594f5ce0d8d78cf9598309fdabaf2",
         "build": "314"
+      },
+      {
+        "url": "https://321-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "7ebf14d8868934138cd20bc48cb3ea4e814737ae9f8327bd55a360fda438777f",
+        "build": "321"
       }
     ]
   },
