@@ -2,7 +2,16 @@ server {
     listen 80;
     server_name build.scenarioo.org;
 
-    location = / {  # Redirect to overview
+    location = / {  # Redirect to CI/CD overview page
+        return 301 http://{{ config.scenariooHost }}/overview;
+    }
+}
+
+server {
+    listen 80;
+    server_name ci.scenarioo.org;
+
+    location = / {  # Redirect to CI/CD overview page
         return 301 http://{{ config.scenariooHost }}/overview;
     }
 }
