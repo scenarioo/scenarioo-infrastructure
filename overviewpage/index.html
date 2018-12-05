@@ -47,7 +47,7 @@
 
         function updateDemos(demos) {
             console.log(demos);
-            const list = d.querySelector('.page-container ul');
+            const list = d.querySelector('.page-container ul.demos');
             // develop/master first, after that order chronologically
             demos.sort((a, b) => {
                 if (a.branchName.indexOf("master") === 0 || a.branchName.indexOf("develop") === 0) {
@@ -130,10 +130,22 @@
 </head>
 <body>
 <div class="page-container">
-    <h1>Scenarioo Demos</h1>
-    <ul>
+
+    <h1>Scenarioo CI</h1>
+    <ul class="ci">
+        <li>
+            <a href="https://circleci.com/gh/scenarioo">Circle CI for Scenarioo (all major repos)</a>
+            <a href="https://travis-ci.org/scenarioo/scenarioo-js">Travis CI for ScenariooJS</a>
+            <a href="https://ci.appveyor.com/project/scenarioo-ci/scenarioo-cs">AppVeyor for Scenarioo-CS (for C#)</a>
+        </li>
     </ul>
     <br/>
+
+    <h1>Scenarioo Demos - Continuous Deployments</h1>
+    <ul class="demos">
+    </ul>
+    <br/>
+
     <div class="ci-status">
         Last deployment<br/><br/>
         <a href="https://circleci.com/gh/scenarioo/scenarioo-infrastructure/tree/master">
