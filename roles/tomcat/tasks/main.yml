@@ -17,13 +17,7 @@
   notify: Restart tomcat
 
 - name: Copy tomcat-users.xml
-  template:
-    src: tomcat-users.xml.j2
-    dest: "{{ config.tomcatFolder }}/conf/tomcat-users.xml"
-  notify: Restart tomcat
-  no_log: true  # Don't show TOMCAT_USER_PASSWORD
-
-- name: Copy tomcat-users.xml again
+  # only needed for scenarioo 4.0 and earlier (will be removed in 5.0)
   template:
     src: tomcat-users.xml.j2
     dest: "{{ config.tomcatFolder }}/conf/tomcat-users.xml"
