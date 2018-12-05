@@ -2,5 +2,9 @@
     <Parameter  name="scenariooDataDirectory"
                 value="{{ config.scenariooDocuFolder }}/{{ branch }}"
                 override="true"
-                description="Location of scenarioo config.xml file for branch {{ branch }}"/>
+                description="Location of scenarioo config.xml file for branch {{ branch }}"/>                
+    <Parameter  name="spring.security.user.password"
+                value="{{ lookup('env', 'TOMCAT_USER_PASSWORD') or '' }}"
+                override="true"
+                description="Password for build publishing endpoint and other secured endpoints"/>
 </Context>
