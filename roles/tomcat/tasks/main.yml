@@ -1,5 +1,5 @@
 #
-# Installs and configures nginx
+# Installs and configures tomcat8
 #
 - name: Install tomcat 8
   apt:
@@ -23,6 +23,13 @@
   notify: Restart tomcat
   no_log: true  # Don't show TOMCAT_USER_PASSWORD
 
+- name: Copy tomcat-users.xml again
+  template:
+    src: tomcat-users.xml.j2
+    dest: "{{ config.tomcatFolder }}/conf/tomcat-users.xml"
+  notify: Restart tomcat
+  no_log: true  # Don't show TOMCAT_USER_PASSWORD
+
 - name: Copy setenv.sh for memory settings
   copy:
     src: setenv.sh
@@ -35,7 +42,6 @@
     minute: 30
     hour: 2
     job: "systemctl restart tomcat8 > /dev/null"
-
 
 # Run handlers now => e.g. restart tomcat at this point if needed
 - meta: flush_handlers
