@@ -10,6 +10,7 @@
   template:
     src: branch-context-config.xml.j2
     dest: "{{ config.tomcatFolder }}/conf/Catalina/localhost/scenarioo-{{ branch }}.xml"
+    no_log: true  # Don't show TOMCAT_USER_PASSWORD
 
 - name: "{{ branch }} - Create docu artifacts folder"
   file: path="{{ config.scenariooDocuFolder }}/{{ branch }}" state=directory
