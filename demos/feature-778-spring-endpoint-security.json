@@ -1,21 +1,16 @@
 {
   "branchName": "feature/778-spring-endpoint-security",
   "encodedBranchName": "feature-778-spring-endpoint-security",
-  "timestamp": "1545312821",
-  "buildNumber": "330",
+  "timestamp": "1545313230",
+  "buildNumber": "333",
   "triggeredBy": "bruderol",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/784",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/330",
-  "warArtifact": "https://330-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "577f39410558ed6793c4e596da79d590a71a97481f44a247692edc99aa3c1235",
-  "exampleDocuArtifact": "https://330-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "dab04d40a9e3a71e8c6bbf773f9041097e48488cd031aea9449e5e2163c99611",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/333",
+  "warArtifact": "https://333-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "d3104031f33194879cd1ca6350e8849d16dcc86797e5af84aea99124ab0acf49",
+  "exampleDocuArtifact": "https://333-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "ced884e48cd55ede09b223931127f05e88593d5ade7b38eb13cdde55cdab4995",
   "docuArtifacts": [
-    {
-      "url": "https://300-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "a305e80454a3eb9e2bb18670b786b202ef354716b178b93847cbfcebe569b896",
-      "build": "300"
-    },
     {
       "url": "https://314-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "f1dc0639a90d68b6a069c30527fbdc076ce594f5ce0d8d78cf9598309fdabaf2",
@@ -35,6 +30,11 @@
       "url": "https://330-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "bb1139207bda5b2ef9c6e6015546088df9a03d39999dc108eb189856078c338d",
       "build": "330"
+    },
+    {
+      "url": "https://333-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "d8ccf1b34984e5b4c6094c7f02dbb468ad0885f52e813f098b424def84403c75",
+      "build": "333"
     }
   ]
 }
