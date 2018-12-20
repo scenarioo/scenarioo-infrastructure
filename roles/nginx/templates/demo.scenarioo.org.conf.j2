@@ -2,7 +2,13 @@ server {
     listen 80;
     server_name build.scenarioo.org;
 
-    location = / {  # Redirect to CI/CD overview page
+    # Redirect to CI/CD overview page
+    location = / {
+        return 301 http://{{ config.scenariooHost }}/overview;
+    }
+
+    # jenkins redirect to new overview page (because of old cached redirects - Chrome is hard to get rid of those in cache)
+    location = /jenkins {  # Redirect to CI/CD overview page
         return 301 http://{{ config.scenariooHost }}/overview;
     }
 }
@@ -11,7 +17,13 @@ server {
     listen 80;
     server_name ci.scenarioo.org;
 
-    location = / {  # Redirect to CI/CD overview page
+    # Redirect to CI/CD overview page
+    location = / {
+        return 301 http://{{ config.scenariooHost }}/overview;
+    }
+
+    # jenkins redirect to new overview page (because of old cached redirects - Chrome is hard to get rid of those in cache)
+    location = /jenkins {  # Redirect to CI/CD overview page
         return 301 http://{{ config.scenariooHost }}/overview;
     }
 }
