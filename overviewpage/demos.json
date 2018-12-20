@@ -97,21 +97,16 @@
   {
     "branchName": "feature/778-spring-endpoint-security",
     "encodedBranchName": "feature-778-spring-endpoint-security",
-    "timestamp": "1545313230",
-    "buildNumber": "333",
+    "timestamp": "1545313293",
+    "buildNumber": "334",
     "triggeredBy": "bruderol",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/784",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/333",
-    "warArtifact": "https://333-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "d3104031f33194879cd1ca6350e8849d16dcc86797e5af84aea99124ab0acf49",
-    "exampleDocuArtifact": "https://333-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "ced884e48cd55ede09b223931127f05e88593d5ade7b38eb13cdde55cdab4995",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/334",
+    "warArtifact": "https://334-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "fe8d931b6edb62a54f4f7940b246b3b12b415083814a6e679ffdf148314502cf",
+    "exampleDocuArtifact": "https://334-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "2ba8e1110322a3bf8ecfb6b5efdc30056e629046f7a098e2af10b16527e3dbfb",
     "docuArtifacts": [
-      {
-        "url": "https://314-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "f1dc0639a90d68b6a069c30527fbdc076ce594f5ce0d8d78cf9598309fdabaf2",
-        "build": "314"
-      },
       {
         "url": "https://321-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "7ebf14d8868934138cd20bc48cb3ea4e814737ae9f8327bd55a360fda438777f",
@@ -131,6 +126,11 @@
         "url": "https://333-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "d8ccf1b34984e5b4c6094c7f02dbb468ad0885f52e813f098b424def84403c75",
         "build": "333"
+      },
+      {
+        "url": "https://334-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "fdf0c81b48d00d6719ad7e7f39ad097b19715192394c522c3d89f9d844d1e5ef",
+        "build": "334"
       }
     ]
   },
