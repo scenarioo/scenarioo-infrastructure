@@ -8,7 +8,7 @@ server {
     }
 
     # jenkins redirect to new overview page (because of old cached redirects - Chrome is hard to get rid of those in cache)
-    location = /jenkins {  # Redirect to CI/CD overview page
+    location = /jenkins/ {  # Redirect to CI/CD overview page
         return 301 http://{{ config.scenariooHost }}/overview;
     }
 }
@@ -23,7 +23,7 @@ server {
     }
 
     # jenkins redirect to new overview page (because of old cached redirects - Chrome is hard to get rid of those in cache)
-    location = /jenkins {  # Redirect to CI/CD overview page
+    location = /jenkins/ {  # Redirect to CI/CD overview page
         return 301 http://{{ config.scenariooHost }}/overview;
     }
 }
