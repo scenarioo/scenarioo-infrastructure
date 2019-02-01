@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/787-test-and-fix-self-docu-publishing",
+  "encodedBranchName": "feature-787-test-and-fix-self-docu-publishing",
+  "timestamp": "1549007452",
+  "buildNumber": "399",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/788",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/399",
+  "warArtifact": "https://399-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "c37236d876f1633c01f934012057c278ae5a8ad44e375f5370e3f2add249a5b0",
+  "exampleDocuArtifact": "https://399-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "f0ad88df7468a7b8aab8d14e2c477b6b01a6cfd3e38e68a42a3aa373929ef7de",
+  "docuArtifacts": [
+    {
+      "url": "https://399-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "b9128344fbf29e2b861e8fb7edd5323fb9960be7a868c295a352a3d3ae9d8df4",
+      "build": "399"
+    }
+  ]
+}
