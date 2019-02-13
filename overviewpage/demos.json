@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1549631000",
-    "buildNumber": "452",
-    "triggeredBy": "danielsuter",
+    "timestamp": "1550097167",
+    "buildNumber": "461",
+    "triggeredBy": "bruderol",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/452",
-    "warArtifact": "https://452-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "283d0e40215a70135e9885fc1026afbb0132393dbf5986a19cc1d987d3a336f8",
-    "exampleDocuArtifact": "https://452-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "40c82a803d8d85cdadf4f6851926b70710cbde44c74602612f98f3f979de3bf6",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/461",
+    "warArtifact": "https://461-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "27616e20f8cce72028347543f9d0afe2db66b2a549242ccfc115d28b9cd8b1d3",
+    "exampleDocuArtifact": "https://461-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "486973083c1590031c97ac4c4461340068c656db744f272cd1b6009d1b57e416",
     "docuArtifacts": [
-      {
-        "url": "https://338-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "26a88bd7cd1f3d327cc0161dc46e37aebf86ed10ed7009f5cb9e13c525aa8b41",
-        "build": "338"
-      },
       {
         "url": "https://357-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "495461d00b9e46a75cd99ed668c0f316ac1a45d2e27fd9947e365d54816fa872",
@@ -36,6 +31,11 @@
         "url": "https://452-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "cc2185aa56a235643c826f1291b1b9a98af894734f059fa31b5341b6fb3a84c7",
         "build": "452"
+      },
+      {
+        "url": "https://461-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "69202808a20836eab94c425af2bbf6baca87027cc89eb774f0b1da4fc01eda09",
+        "build": "461"
       }
     ]
   },
