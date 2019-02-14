@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/778-address-comments-from-review",
+  "encodedBranchName": "feature-778-address-comments-from-review",
+  "timestamp": "1550127145",
+  "buildNumber": "466",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/791",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/466",
+  "warArtifact": "https://466-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "2885334f98b588cda4af032132f8c52ee104ea9a07ab2ac25486263d26e8a8a1",
+  "exampleDocuArtifact": "https://466-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "913d105e832df9daabbe2bde3da28397c8b2831b20ec77a98a07600b8f39f76f",
+  "docuArtifacts": [
+    {
+      "url": "https://466-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "039a75d02c02d74a0e3ecac970051257dcb64f14849c236283ae6089ca1d2119",
+      "build": "466"
+    }
+  ]
+}
