@@ -8,30 +8,19 @@ We use ansible to setup our main server which runs:
 ## Development
 
 To test and run this ansible playbook locally you need to install:
-- Vagrant >= 1.8
-- Ansible >= 2.5 installed or Docker
+- Vagrant >= 2.0
+- VirtualBox >= 6.0
 
-**Ansible installed:** 
-```
-ansible-galaxy install -r requirements.yml
-export ENVIRONMENT=dev
-ansible-playbook site.yml -i ./hosts/hosts_vagrant --key-file "./docker-ansible-runner/vagrant.key"
-```
-
-**Else use provided docker image:**
-If you don't have Ansible installed you can use the dockerized version. Build docker image first:
-```
-docker build -t docker-ansible-runner docker-ansible-runner
-```
-
-Then execute: `./infra.sh runAnsible vagrant`
+Start and setup the dev VM with: `vagrant up`
+To deploy the demo server execute: `./infra.sh runAnsible vagrant`
+And browse to: `http://localhost:8080`
 
 ## CLI Usage
 
 The CLI tool `infra.sh` is used to manage demos and run ansible:
  - `./infra.sh deployDemo <branchName> <buildNumber> <triggeredBy> <pullrequestURL> <pullrequestNumber>`
  - `./infra.sh undeployDemo <branchName>`
- - `./infra.sh runAnsible <vagrant|aws> <pathToAlternativeSSHKey>`
+ - `./infra.sh runAnsible <vagrant|aws|demoserver> <pathToAlternativeSSHKey>`
  - `./infra.sh updateOverview`
  - `./infra.sh cleanupDemos`
  
@@ -108,3 +97,16 @@ To get the most out of the box without running into Java OutOfMemoryExceptions w
 - System: 1GB
 - Elasticsearch: 0.8GB  (500MB Java + docker overhead)  see `roles/docker/tasks/main.yml`
 - Tomcat: 6GB (1GB per demo is a good measure)  see `roles/tomcat/files/setenv.sh`
+
+
+### Dockerized ansible
+
+If you would like to deploy a server on AWS (`see hosts/hosts_aws`) or the demo server directly (`hosts/hosts_demoserver_ovh`),
+you can use the dockerized ansible.
+Build docker image first:
+```
+docker build -t docker-ansible-runner docker-ansible-runner
+```
+
+Then execute: `./infra.sh runAnsible aws`
+You can also provide an alternative ssh key like this: `./infra.sh runAnsible aws ./.ssh/my_aws_ssh_key`

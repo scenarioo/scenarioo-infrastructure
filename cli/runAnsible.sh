@@ -6,6 +6,11 @@ TARGET=$1
 ALTERNATIVE_SSH_KEY=$2
 ENVIRONMENT=""
 
+# Warn if CIRLCE_TOKEN is empty
+if [[ $CIRLCE_TOKEN == "" ]]; then
+    echo "WARNING: CIRLCE_TOKEN is not set. Without it we might not be able to fetch artifacts from builds!"
+fi
+
 case $TARGET in
     demoserver)
         TARGET_HOST_FILE=./hosts/hosts_demoserver_ovh
@@ -18,9 +23,11 @@ case $TARGET in
         ENVIRONMENT="aws"
     ;;
     vagrant)
-        TARGET_HOST_FILE=./hosts/hosts_vagrant_docker
-        SSH_KEY=$(pwd)/docker-ansible-runner/vagrant.key
+        TARGET_HOST_FILE=/vagrant/hosts/hosts_vagrant
         ENVIRONMENT="dev"
+        # To avoid installing docker or ansible on dev machine we run ansible directly inside vagrant
+        vagrant ssh -c "CIRLCE_TOKEN=$CIRLCE_TOKEN;TOMCAT_USER_PASSWORD=$TOMCAT_USER_PASSWORD;ENVIRONMENT=$ENVIRONMENT ansible-playbook /vagrant/site.yml -v -i $TARGET_HOST_FILE"
+        exit 0
     ;;
     *)
     echo "Please provide a target. Possible values: aws, vagrant"
@@ -34,21 +41,19 @@ if [[ ! $ALTERNATIVE_SSH_KEY == "" ]]; then
 fi
 
 # Make a SSH test connection if we are not using vagrant
-if [[ ! $TARGET == "vagrant" ]]; then
-    HOST_PORT=`cat $TARGET_HOST_FILE | grep -A 1 mainserver | grep -v mainserver`
-    HOST=`echo $HOST_PORT | sed -n -E 's/([a-zA-Z0-9\.]*):?.*/\1/p'`
-    PORT=`echo $HOST_PORT | sed -n -E 's/.*:(.*)/\1/p'`
-    USER=`cat $TARGET_HOST_FILE | sed -n -E 's/ansible_user=(.*)/\1/p'`
-    if [[ ! $PORT == "" ]]; then
-        SSH_PORT="-P$PORT"
-    fi
-    SSH_ARGS="$SSH_PORT -i $SSH_KEY  $USER@$HOST exit;"
-    ssh $SSH_ARGS
-    if [[ $? -ne 0 ]]; then
-        echo "Test connection to AWS host failed (exit code=$?): ssh $SSH_ARGS"
-        echo "Provide path to ssh key as second param."
-        exit 1;
-    fi
+HOST_PORT=`cat $TARGET_HOST_FILE | grep -A 1 mainserver | grep -v mainserver`
+HOST=`echo $HOST_PORT | sed -n -E 's/([a-zA-Z0-9\.]*):?.*/\1/p'`
+PORT=`echo $HOST_PORT | sed -n -E 's/.*:(.*)/\1/p'`
+USER=`cat $TARGET_HOST_FILE | sed -n -E 's/ansible_user=(.*)/\1/p'`
+if [[ ! $PORT == "" ]]; then
+    SSH_PORT="-P$PORT"
+fi
+SSH_ARGS="$SSH_PORT -i $SSH_KEY  $USER@$HOST exit;"
+ssh $SSH_ARGS
+if [[ $? -ne 0 ]]; then
+    echo "Test connection to AWS host failed (exit code=$?): ssh $SSH_ARGS"
+    echo "Provide path to ssh key as second param."
+    exit 1;
 fi
 
 # Check if ansible image was already built
@@ -56,11 +61,6 @@ docker inspect --type=image docker-ansible-runner &>/dev/null
 if [[ $? -eq 1 ]]; then
     echo "Please build docker image first: docker build -t docker-ansible-runner docker-ansible-runner"
     exit 1;
-fi
-
-# Warn if CIRLCE_TOKEN is empty
-if [[ $CIRLCE_TOKEN == "" ]]; then
-    echo "WARNING: CIRLCE_TOKEN is not set. Without it we can't fetch artifacts from builds!"
 fi
 
 docker run --rm -it \

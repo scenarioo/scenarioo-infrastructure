@@ -1,6 +1,3 @@
-[all:vars]
-env=vagrant
-
 [mainserver]
 54.77.179.63
 

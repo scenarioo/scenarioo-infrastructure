@@ -2,9 +2,9 @@
 env=vagrant
 
 [mainserver]
-127.0.0.1:2222
+localhost
 
 [all:vars]
-ansible_connection=ssh
+ansible_connection=local
 ansible_user=vagrant
 ansible_python_interpreter=/usr/bin/python3
