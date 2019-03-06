@@ -7,10 +7,10 @@ jobs:
     working_directory: ~/infra
     steps:
           - checkout
-          # Add keys of AWS host: https://circleci.com/gh/scenarioo/scenarioo-infrastructure/edit#ssh
+          # Add keys of OVH host: https://circleci.com/gh/scenarioo/scenarioo-infrastructure/edit#ssh
           - add_ssh_keys:
                 fingerprints:
-                  - "08:1e:d3:ab:aa:5c:a3:9e:51:e1:1b:6f:6e:99:e0:99"
+                  - "61:98:9a:30:06:78:1e:34:a3:43:86:69:9d:42:5a:0b"
           - run:
               name: Install ansible
               command: sudo pip install ansible --quiet
