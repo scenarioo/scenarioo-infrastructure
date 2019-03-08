@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1550596304",
-    "buildNumber": "483",
-    "triggeredBy": "mi-we",
+    "timestamp": "1552062099",
+    "buildNumber": "498",
+    "triggeredBy": "danielsuter",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/483",
-    "warArtifact": "https://483-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "533d2f9efc94b18a012672a965d0631c858164999702eaec43be2f614cbd73cd",
-    "exampleDocuArtifact": "https://483-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "d77b7592929c51b5408950c74186743a37ce5b569985e058275ac75e60bd44d5",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/498",
+    "warArtifact": "https://498-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "a6a79c14063f0dcb83f1354b5b6582b5030a9ae495e1eba318cbf55b3279337d",
+    "exampleDocuArtifact": "https://498-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "ad3305f1700fe63ace4b48cc9523485f5bdc12f98206ea3187805c43d85aed98",
     "docuArtifacts": [
-      {
-        "url": "https://452-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "cc2185aa56a235643c826f1291b1b9a98af894734f059fa31b5341b6fb3a84c7",
-        "build": "452"
-      },
       {
         "url": "https://461-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "69202808a20836eab94c425af2bbf6baca87027cc89eb774f0b1da4fc01eda09",
@@ -36,6 +31,11 @@
         "url": "https://483-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "c2f704a380ccda64afb691a33c5ebf06bdca757069403b23cadaf73812b42386",
         "build": "483"
+      },
+      {
+        "url": "https://498-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "680040df0e8db1687c417f008d3ce00ca1099f121bc48a1ba6aff7745f55a389",
+        "build": "498"
       }
     ]
   },
