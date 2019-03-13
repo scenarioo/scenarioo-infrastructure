@@ -1,0 +1,20 @@
+{
+  "branchName": "516-migrate-manageviews",
+  "encodedBranchName": "516-migrate-manageviews",
+  "timestamp": "1552476954",
+  "buildNumber": "511",
+  "triggeredBy": "",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/511",
+  "warArtifact": "https://511-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "056e2e3c0186bbd98f973f6e2a13e46a17b956bf0e66eb1f676b05c9fd18c187",
+  "exampleDocuArtifact": "https://511-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "647bbee73c55486388f19f8e40a3630fc0b0d988ccf5b24e31c1ebf228a513a8",
+  "docuArtifacts": [
+    {
+      "url": "https://511-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "06a97549362f76bb04f0b005d3072000f64391cbff596cd077364d1a6462fe5c",
+      "build": "511"
+    }
+  ]
+}

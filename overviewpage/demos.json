@@ -1,5 +1,25 @@
 [
   {
+    "branchName": "516-migrate-manageviews",
+    "encodedBranchName": "516-migrate-manageviews",
+    "timestamp": "1552476954",
+    "buildNumber": "511",
+    "triggeredBy": "",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/511",
+    "warArtifact": "https://511-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "056e2e3c0186bbd98f973f6e2a13e46a17b956bf0e66eb1f676b05c9fd18c187",
+    "exampleDocuArtifact": "https://511-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "647bbee73c55486388f19f8e40a3630fc0b0d988ccf5b24e31c1ebf228a513a8",
+    "docuArtifacts": [
+      {
+        "url": "https://511-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "06a97549362f76bb04f0b005d3072000f64391cbff596cd077364d1a6462fe5c",
+        "build": "511"
+      }
+    ]
+  },
+  {
     "branchName": "develop",
     "encodedBranchName": "develop",
     "timestamp": "1552062099",
@@ -106,26 +126,6 @@
         "url": "https://491-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "90df1d497bd9b7a8d348184d77f3e26ce8630264ac3dd8ad13c1aa7655d7b8e7",
         "build": "491"
-      }
-    ]
-  },
-  {
-    "branchName": "feature/dummy-test",
-    "encodedBranchName": "feature-dummy-test",
-    "timestamp": "1550688011",
-    "buildNumber": "486",
-    "triggeredBy": "danielsuter",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/486",
-    "warArtifact": "https://486-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "e3860df1b705342436890443fd82e42b43c609fa7c8fda17b8dac2974d7174d3",
-    "exampleDocuArtifact": "https://486-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "b91bb78de7887f8a11978839f09524da47a845d93f274932a16f2e0e229f3a84",
-    "docuArtifacts": [
-      {
-        "url": "https://486-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "55f4074e764a2df128705ac1ff5ff4ac7591cc38e10c9a923086ef8262f22b17",
-        "build": "486"
       }
     ]
   },
