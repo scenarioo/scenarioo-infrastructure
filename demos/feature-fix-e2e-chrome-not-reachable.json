@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/fix-e2e-chrome-not-reachable",
+  "encodedBranchName": "feature-fix-e2e-chrome-not-reachable",
+  "timestamp": "1553150896",
+  "buildNumber": "554",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/554",
+  "warArtifact": "https://554-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "38f6da20bc4152b9cbb03022aba6664147697f4684b3270855e23f508e0e7b78",
+  "exampleDocuArtifact": "https://554-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "17d347e27250b2616bf0a752f895ed5106ae80da1d5698adb6c62d9e316fcc27",
+  "docuArtifacts": [
+    {
+      "url": "https://554-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "dc5804ee784490913370cc9d8acccc53e97b9104464e42b52e8fac176dae76ab",
+      "build": "554"
+    }
+  ]
+}
