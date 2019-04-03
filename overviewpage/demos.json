@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1552062099",
-    "buildNumber": "498",
-    "triggeredBy": "danielsuter",
+    "timestamp": "1554294037",
+    "buildNumber": "577",
+    "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/498",
-    "warArtifact": "https://498-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "a6a79c14063f0dcb83f1354b5b6582b5030a9ae495e1eba318cbf55b3279337d",
-    "exampleDocuArtifact": "https://498-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "ad3305f1700fe63ace4b48cc9523485f5bdc12f98206ea3187805c43d85aed98",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/577",
+    "warArtifact": "https://577-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "b238e8ff54159ebd3c05555bfcf88a954217e0268a583c118c80a2dcce591079",
+    "exampleDocuArtifact": "https://577-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "82a6adeb1331f97402e2d829d7a57bc3a013bd57adefb533c57be4d5a69b2c80",
     "docuArtifacts": [
-      {
-        "url": "https://461-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "69202808a20836eab94c425af2bbf6baca87027cc89eb774f0b1da4fc01eda09",
-        "build": "461"
-      },
       {
         "url": "https://463-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "1bcd1301ea6f4e23e4bed56bb22ba346559b6596a7d4d568d09fad616bcbd046",
@@ -36,6 +31,11 @@
         "url": "https://498-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "680040df0e8db1687c417f008d3ce00ca1099f121bc48a1ba6aff7745f55a389",
         "build": "498"
+      },
+      {
+        "url": "https://577-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "beb1934be7a0f6d3d744096710ab16ebe87fbed393e048fade063a1f8f195176",
+        "build": "577"
       }
     ]
   },
