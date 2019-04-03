@@ -80,27 +80,22 @@
     ]
   },
   {
-    "branchName": "feature/797-malicious-String-error",
-    "encodedBranchName": "feature-797-malicious-String-error",
-    "timestamp": "1552545671",
-    "buildNumber": "515",
+    "branchName": "feature/516-continue-ts-migration",
+    "encodedBranchName": "feature-516-continue-ts-migration",
+    "timestamp": "1554306909",
+    "buildNumber": "583",
     "triggeredBy": "eggerschwiler",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/515",
-    "warArtifact": "https://515-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "d65d7ef2a2116d1a4eaa83d4b083f74f5ee10883df40164c9fbae6a128f26326",
-    "exampleDocuArtifact": "https://515-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "cf879a9f758e2efedd5664b4166faaff60b1c5c11d54f1f38eefb51362b72829",
+    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/795",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/583",
+    "warArtifact": "https://583-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "1bfdaad3dd4ec0ba110b54095ce6c01820bfcd689da56eabb556b04203c242d9",
+    "exampleDocuArtifact": "https://583-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "4eb4090a762eb44c8d406fa2e6c1c9f9b2814d415b3e9adde911054c0401d8ee",
     "docuArtifacts": [
       {
-        "url": "https://513-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "7f1e2efcee09727611abf8b814f44ea9dc92627a1da3d314e2f74619594b8502",
-        "build": "513"
-      },
-      {
-        "url": "https://515-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "e1d2e4486902aaca5043df34dd56f507608e05958a993258b406a7227dda277e",
-        "build": "515"
+        "url": "https://583-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "91f4bb5a6d7c907600965303234d25d0c5d5ac63362c80423754e84ebcd8d47d",
+        "build": "583"
       }
     ]
   },
