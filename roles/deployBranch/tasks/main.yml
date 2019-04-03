@@ -15,22 +15,30 @@
   file: path="{{ config.scenariooDocuFolder }}/{{ branch }}" state=directory
 
 #
-# Deploy wiki example docu
+# Deploy wikipedia example demo docu
 #
 
-- name: "{{ branch }} - Does exampleDocu.sha256 exist"
+- name: "{{ branch }} - wikipedia ecample docu - does it exist?"
   stat:
     path: "{{ config.scenariooDocuFolder }}/{{ branch }}/exampleDocu.sha256"
   register: example_docu_sha_file
 
-- name: "{{ branch }} - Should we update the example docu"
+- name: "{{ branch }} - wikipedia ecample docu - does it need update?"
   shell: "if [[ $(cat {{ config.scenariooDocuFolder }}/{{ branch }}/exampleDocu.sha256) == \"{{ branchConfig.exampleDocuArtifactSha256 }}\" ]]; then echo NO_UPDATE_NEEDED; else echo UPDATE; fi"
   args:
     executable: /bin/bash
   register: example_docu_status
   when: branchConfig.exampleDocuArtifactSha256 is defined
 
-- name: "{{ branch }} - Download example docu"
+- name: "{{ branch }} - wikipedia ecample docu - Clean old wikipedia demo data"
+  shell: "rm -rf {{ config.scenariooDocuFolder }}/{{ branch }}/wikipedia*"
+  args:
+    executable: /bin/bash
+  when:
+    - branchConfig.exampleDocuArtifactSha256 is defined
+    - example_docu_status.stdout == "UPDATE"
+
+- name: "{{ branch }} - wikipedia ecample docu - Download"
   get_url:
     url: "{{ branchConfig.exampleDocuArtifact }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
     dest: "{{ config.scenariooDocuFolder }}/{{ branch }}/exampleDocu.zip"
@@ -40,7 +48,7 @@
     - branchConfig.exampleDocuArtifactSha256 is defined
     - example_docu_status.stdout == "UPDATE"
 
-- name: "{{ branch }} - Unarchive downloaded docu artifacts"
+- name: "{{ branch }} - wikipedia ecample docu - Unarchive downloaded artifacts"
   unarchive:
     src: "{{ config.scenariooDocuFolder }}/{{ branch }}/exampleDocu.zip"
     dest: "{{ config.scenariooDocuFolder }}/{{ branch }}/"
@@ -50,13 +58,13 @@
     - example_docu_status.stdout == "UPDATE"
   no_log: true  # Output is massive
 
-- name: "{{ branch }} - Update checksum of downloaded example docu"
+- name: "{{ branch }} - wikipedia ecample docu - Update checksum of downloaded docu"
   shell: "echo {{ branchConfig.exampleDocuArtifactSha256 }} > {{ config.scenariooDocuFolder }}/{{ branch }}/exampleDocu.sha256"
   when:
     - branchConfig.exampleDocuArtifactSha256 is defined
     - example_docu_status.stdout == "UPDATE"
 
-- name: "{{ branch }} - Delete downloaded example docu ZIP"
+- name: "{{ branch }} - wikipedia ecample docu - Delete downloaded ZIP"
   file: path="{{ config.scenariooDocuFolder }}/{{ branch }}/exampleDocu.zip" state=absent
   when:
     - branchConfig.exampleDocuArtifactSha256 is defined
