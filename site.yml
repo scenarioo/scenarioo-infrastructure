@@ -1,5 +1,5 @@
 ---
-- name: Setup scenarioo server for Demos and Ci?
+- name: Setup scenarioo server for Demos
   hosts: mainserver
   become: True        # We need root rights to install stuff
 
