@@ -40,7 +40,7 @@
 
 - name: "{{ branch }} - wikipedia ecample docu - Download"
   get_url:
-    url: "{{ branchConfig.exampleDocuArtifact }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
+    url: "{{ branchConfig.exampleDocuArtifact }}?circle-token={{ lookup('env', 'CIRCLE_TOKEN') }}"
     dest: "{{ config.scenariooDocuFolder }}/{{ branch }}/exampleDocu.zip"
     sha256sum: "{{ branchConfig.exampleDocuArtifactSha256 }}"
   no_log: true  # Don't show CIRCLE_TOKEN in logs
@@ -89,7 +89,7 @@
 # Iterates over stat_artifacts
 - name: "{{ branch }} - Download missing docu artifacts"
   get_url:
-    url: "{{ artifact.item.url }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
+    url: "{{ artifact.item.url }}?circle-token={{ lookup('env', 'CIRCLE_TOKEN') }}"
     dest: "{{ config.scenariooDocuFolder }}/{{ branch }}/{{ artifact.item.build }}.zip"
   when: artifact.stat.exists == false
   with_items: "{{ stat_artifacts }}"
@@ -144,7 +144,7 @@
 
 - name: "{{ branch }} - Download & deploy war"
   get_url:
-    url: "{{ branchConfig.warArtifact }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
+    url: "{{ branchConfig.warArtifact }}?circle-token={{ lookup('env', 'CIRCLE_TOKEN') }}"
     dest: "{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war"
     sha256sum: "{{ branchConfig.warArtifactSha256 }}"     # Will only download if checksum changed
   no_log: true  # Don't show CIRCLE_TOKEN in logs

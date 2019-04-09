@@ -68,7 +68,7 @@ Configuration is done in `config.json` and under `demos/<branch>.json`.
 
 Ansible relies on the following environment vars when executed:
 - `TOMCAT_USER_PASSWORD`: Used to secure the publish scenarioo docu endpoint. Defaults to: 'scenarioo' and user is always 'scenarioo'.
-- `CIRLCE_TOKEN`: Used to download WAR and scenarioo docu artifacts from CircleCI
+- `CIRCLE_TOKEN`: Used to download WAR and scenarioo docu artifacts from CircleCI
 - `CONFIG_FILE`: Optional. Allows to pass in a different config for testing. Defaults to `config.json`
 
 **CircleCI:** Set these environment variables in the organsation context "scenarioo"
