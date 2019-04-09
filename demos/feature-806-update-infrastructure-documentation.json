@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/806-update-infrastructure-documentation",
+  "encodedBranchName": "feature-806-update-infrastructure-documentation",
+  "timestamp": "1554812738",
+  "buildNumber": "607",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/607",
+  "warArtifact": "https://607-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "e771dc299cd43adcbb6e74073b6d0cb0ee19e1cfa0ee16aa068920b36e9dd8b2",
+  "exampleDocuArtifact": "https://607-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "41f67e491ca6d22e7d919a81f59ca91aaa38a86e1c4f5c39e502d99fa784ae3f",
+  "docuArtifacts": [
+    {
+      "url": "https://607-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "81e515dc3324c07e32975796f145a93f2486090312415129095dc03449598950",
+      "build": "607"
+    }
+  ]
+}
