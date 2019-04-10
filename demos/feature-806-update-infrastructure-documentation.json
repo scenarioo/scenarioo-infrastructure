@@ -1,15 +1,15 @@
 {
   "branchName": "feature/806-update-infrastructure-documentation",
   "encodedBranchName": "feature-806-update-infrastructure-documentation",
-  "timestamp": "1554815351",
-  "buildNumber": "611",
+  "timestamp": "1554878819",
+  "buildNumber": "616",
   "triggeredBy": "eggerschwiler",
-  "pullRequestUrl": "",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/611",
-  "warArtifact": "https://611-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "515fb404308da4f25dbbf10a9edcf1fe4fc584b153d96565d1b0a00afc43c82d",
-  "exampleDocuArtifact": "https://611-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "66e7700087b2429452b0feb526394c52d07368e0badfe3361b99e4ab64214fb4",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/807",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/616",
+  "warArtifact": "https://616-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "e754f00a7e0c75f51a817d1f27e6b8d278ce03a5396826fd4645153cdd6a5228",
+  "exampleDocuArtifact": "https://616-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "a57753df4f9579fb76faa5ee9b082f46edd7db5640e6795c340a10d838995d9b",
   "docuArtifacts": [
     {
       "url": "https://607-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
@@ -30,6 +30,11 @@
       "url": "https://611-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "4c5dfb45aa15580df46d2cb0b36a809e48dd7f58eab9caba10faec400e1a0721",
       "build": "611"
+    },
+    {
+      "url": "https://616-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "785cb8e382937daaafefd9f983132e02cbfd75b6d97e50a59ee10dc3114ed6fa",
+      "build": "616"
     }
   ]
 }
