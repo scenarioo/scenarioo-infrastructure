@@ -122,21 +122,16 @@
   {
     "branchName": "feature/806-update-infrastructure-documentation",
     "encodedBranchName": "feature-806-update-infrastructure-documentation",
-    "timestamp": "1554878831",
-    "buildNumber": "615",
+    "timestamp": "1554879807",
+    "buildNumber": "619",
     "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/807",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/615",
-    "warArtifact": "https://615-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "1f032f3f55ad8d3ca95bc3badc858e8fb4a50109c7a3dd84dd444f9f053140fe",
-    "exampleDocuArtifact": "https://615-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "589bb47ea17a90cee1f221477b1517629a507958a60614777e1a201c24ddcb2d",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/619",
+    "warArtifact": "https://619-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "15c9338be2ffbd1bef203accbdeb2459e18a7987de93e775d0f0e7108409b589",
+    "exampleDocuArtifact": "https://619-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "5cb5f0c2924e8656fa8c5f6c9aae603a3bb0c813f875b9b4086266b44a9d9ceb",
     "docuArtifacts": [
-      {
-        "url": "https://609-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "12b18b562ecb5e3ebebe47b9f13d169a3c4ab102749f0c5d23977d57cd5c8694",
-        "build": "609"
-      },
       {
         "url": "https://610-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "62fd49ca6f710ab381ed0a0f7b4d0392e2689c6f9e924c550dc0f28e2ff2da3a",
@@ -156,6 +151,11 @@
         "url": "https://616-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "785cb8e382937daaafefd9f983132e02cbfd75b6d97e50a59ee10dc3114ed6fa",
         "build": "616"
+      },
+      {
+        "url": "https://619-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "890a30b30758e44109e9ee4fd56ccf3f2094c72a243e05dbdf2df67221b41f96",
+        "build": "619"
       }
     ]
   },
