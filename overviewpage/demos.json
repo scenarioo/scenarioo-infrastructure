@@ -142,21 +142,16 @@
   {
     "branchName": "feature/806-update-infrastructure-documentation",
     "encodedBranchName": "feature-806-update-infrastructure-documentation",
-    "timestamp": "1555010298",
-    "buildNumber": "645",
-    "triggeredBy": "mi-we",
+    "timestamp": "1555516464",
+    "buildNumber": "647",
+    "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/807",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/645",
-    "warArtifact": "https://645-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "a6efc5e84eea9343ed5e4a35e54919e3e639af0f56ad7ab7ca9bc385746a8822",
-    "exampleDocuArtifact": "https://645-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "6e20017fb99494851f620db582e9749e47f95f09375f27093eea2a6789368ce0",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/647",
+    "warArtifact": "https://647-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "70495ed240b4b130bf46e4488ac38a5f662746fb50b9e16609c75ebee5569d7e",
+    "exampleDocuArtifact": "https://647-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "2ebe466550232f29bf8b76404f8e784c7e51aa7ddd90a0da9aef6cae648db7ed",
     "docuArtifacts": [
-      {
-        "url": "https://615-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "9f89e6b6a0835977b32907cd46b3adf1f60862c1194d36d39cc7e4615c23819d",
-        "build": "615"
-      },
       {
         "url": "https://616-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "785cb8e382937daaafefd9f983132e02cbfd75b6d97e50a59ee10dc3114ed6fa",
@@ -176,6 +171,11 @@
         "url": "https://645-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "b2f174098e5d877efbc4a67e4f2312cbc30b3ab19040c241e9cd5011a16e2aa0",
         "build": "645"
+      },
+      {
+        "url": "https://647-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "8974123634e23136c4372236af3176dd650e3d12b6466bb1ec9e491e9209f100",
+        "build": "647"
       }
     ]
   },
