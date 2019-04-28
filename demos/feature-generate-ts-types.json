@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/generate-ts-types",
+  "encodedBranchName": "feature-generate-ts-types",
+  "timestamp": "1556449017",
+  "buildNumber": "668",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/810",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/668",
+  "warArtifact": "https://668-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "6aafa694966dcfdd1909f1f07ebe7c447eea122555f6eec93b56231abcc3022a",
+  "exampleDocuArtifact": "https://668-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "1635fa1515f17af0ad5871f006de15587afa10a107dae0feabaacff1cdba5a35",
+  "docuArtifacts": [
+    {
+      "url": "https://668-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "fc2e7e2501cecee0e6822a5b654d67ce9ebde445d522121b8624d006cfe5ee5f",
+      "build": "668"
+    }
+  ]
+}
