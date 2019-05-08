@@ -42,21 +42,16 @@
   {
     "branchName": "feature/720-publish-develop-to-master",
     "encodedBranchName": "feature-720-publish-develop-to-master",
-    "timestamp": "1557302328",
-    "buildNumber": "721",
+    "timestamp": "1557303651",
+    "buildNumber": "724",
     "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/721",
-    "warArtifact": "https://721-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "d2975d9bd7c8a045d25db6c8316d5f7fdcd51e14871ab84e1ee36acfc6d3c70c",
-    "exampleDocuArtifact": "https://721-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "b34ddd5c07c0ed77276fe123a07c09a23a4c5d0efa166db1ec1c85783bc30a0a",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/724",
+    "warArtifact": "https://724-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "62ceabec43d9c3315c9689de162115dc69976b458e6049d011b238c22bdb3af3",
+    "exampleDocuArtifact": "https://724-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "9c7f48d10cee73d3e4b28fef73cc42620a6884d2b3014c0bb3db3169f29121c7",
     "docuArtifacts": [
-      {
-        "url": "https://702-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "8c554c03ea7db27ed1577bfd49eceb11e39be190400bf48631c1616ecdab3b8a",
-        "build": "702"
-      },
       {
         "url": "https://708-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "d917572bc532b0ff1ae0b15b3a53c2dfbe63d1fa437bbae894bd61ca4fb0848c",
@@ -76,6 +71,11 @@
         "url": "https://721-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "17230dc894b9b4c2150f68f20e10b15486b0a54883eefed0c55f0f84a827c135",
         "build": "721"
+      },
+      {
+        "url": "https://724-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "e9441624aa4db5c4e014e43d1f7fdaddc25e87a2aa8d0382517c6b33bf329375",
+        "build": "724"
       }
     ]
   },
