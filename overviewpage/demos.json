@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1557402240",
-    "buildNumber": "737",
-    "triggeredBy": "eggerschwiler",
+    "timestamp": "1557575315",
+    "buildNumber": "741",
+    "triggeredBy": "danielsuter",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/737",
-    "warArtifact": "https://737-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "3937035a51ef3d5fa3c413780898795752d326343673bef50af9125584bf7047",
-    "exampleDocuArtifact": "https://737-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "933b5cb015d6213467bd4fa726732a3f94065a1a9ccf24c2732be608314d5de5",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/741",
+    "warArtifact": "https://741-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "2496d9b14fef56a46f67d664de4a2bf387feb0fc3534c0cd917d053beacf57bc",
+    "exampleDocuArtifact": "https://741-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "3089daf7dbb0d24ee65618325d0cee2c791b03d8541d1c06953c46eb19202ea5",
     "docuArtifacts": [
-      {
-        "url": "https://661-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "95468787c8a00a3150161ef7917757a963a2f4fe410ba58b158ca392886b9f14",
-        "build": "661"
-      },
       {
         "url": "https://673-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "c4fda6f4735a743b97d7e2aaaef9622e7c81f4c30bea1f8b4f0df426293d96f0",
@@ -36,6 +31,11 @@
         "url": "https://737-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "8205e58b0d3639746913b24de110ce921775364c16b58b89eb321c5fda360a5a",
         "build": "737"
+      },
+      {
+        "url": "https://741-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "1a9af2d7df33e3d46d7c5783a79b16a8555e49e101503dc8cc8d813b8a78b488",
+        "build": "741"
       }
     ]
   },
