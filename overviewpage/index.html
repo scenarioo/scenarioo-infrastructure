@@ -40,7 +40,7 @@
         const d = document;
         window.onload = function () {
             const getDemoRequest = new Request('demos.json');
-            fetch(getDemoRequest)
+            fetch(getDemoRequest, {cache: "no-store"})
                 .then(response => response.json())
                 .then(updateDemos);
         };
