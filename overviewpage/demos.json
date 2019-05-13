@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1557575470",
-    "buildNumber": "743",
-    "triggeredBy": "danielsuter",
+    "timestamp": "1557733508",
+    "buildNumber": "757",
+    "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/743",
-    "warArtifact": "https://743-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "fa697fba0d56c9660d40ccb09fab78aa81a4718a570707c1e77802cc5ce6b2b2",
-    "exampleDocuArtifact": "https://743-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "24c3cc27de1301123ab8d4c4c82b105d1a174415ef3bf70ad0158c229cda1064",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/757",
+    "warArtifact": "https://757-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "af69a20c3cfaeb9743f5319a6f55a10f4468a09d047e1f0c209f742287083cf3",
+    "exampleDocuArtifact": "https://757-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "2c150b2a13e3ac6f662dd9d9ca0409bc65910b7564882a5c91b247b5e6f6fced",
     "docuArtifacts": [
-      {
-        "url": "https://676-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "3d008177ffa8f28781d7e06ca5254f2a64a2bbe6dda1c0553f42ff4710f365dd",
-        "build": "676"
-      },
       {
         "url": "https://733-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "67f77184dde41c19bdbbdf2353f888973fb1b9f6a50c11b9ca062abebd98c6e5",
@@ -36,6 +31,11 @@
         "url": "https://743-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "76ea85a2786c733b3cb6277497ff2ec6b67b3e33bc6fc06e1b9cc69be632a925",
         "build": "743"
+      },
+      {
+        "url": "https://757-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "bad73695f17cff4c82f67cd65784bd86f4a9b53d3c46194afa7f1854bfd9a1a9",
+        "build": "757"
       }
     ]
   },
