@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/727-build-import-ui-issues",
+  "encodedBranchName": "feature-727-build-import-ui-issues",
+  "timestamp": "1557730194",
+  "buildNumber": "754",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/754",
+  "warArtifact": "https://754-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "c8cd5f84bba7d1e7bc82403fe290ab934f5780b2528de38c8f2a2752cac091dd",
+  "exampleDocuArtifact": "https://754-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "c7124fe768d8218fb29a18a962780a33a072a7577aa956e1b96829b0c8908314",
+  "docuArtifacts": [
+    {
+      "url": "https://754-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "66917bfdbb6e131b617d89d3dc97e3882333db6e1fdd2d7fec964a0371904571",
+      "build": "754"
+    }
+  ]
+}
