@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/688-rework-developer-documentation",
+  "encodedBranchName": "feature-688-rework-developer-documentation",
+  "timestamp": "1557841764",
+  "buildNumber": "774",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/818",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/774",
+  "warArtifact": "https://774-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "825bef023d45a4d08d16e1655e0b6cad9cb9e22050bf91698921a6e162681bff",
+  "exampleDocuArtifact": "https://774-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "d7d4606e5d0b29eb0bf6dcbbf5efe8a7065216b29d1dda2c97832426771723ba",
+  "docuArtifacts": [
+    {
+      "url": "https://774-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "b751a502479e6706226a33b4e9d6d423059b56ee054303c076fe5783818e2421",
+      "build": "774"
+    }
+  ]
+}
