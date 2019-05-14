@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/742-new-tests-for-comparison-rest-api",
+  "encodedBranchName": "feature-742-new-tests-for-comparison-rest-api",
+  "timestamp": "1557841970",
+  "buildNumber": "775",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/813",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/775",
+  "warArtifact": "https://775-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "09fd88faa46f78941a77bc27eff1ecc6869883fec88740cd2fe37ba20c83f47a",
+  "exampleDocuArtifact": "https://775-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "d41cdfc2ef65b8e3519b9ce14af4021db9745b0f6dcbafb24bb750c2d59d84de",
+  "docuArtifacts": [
+    {
+      "url": "https://775-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "0b722d6ba5ce2c2a8ac827bf47c178619b677d4555a634c355452a6e50fa7d25",
+      "build": "775"
+    }
+  ]
+}
