@@ -1,15 +1,15 @@
 {
   "branchName": "feature/upgrade-config-service",
   "encodedBranchName": "feature-upgrade-config-service",
-  "timestamp": "1558426029",
-  "buildNumber": "787",
+  "timestamp": "1558436932",
+  "buildNumber": "789",
   "triggeredBy": "eggerschwiler",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/812",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/787",
-  "warArtifact": "https://787-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "ba3d81712661c7476ecc4528a69a573c23aae0146b809ddc9b3276ee26ea40fe",
-  "exampleDocuArtifact": "https://787-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "8f49f3e9f18786de368900dff2b491f21445a0ff5992e22563873b7bb7897526",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/789",
+  "warArtifact": "https://789-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "c58df9c4926b8afa7544c1bc5ac74399073f846db008a254521789dc71b00908",
+  "exampleDocuArtifact": "https://789-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "c82a8150244c6217d3503a7694dc57e65b3af3bcc6cbd17ae449b867323f4251",
   "docuArtifacts": [
     {
       "url": "https://778-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
@@ -30,6 +30,11 @@
       "url": "https://787-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "dc7d344a6ec8798700128d73e75ac962b126ed78971d8760f96891a512c3491c",
       "build": "787"
+    },
+    {
+      "url": "https://789-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "4a6a39bf974549a423a977b8f1eadb31514b37600ea763999fa61dcdbd1c9b61",
+      "build": "789"
     }
   ]
 }
