@@ -122,21 +122,16 @@
   {
     "branchName": "feature/upgrade-config-service",
     "encodedBranchName": "feature-upgrade-config-service",
-    "timestamp": "1558436932",
-    "buildNumber": "789",
+    "timestamp": "1558439440",
+    "buildNumber": "791",
     "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/812",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/789",
-    "warArtifact": "https://789-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "c58df9c4926b8afa7544c1bc5ac74399073f846db008a254521789dc71b00908",
-    "exampleDocuArtifact": "https://789-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "c82a8150244c6217d3503a7694dc57e65b3af3bcc6cbd17ae449b867323f4251",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/791",
+    "warArtifact": "https://791-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "12a47a1b6ff9eca6ffe5bdf166f2af2e716a05a9299a860bac9870c740505b35",
+    "exampleDocuArtifact": "https://791-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "431febc07381a89fd7d2cbcfd3c2e05739e9bb80bdb0d2304faeda028770a653",
     "docuArtifacts": [
-      {
-        "url": "https://778-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "b225cdcf4f6ccff66f29237b10546790bf95522d66c905f03ed431998a5ab46a",
-        "build": "778"
-      },
       {
         "url": "https://780-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "99b57e7c60ecb8e2691227a7e2d6ae67d65b02450ab684e69a3d62159205220c",
@@ -156,6 +151,11 @@
         "url": "https://789-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "4a6a39bf974549a423a977b8f1eadb31514b37600ea763999fa61dcdbd1c9b61",
         "build": "789"
+      },
+      {
+        "url": "https://791-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "21c8c428b3706325af10e44809243c4a184f6ba1de09d0c5031e0c5f838be433",
+        "build": "791"
       }
     ]
   },
