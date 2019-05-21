@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/637-wait-for-startup-calculations-to-complete",
+  "encodedBranchName": "feature-637-wait-for-startup-calculations-to-complete",
+  "timestamp": "1558443779",
+  "buildNumber": "793",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/793",
+  "warArtifact": "https://793-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "a8c374718365b274c74aad07cde1e009ba7d2a1623ff863cbb194fd0e91089a0",
+  "exampleDocuArtifact": "https://793-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "e1c290f18a86f7b0429452ffa393012aca4e355f92165525ccdebab6d4f158dd",
+  "docuArtifacts": [
+    {
+      "url": "https://793-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "d95bd6a5b81f8f26659072f7f3a151dd4ef6c9e35b4618050a82c63736fb88ad",
+      "build": "793"
+    }
+  ]
+}
