@@ -4,6 +4,13 @@
   become: True        # We need root rights to install stuff
 
   #
+  # USERS WITH ACCESS TO SERVER
+  #
+  vars:
+  - default_users: ['nobody']
+  - required_users: ['eggerschwiler']
+
+  #
   # CONFIG & VARIABLES
   #
   pre_tasks:
@@ -29,6 +36,7 @@
     - tomcat
     - docker
     - nginx
+    - manageUsers
 
   tasks:
     - name: Install unzip and jq (needed to extract artifact docu and read JSONs)
