@@ -17,6 +17,7 @@
 - name: Add required users
   user:
     name: "{{ item }}"
+    group: root
     state: present
   with_items: "{{ required_users }}"
 
@@ -26,3 +27,11 @@
     state: present
     key: "{{ lookup('file', '../keys/{{ item }}.pem') }}"
   with_items: "{{ required_users }}"
+
+- name: Allow 'root' group to have passwordless sudo
+  lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: '^%root'
+    line: '%root ALL=(ALL) NOPASSWD: ALL'
+    validate: 'visudo -cf %s'
