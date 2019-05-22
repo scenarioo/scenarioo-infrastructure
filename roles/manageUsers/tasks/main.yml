@@ -1,6 +1,11 @@
 #
 # Removes no longer needed users and adds SSH keys for all users.
 #
+- name: Make sure we have a 'scenarioo' group
+  group:
+    name: scenarioo
+    state: present
+
 - name: Get list of all users
   shell: "getent passwd | awk -F: '$3 >= 1000 {print $1}'"
   changed_when: false
@@ -17,7 +22,7 @@
 - name: Add required users
   user:
     name: "{{ item }}"
-    group: root
+    group: scenarioo
     state: present
   with_items: "{{ required_users }}"
 
@@ -28,10 +33,15 @@
     key: "{{ lookup('file', '../keys/{{ item }}.pem') }}"
   with_items: "{{ required_users }}"
 
-- name: Allow 'root' group to have passwordless sudo
+- name: Allow 'scenarioo' group to have passwordless sudo
   lineinfile:
     dest: /etc/sudoers
     state: present
-    regexp: '^%root'
-    line: '%root ALL=(ALL) NOPASSWD: ALL'
+    regexp: '^%scenarioo'
+    line: '%scenarioo ALL=(ALL) NOPASSWD: ALL'
     validate: 'visudo -cf %s'
+
+- name: Ensure tomcat log directory can be accessed by all users (is 0755)
+  command: find /var/log/tomcat8 -type d -exec chmod -c 0755 {} \;
+  register: chmod_result
+  changed_when: "chmod_result.stdout != \"\""
