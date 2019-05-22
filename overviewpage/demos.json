@@ -42,21 +42,16 @@
   {
     "branchName": "feature/637-wait-for-startup-calculations-to-complete",
     "encodedBranchName": "feature-637-wait-for-startup-calculations-to-complete",
-    "timestamp": "1558504912",
-    "buildNumber": "808",
+    "timestamp": "1558506280",
+    "buildNumber": "810",
     "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/808",
-    "warArtifact": "https://808-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "95070fbf2e2fe33e3e8e87dc56fd2f3a0708c45b6f4b6df143cb47ad37890e7d",
-    "exampleDocuArtifact": "https://808-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "aec886cdb3f5c32d55fa0a69b707e8fb24c3d865949e6f5dfc435f450d718232",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/810",
+    "warArtifact": "https://810-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "4c9602463b5fb704c268abb0880303dfc511f07d1fc651593ca185b613ab34fb",
+    "exampleDocuArtifact": "https://810-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "dfa1472551b3dbf54693b99ca5fc6018b6c2940221701269921d27ffd0b9a8db",
     "docuArtifacts": [
-      {
-        "url": "https://793-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "d95bd6a5b81f8f26659072f7f3a151dd4ef6c9e35b4618050a82c63736fb88ad",
-        "build": "793"
-      },
       {
         "url": "https://798-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "5be64bbe4fcb20d1cb982ade4baa9d2346abca64c341bfbb8f28bfcded7a5c89",
@@ -76,6 +71,11 @@
         "url": "https://808-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "fea0fb21c9025c037a3458fd5442689fca8240cf25159c43aab58644ec54a007",
         "build": "808"
+      },
+      {
+        "url": "https://810-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "7e2714532a81cc696730980ab09844ad8f6fcd8ae060a6aea449f48eacc53038",
+        "build": "810"
       }
     ]
   },
