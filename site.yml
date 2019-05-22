@@ -8,7 +8,7 @@
   #
   vars:
   - default_users: ['nobody']
-  - required_users: ['eggerschwiler']
+  - required_users: ['eggerschwiler', 'test']
 
   #
   # CONFIG & VARIABLES

@@ -2,7 +2,7 @@
 # Removes no longer needed users and adds SSH keys for all users.
 #
 - name: Get list of all users
-  shell: "getent passwd | awk -F: '$3 > 1000 {print $1}'"
+  shell: "getent passwd | awk -F: '$3 >= 1000 {print $1}'"
   changed_when: false
   register: users
 
