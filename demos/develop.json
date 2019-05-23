@@ -1,21 +1,16 @@
 {
   "branchName": "develop",
   "encodedBranchName": "develop",
-  "timestamp": "1557733508",
-  "buildNumber": "757",
+  "timestamp": "1558612059",
+  "buildNumber": "824",
   "triggeredBy": "eggerschwiler",
   "pullRequestUrl": "",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/757",
-  "warArtifact": "https://757-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "af69a20c3cfaeb9743f5319a6f55a10f4468a09d047e1f0c209f742287083cf3",
-  "exampleDocuArtifact": "https://757-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "2c150b2a13e3ac6f662dd9d9ca0409bc65910b7564882a5c91b247b5e6f6fced",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/824",
+  "warArtifact": "https://824-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "7e8a0da73de54a5ecda2562db8a0c59ceb4dd92a89b4093ff3eb5cdf16efada7",
+  "exampleDocuArtifact": "https://824-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "aa8dce23b7f802417cbf2cf464e1d23c8b8f1cf3ab9653b921af57c8ad2008af",
   "docuArtifacts": [
-    {
-      "url": "https://733-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "67f77184dde41c19bdbbdf2353f888973fb1b9f6a50c11b9ca062abebd98c6e5",
-      "build": "733"
-    },
     {
       "url": "https://737-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "8205e58b0d3639746913b24de110ce921775364c16b58b89eb321c5fda360a5a",
@@ -35,6 +30,11 @@
       "url": "https://757-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "bad73695f17cff4c82f67cd65784bd86f4a9b53d3c46194afa7f1854bfd9a1a9",
       "build": "757"
+    },
+    {
+      "url": "https://824-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "7f0e1d57d38409fd27b6d664b41d0e24c3222ddf2fa566d206a5288ecd4ef68d",
+      "build": "824"
     }
   ]
 }
