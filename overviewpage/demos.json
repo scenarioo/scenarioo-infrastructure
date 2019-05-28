@@ -82,21 +82,16 @@
   {
     "branchName": "feature/688-rework-developer-documentation",
     "encodedBranchName": "feature-688-rework-developer-documentation",
-    "timestamp": "1559046091",
-    "buildNumber": "850",
+    "timestamp": "1559046129",
+    "buildNumber": "852",
     "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/818",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/850",
-    "warArtifact": "https://850-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "05c4619b4f695f95969dc72ea02e4504e7f3cc81a7f0d67a96b41844ca4e054b",
-    "exampleDocuArtifact": "https://850-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "236760d73c018ebb016f523db226396b6057e8683de6be69d66b8041948b4e1a",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/852",
+    "warArtifact": "https://852-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "d9be47c1dfeff8f75349ae82b2584c3112fc4bd08a057f35cb7185fc46aa3771",
+    "exampleDocuArtifact": "https://852-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "b0110070c8d98a66f9bdfeecbecc03693b1881cb0d2ad7ba290f69757ea91203",
     "docuArtifacts": [
-      {
-        "url": "https://774-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "b751a502479e6706226a33b4e9d6d423059b56ee054303c076fe5783818e2421",
-        "build": "774"
-      },
       {
         "url": "https://814-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "8e8a34c0ba01fd7269715252d442a506c8c70a7b53651a1f5c69ae22eb145b6e",
@@ -116,6 +111,11 @@
         "url": "https://850-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "e18ea0e6188c9e82574d4cab1ac0f660e87baf6f74d24af0a898f9fd4b2e9ad1",
         "build": "850"
+      },
+      {
+        "url": "https://852-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "c2f1f5cb13aa736c3874b042434030873a247721584b6d3e4eebd21c6c46d817",
+        "build": "852"
       }
     ]
   },
