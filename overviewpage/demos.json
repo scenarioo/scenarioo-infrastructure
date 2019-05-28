@@ -82,21 +82,16 @@
   {
     "branchName": "feature/688-rework-developer-documentation",
     "encodedBranchName": "feature-688-rework-developer-documentation",
-    "timestamp": "1559046129",
-    "buildNumber": "852",
-    "triggeredBy": "eggerschwiler",
+    "timestamp": "1559047228",
+    "buildNumber": "855",
+    "triggeredBy": "mi-we",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/818",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/852",
-    "warArtifact": "https://852-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "d9be47c1dfeff8f75349ae82b2584c3112fc4bd08a057f35cb7185fc46aa3771",
-    "exampleDocuArtifact": "https://852-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "b0110070c8d98a66f9bdfeecbecc03693b1881cb0d2ad7ba290f69757ea91203",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/855",
+    "warArtifact": "https://855-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "528cb2761cb3bd3403c072624d50e38d7ffb7fd7d94108396399be6c246bb0a4",
+    "exampleDocuArtifact": "https://855-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "550028aa359eeed0c0653c6f1d6a1a1535ab7f46f73957d08976ded891668099",
     "docuArtifacts": [
-      {
-        "url": "https://814-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "8e8a34c0ba01fd7269715252d442a506c8c70a7b53651a1f5c69ae22eb145b6e",
-        "build": "814"
-      },
       {
         "url": "https://816-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "374451a0ba1b4505eb4372332991043514613809c58b7a266898111e915e0fc4",
@@ -116,6 +111,11 @@
         "url": "https://852-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "c2f1f5cb13aa736c3874b042434030873a247721584b6d3e4eebd21c6c46d817",
         "build": "852"
+      },
+      {
+        "url": "https://855-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "2dbfcb83debe8995ed02db6b64274b5089de2a2476a94de1d3aa329756ccf8e7",
+        "build": "855"
       }
     ]
   },
