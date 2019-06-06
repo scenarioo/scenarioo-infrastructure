@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/upgrade-config-service",
+  "encodedBranchName": "feature-upgrade-config-service",
+  "timestamp": "1559848388",
+  "buildNumber": "911",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/812",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/911",
+  "warArtifact": "https://911-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "dbd9d934e4ca7fbd0fb35adac71aff2641a53a08dd335de95fa0880db5d7182d",
+  "exampleDocuArtifact": "https://911-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "c8b2fa7d0f26bd9c83b9929ca57df437cc8912964c3c99ba30016483580136f0",
+  "docuArtifacts": [
+    {
+      "url": "https://911-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "52d7d64a6c9cd30677c4d4dd999a10f36795198b06dacc0cb2919db49fbfcd92",
+      "build": "911"
+    }
+  ]
+}
