@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/698-new-e2e-tests",
+  "encodedBranchName": "feature-698-new-e2e-tests",
+  "timestamp": "1560247717",
+  "buildNumber": "920",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/808",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/920",
+  "warArtifact": "https://920-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "602a7a37ce2191c0dbf8ab0d61be1bdc18ce296c6f5ecbee84265a60e513dad8",
+  "exampleDocuArtifact": "https://920-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "66bd6ed9a5cf0b41ab81f551448e8e92a24f1c5f00cd9d9880739d3d07ce59ef",
+  "docuArtifacts": [
+    {
+      "url": "https://920-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "fb419b871a072bed6af471fe0acc06fbd8efd576885094e1c7f55558198a0044",
+      "build": "920"
+    }
+  ]
+}
