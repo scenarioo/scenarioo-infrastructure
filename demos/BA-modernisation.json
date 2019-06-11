@@ -1,0 +1,20 @@
+{
+  "branchName": "BA-modernisation",
+  "encodedBranchName": "BA-modernisation",
+  "timestamp": "1560242325",
+  "buildNumber": "918",
+  "triggeredBy": "",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/918",
+  "warArtifact": "https://918-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "ec29e40b2bf8188dc6936becb09d91edf4c25baa1b0c7592a58bf5684604a77d",
+  "exampleDocuArtifact": "https://918-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "75bc0753ffdfe5e68bd9e1207f28b8150824e2685fd3c6c3298861d9df80dbf9",
+  "docuArtifacts": [
+    {
+      "url": "https://918-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "29cc0e2d1e2faf2582967eca9b344ea595a3cb64dd7dad07e36f900ee029d257",
+      "build": "918"
+    }
+  ]
+}
