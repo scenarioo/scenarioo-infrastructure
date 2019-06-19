@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/862-boostrap-library-angular",
+  "encodedBranchName": "feature-862-boostrap-library-angular",
+  "timestamp": "1560932500",
+  "buildNumber": "936",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/936",
+  "warArtifact": "https://936-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "8926ebff78403427856fa9423bda1949961bf02a67b176234edf4663d688234e",
+  "exampleDocuArtifact": "https://936-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "2d1401f35f08a3024829dc64c8dec59d8f574f1d14eae87a06e44dc6e096551a",
+  "docuArtifacts": [
+    {
+      "url": "https://936-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "bc6db0a9666139ffa94f9e5df4365f280b96ee1023b1f7813c96ce815a277bf6",
+      "build": "936"
+    }
+  ]
+}
