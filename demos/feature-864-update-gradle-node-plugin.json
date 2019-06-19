@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/864-update-gradle-node-plugin",
+  "encodedBranchName": "feature-864-update-gradle-node-plugin",
+  "timestamp": "1560946868",
+  "buildNumber": "942",
+  "triggeredBy": "sascha-kaufmann",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/942",
+  "warArtifact": "https://942-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "287fa26d5213626e862c11323fd19dbc76becff9e2f145e8d266317214acf252",
+  "exampleDocuArtifact": "https://942-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "10573218e8cd10c4489a2184a0c465a7d461207c5159575f0da7ed0940116e98",
+  "docuArtifacts": [
+    {
+      "url": "https://942-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "36b283e1dee45d63ebcad471b3f113824513c4d7643e3393bb0a8f8a19a93a5c",
+      "build": "942"
+    }
+  ]
+}
