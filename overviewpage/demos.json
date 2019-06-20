@@ -80,26 +80,6 @@
     ]
   },
   {
-    "branchName": "feature/862-boostrap-library-angular",
-    "encodedBranchName": "feature-862-boostrap-library-angular",
-    "timestamp": "1561030295",
-    "buildNumber": "995",
-    "triggeredBy": "danielsuter",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/863",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/995",
-    "warArtifact": "https://995-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "7079b40bb04b6b865099f87f3bc8ae9e2991d02f13e1dcc364e6ffebfa0995ed",
-    "exampleDocuArtifact": "https://995-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "0d5d4d6570bcf3d2074c6916970c6f1c030b159ef3b033aa9e5d6300099500c8",
-    "docuArtifacts": [
-      {
-        "url": "https://995-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "b34c171fdc9f4314ea348986ac2f13cb6ed938b9b583384742107e2b26dec39e",
-        "build": "995"
-      }
-    ]
-  },
-  {
     "branchName": "feature/864-update-gradle-node-plugin",
     "encodedBranchName": "feature-864-update-gradle-node-plugin",
     "timestamp": "1561035437",
@@ -116,6 +96,26 @@
         "url": "https://1010-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "2210ca431b1999d57ce59578cab1a9269824bcd4274b9cc744e14459e4805503",
         "build": "1010"
+      }
+    ]
+  },
+  {
+    "branchName": "feature/872-reenable-image-caching-for-step-comparison-performance",
+    "encodedBranchName": "feature-872-reenable-image-caching-for-step-comparison-performance",
+    "timestamp": "1561046960",
+    "buildNumber": "1030",
+    "triggeredBy": "bruderol",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1030",
+    "warArtifact": "https://1030-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "f16f374a76f10b71f1e14a52b24d1d0124a19a019980eccc8caf8bfbd2384d1b",
+    "exampleDocuArtifact": "https://1030-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "61a79a7bd3f2af3c10ab69152a49149c0f5699a6d0731a8b03f2313258c44641",
+    "docuArtifacts": [
+      {
+        "url": "https://1030-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "f6c198c19169c01145e5de409316e5492e646cebdf941cbc385e7f72d0e7e8f8",
+        "build": "1030"
       }
     ]
   },
