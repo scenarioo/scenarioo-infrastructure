@@ -110,6 +110,26 @@
     ]
   },
   {
+    "branchName": "feature/migrate-managed-tabs-only",
+    "encodedBranchName": "feature-migrate-managed-tabs-only",
+    "timestamp": "1561038695",
+    "buildNumber": "1015",
+    "triggeredBy": "danielsuter",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1015",
+    "warArtifact": "https://1015-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "654e3c1188906648652be8cc202533943fd5e0e68808b55d4a2787469545f80f",
+    "exampleDocuArtifact": "https://1015-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "c5cb4f04062cb2bc8105f7fafd133f9481f2073a865f9aace99d1e755f7cdbb3",
+    "docuArtifacts": [
+      {
+        "url": "https://1015-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "60e7fc0e812f22706096b0f8b28f37b111f5f82c0316f7af6c79ea7a6c70918b",
+        "build": "1015"
+      }
+    ]
+  },
+  {
     "branchName": "master",
     "encodedBranchName": "master",
     "timestamp": "1544019110",
@@ -126,26 +146,6 @@
         "url": "https://305-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "2aeb6a72ca48da0c38d2dd18473074c254231e02e0606e8b1becde5527620c00",
         "build": "305"
-      }
-    ]
-  },
-  {
-    "branchName": "release/5.0",
-    "encodedBranchName": "release-5.0",
-    "timestamp": "1561030006",
-    "buildNumber": "992",
-    "triggeredBy": "bruderol",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/992",
-    "warArtifact": "https://992-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "61bf32242baa57b9504675367b9028fb6c264af583413c04eff4979d702b38f4",
-    "exampleDocuArtifact": "https://992-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "6fe64e24415cc4e6dc380c160dcb73c898b2545f01d0c3f5b524d15256afc726",
-    "docuArtifacts": [
-      {
-        "url": "https://992-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "4c12bd20d4700f5968008d1f24c384b9ce9e8b4133038221aabfdfee2927620e",
-        "build": "992"
       }
     ]
   }
