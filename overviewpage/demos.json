@@ -40,36 +40,6 @@
     ]
   },
   {
-    "branchName": "feature/637-wait-for-startup-calculations-to-complete",
-    "encodedBranchName": "feature-637-wait-for-startup-calculations-to-complete",
-    "timestamp": "1561029997",
-    "buildNumber": "990",
-    "triggeredBy": "eggerschwiler",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/825",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/990",
-    "warArtifact": "https://990-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "3d1f6e5f5ef5d0fdf741f5ece1a11412bc4f3882ad776ac87ef4e15fa33e7bca",
-    "exampleDocuArtifact": "https://990-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "b9bc62545e9fd02dcc18dfc77991fee1781bd9a91e48453e3a05998b0693a2d3",
-    "docuArtifacts": [
-      {
-        "url": "https://981-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "3ff04c6ce10fc3ddffc834620eca6625fc45184acfa881b18ee5acd3ab90024a",
-        "build": "981"
-      },
-      {
-        "url": "https://985-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "071d6869478cbd80a91ad5385ddca94f88bb17d86de72a4b261107cbe19f0290",
-        "build": "985"
-      },
-      {
-        "url": "https://990-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "8266fa8814b6c9686dc2024efd5baf03337be44390f356ca3cb36372f5a0d527",
-        "build": "990"
-      }
-    ]
-  },
-  {
     "branchName": "feature/717-diffviewer-styling-ui-issues",
     "encodedBranchName": "feature-717-diffviewer-styling-ui-issues",
     "timestamp": "1561033625",
@@ -111,6 +81,26 @@
         "url": "https://995-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "b34c171fdc9f4314ea348986ac2f13cb6ed938b9b583384742107e2b26dec39e",
         "build": "995"
+      }
+    ]
+  },
+  {
+    "branchName": "feature/864-update-gradle-node-plugin",
+    "encodedBranchName": "feature-864-update-gradle-node-plugin",
+    "timestamp": "1561035437",
+    "buildNumber": "1010",
+    "triggeredBy": "sascha-kaufmann",
+    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/868",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1010",
+    "warArtifact": "https://1010-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "7bf437e4ff882bc5d1e4da0ebb868fd08e79e2e122548d24fd6ec31282200f91",
+    "exampleDocuArtifact": "https://1010-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "6613228cf92d69559d1988e1018d79ee25539a5bee6e81f191af53eb68dda54f",
+    "docuArtifacts": [
+      {
+        "url": "https://1010-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "2210ca431b1999d57ce59578cab1a9269824bcd4274b9cc744e14459e4805503",
+        "build": "1010"
       }
     ]
   },
