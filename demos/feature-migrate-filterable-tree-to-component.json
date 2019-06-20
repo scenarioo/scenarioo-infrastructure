@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/migrate-filterable-tree-to-component",
+  "encodedBranchName": "feature-migrate-filterable-tree-to-component",
+  "timestamp": "1561014119",
+  "buildNumber": "951",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/865",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/951",
+  "warArtifact": "https://951-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "654867e3f649a5f5c56159272dc44021326a0b0affbdc81fdac1542fec6287ec",
+  "exampleDocuArtifact": "https://951-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "e7d340c0d503b8d7d50fa86a7ef00e6f92b80abdf6bb06ed5030c9910086629e",
+  "docuArtifacts": [
+    {
+      "url": "https://951-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "9e33cf38748fe670a60dfae3753c5b39e01c8675a34cbfd61afacd3da85a6874",
+      "build": "951"
+    }
+  ]
+}
