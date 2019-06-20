@@ -147,7 +147,7 @@
     url: "{{ branchConfig.warArtifact }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
     dest: "{{ config.tempFolder }}/scenarioo-{{ branch }}.war"
     sha256sum: "{{ branchConfig.warArtifactSha256 }}"     # Will only download if checksum changed
-#  no_log: true  # Don't show CIRCLE_TOKEN in logs
+  no_log: true  # Don't show CIRCLE_TOKEN in logs
   register: war_download_result
 
 - name: "{{ branch }} - Delete old WAR"
