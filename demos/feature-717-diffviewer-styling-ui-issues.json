@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/717-diffviewer-styling-ui-issues",
+  "encodedBranchName": "feature-717-diffviewer-styling-ui-issues",
+  "timestamp": "1561029035",
+  "buildNumber": "986",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/824",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/986",
+  "warArtifact": "https://986-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "a96ef604682d8706c91a3cf4bf1ca6f6a8fa7482c65fdeba7d31d0be882a3860",
+  "exampleDocuArtifact": "https://986-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "ba45998315c22e13137bc430f63c6f3065d8913521577faf715338a818aed23d",
+  "docuArtifacts": [
+    {
+      "url": "https://986-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "e6e3621ca72652d2a97247e24627876f69716b38e7e2a37dd690e8e4bfb509bc",
+      "build": "986"
+    }
+  ]
+}
