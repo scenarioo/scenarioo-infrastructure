@@ -142,12 +142,25 @@
 - name: "{{ branch }} - Ensure correct permissions"
   file: dest="{{ config.scenariooDocuFolder }}/{{ branch }}" owner=tomcat8 group=tomcat8 recurse=yes
 
-- name: "{{ branch }} - Download & deploy war"
+- name: "{{ branch }} - Download WAR"
   get_url:
     url: "{{ branchConfig.warArtifact }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
-    dest: "{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war"
+    dest: "{{ config.tempFolder }}/scenarioo-{{ branch }}.war"
+    register: war_download_result
     sha256sum: "{{ branchConfig.warArtifactSha256 }}"     # Will only download if checksum changed
   no_log: true  # Don't show CIRCLE_TOKEN in logs
+
+- name: "{{ branch }} - Delete old WAR"
+  file: path="{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war" state=absent
+  when: war_download_result.changed
+
+- name: "{{ branch }} - Wait for old WAR to become undeployed"
+  wait_for: path="{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}" state=absent
+  when: war_download_result.changed
+
+- name: "{{ branch }} - Copy for deployment"
+  command: mv "{{ config.tempFolder }}/scenarioo-{{ branch }}.war" "{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war"
+  when: war_download_result.changed
 
 - name: "{{ branch }} - Wait for deployment"
   uri:
