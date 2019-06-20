@@ -148,7 +148,7 @@
     dest: "{{ config.tempFolder }}/scenarioo-{{ branch }}.war"
     register: war_download_result
     sha256sum: "{{ branchConfig.warArtifactSha256 }}"     # Will only download if checksum changed
-  no_log: true  # Don't show CIRCLE_TOKEN in logs
+#  no_log: true  # Don't show CIRCLE_TOKEN in logs
 
 - name: "{{ branch }} - Delete old WAR"
   file: path="{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war" state=absent
