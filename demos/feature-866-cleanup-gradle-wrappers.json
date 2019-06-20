@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/866-cleanup-gradle-wrappers",
+  "encodedBranchName": "feature-866-cleanup-gradle-wrappers",
+  "timestamp": "1561023989",
+  "buildNumber": "975",
+  "triggeredBy": "sascha-kaufmann",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/975",
+  "warArtifact": "https://975-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "5ae1481b8b19cf25cdb2c3ea263d7a6e61258185a2bb07993e4950d401d21b17",
+  "exampleDocuArtifact": "https://975-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "4ae3785c8f97bb520f880a7a5f74f28beeb774593f24d92907d2fe9d55472a86",
+  "docuArtifacts": [
+    {
+      "url": "https://975-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "82450d77318614bd5e252be7f946fbae14bade596aff6512d956b3718a46ecb2",
+      "build": "975"
+    }
+  ]
+}

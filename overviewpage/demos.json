@@ -40,26 +40,6 @@
     ]
   },
   {
-    "branchName": "feature/698-new-e2e-tests",
-    "encodedBranchName": "feature-698-new-e2e-tests",
-    "timestamp": "1561017326",
-    "buildNumber": "957",
-    "triggeredBy": "eggerschwiler",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/808",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/957",
-    "warArtifact": "https://957-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "9f990ddda2d7ee9443bbf18b3315a4f049a2f72bca06595445e23f6299549de4",
-    "exampleDocuArtifact": "https://957-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "ad88850331aa61398818a429e2ce625485ba5872d12e7639d076882f7875062a",
-    "docuArtifacts": [
-      {
-        "url": "https://957-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "20ea563701e16a67dd28a85e6b400910d605220f1f21f951d9afd193b3816d5c",
-        "build": "957"
-      }
-    ]
-  },
-  {
     "branchName": "feature/717-diffviewer-styling-ui-issues",
     "encodedBranchName": "feature-717-diffviewer-styling-ui-issues",
     "timestamp": "1561017830",
@@ -106,6 +86,26 @@
         "url": "https://962-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "f255f39668d3b936e1122db834dcb4a3deb06fd431523e46a5875c182785652a",
         "build": "962"
+      }
+    ]
+  },
+  {
+    "branchName": "feature/866-cleanup-gradle-wrappers",
+    "encodedBranchName": "feature-866-cleanup-gradle-wrappers",
+    "timestamp": "1561023989",
+    "buildNumber": "975",
+    "triggeredBy": "sascha-kaufmann",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/975",
+    "warArtifact": "https://975-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "5ae1481b8b19cf25cdb2c3ea263d7a6e61258185a2bb07993e4950d401d21b17",
+    "exampleDocuArtifact": "https://975-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "4ae3785c8f97bb520f880a7a5f74f28beeb774593f24d92907d2fe9d55472a86",
+    "docuArtifacts": [
+      {
+        "url": "https://975-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "82450d77318614bd5e252be7f946fbae14bade596aff6512d956b3718a46ecb2",
+        "build": "975"
       }
     ]
   },
