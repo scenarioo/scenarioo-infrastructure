@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/804-review-migration-guide",
+  "encodedBranchName": "feature-804-review-migration-guide",
+  "timestamp": "1561025041",
+  "buildNumber": "979",
+  "triggeredBy": "mi-we",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/869",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/979",
+  "warArtifact": "https://979-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "3d4c24161b4225ff0e901f9c6acdb8b698f01336e45a8a3ed1032c505cbe30df",
+  "exampleDocuArtifact": "https://979-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "1b6a5fe4ab0efac5be3fe689a988d9a23a5385a3d33d1c662a8262497be84254",
+  "docuArtifacts": [
+    {
+      "url": "https://979-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "729fcf79e1497fa46aa328f8e95bbc7a3aa1ff136b8fa070a763b28d0fc1c982",
+      "build": "979"
+    }
+  ]
+}
