@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/migrate-diffviewer-services",
+  "encodedBranchName": "feature-migrate-diffviewer-services",
+  "timestamp": "1561154889",
+  "buildNumber": "1145",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/885",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1145",
+  "warArtifact": "https://1145-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "495ed0e74bf93260748a47007b91f467ee34a494984c04241f7d034698a5c21a",
+  "exampleDocuArtifact": "https://1145-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "a77f2333d7f72413348b073d4d93beb1e7af3d5457a3ba9b3d492b4e7777d0f0",
+  "docuArtifacts": [
+    {
+      "url": "https://1145-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "",
+      "build": "1145"
+    }
+  ]
+}
