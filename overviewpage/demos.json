@@ -182,21 +182,16 @@
   {
     "branchName": "release/5.0",
     "encodedBranchName": "release-5.0",
-    "timestamp": "1561124436",
-    "buildNumber": "1097",
+    "timestamp": "1561124457",
+    "buildNumber": "1100",
     "triggeredBy": "bruderol",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/879",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1097",
-    "warArtifact": "https://1097-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "7908599b309f7f79579aa8af02dfb8083d63529933a0e14e44f1aed434975334",
-    "exampleDocuArtifact": "https://1097-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "5cfa325c23c83d25a8f8d06eb3832c00a7f471fb68e8dd6ef02fbc7dd61f47fc",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1100",
+    "warArtifact": "https://1100-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "97c871ac29e92409a93f9f6b55ef00655d58354c47170e4caf830a782cfad613",
+    "exampleDocuArtifact": "https://1100-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "c9f8cc206ef1eea6a8e4aeef788466ff53d6e5db464185b501ab62c738fcfdea",
     "docuArtifacts": [
-      {
-        "url": "https://1069-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "33080623dce4cbe9778facdc2b0b4281a9772ba77adbfedddd735675ae52a3c7",
-        "build": "1069"
-      },
       {
         "url": "https://1072-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "d8dc912da9f79f831a667bb1fe386312d182863e60da2538c3774f781c97ecca",
@@ -216,6 +211,11 @@
         "url": "https://1097-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "c154c40ec1152f7bc8f1712c9340a05cdc36fa039e29fed3f932f6de1b414b16",
         "build": "1097"
+      },
+      {
+        "url": "https://1100-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "12dc5fc1b0f0f2e034819d44c2733430e067e7310635b0789ba407f680a35cd8",
+        "build": "1100"
       }
     ]
   }
