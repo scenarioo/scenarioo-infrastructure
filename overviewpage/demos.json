@@ -40,6 +40,26 @@
     ]
   },
   {
+    "branchName": "feature/717-improve-create-comparison-feedback",
+    "encodedBranchName": "feature-717-improve-create-comparison-feedback",
+    "timestamp": "1561122918",
+    "buildNumber": "1089",
+    "triggeredBy": "bruderol",
+    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/882",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1089",
+    "warArtifact": "https://1089-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "4ce157ea2729446e27d1d01bb797f2d91d5e9249dfc0d6239e9467b82b1f9ef1",
+    "exampleDocuArtifact": "https://1089-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "4a02ba2b16c8a222d4ef788e242ff99da63feb51bfcb92ae9a45abcace35f2e8",
+    "docuArtifacts": [
+      {
+        "url": "https://1089-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "cd331e43c77274635f50028ff75b0698cc826b642d7f92e7b374392d36bb23c9",
+        "build": "1089"
+      }
+    ]
+  },
+  {
     "branchName": "feature/872-reenable-image-caching-for-step-comparison-performance",
     "encodedBranchName": "feature-872-reenable-image-caching-for-step-comparison-performance",
     "timestamp": "1561122127",
@@ -111,26 +131,6 @@
         "url": "https://1062-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "da5ce32ddd8977354f01b231ca78eca9f80ef1f6346e683b84763af83af871f3",
         "build": "1062"
-      }
-    ]
-  },
-  {
-    "branchName": "feature/migrate-meta-data-tree-directive",
-    "encodedBranchName": "feature-migrate-meta-data-tree-directive",
-    "timestamp": "1561109674",
-    "buildNumber": "1059",
-    "triggeredBy": "sascha-kaufmann",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1059",
-    "warArtifact": "https://1059-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "3bd33f625e5c86bdcdece72e3bcab716834320c939a6f42afec02b96bf97c90b",
-    "exampleDocuArtifact": "https://1059-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "05d7438b49c123b80f9bec514671f33724355f00f9a0e28d031a230ca3746a07",
-    "docuArtifacts": [
-      {
-        "url": "https://1059-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "7ecea514357fba98732920d64bc4186ac336efba9026e4f2870f2c980e8b12b4",
-        "build": "1059"
       }
     ]
   },

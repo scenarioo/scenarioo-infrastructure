@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/717-improve-create-comparison-feedback",
+  "encodedBranchName": "feature-717-improve-create-comparison-feedback",
+  "timestamp": "1561122918",
+  "buildNumber": "1089",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/882",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1089",
+  "warArtifact": "https://1089-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "4ce157ea2729446e27d1d01bb797f2d91d5e9249dfc0d6239e9467b82b1f9ef1",
+  "exampleDocuArtifact": "https://1089-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "4a02ba2b16c8a222d4ef788e242ff99da63feb51bfcb92ae9a45abcace35f2e8",
+  "docuArtifacts": [
+    {
+      "url": "https://1089-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "cd331e43c77274635f50028ff75b0698cc826b642d7f92e7b374392d36bb23c9",
+      "build": "1089"
+    }
+  ]
+}
