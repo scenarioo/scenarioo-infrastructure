@@ -142,25 +142,12 @@
 - name: "{{ branch }} - Ensure correct permissions"
   file: dest="{{ config.scenariooDocuFolder }}/{{ branch }}" owner=tomcat8 group=tomcat8 recurse=yes
 
-- name: "{{ branch }} - Download WAR"
+- name: "{{ branch }} - Download & deploy war"
   get_url:
     url: "{{ branchConfig.warArtifact }}?circle-token={{ lookup('env', 'CIRLCE_TOKEN') }}"
-    dest: "{{ config.tempFolder }}/scenarioo-{{ branch }}.war"
+    dest: "{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war"
     sha256sum: "{{ branchConfig.warArtifactSha256 }}"     # Will only download if checksum changed
   no_log: true  # Don't show CIRCLE_TOKEN in logs
-  register: war_download_result
-
-- name: "{{ branch }} - Delete old WAR"
-  file: path="{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war" state=absent
-  when: war_download_result.changed
-
-- name: "{{ branch }} - Wait for old WAR to become undeployed"
-  wait_for: path="{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}" state=absent
-  when: war_download_result.changed
-
-- name: "{{ branch }} - Copy for deployment"
-  command: mv "{{ config.tempFolder }}/scenarioo-{{ branch }}.war" "{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war"
-  when: war_download_result.changed
 
 - name: "{{ branch }} - Wait for deployment"
   uri:
@@ -170,11 +157,5 @@
   until: result.status == 200
   delay: 3
   retries: 60
-  when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
-
-- name: "{{ branch }} - Trigger reimport of builds"
-  uri:
-    url: "http://{{ config.scenariooHost }}/scenarioo-{{ branch }}/rest/builds/updateAndImport"
-    status_code: 200,204
   when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
 

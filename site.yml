@@ -31,11 +31,6 @@
       apt:
         update_cache: yes
 
-    - name: Creates directory
-      file:
-        path: "{{ config.tempFolder }}"
-        state: directory
-
   # See roles/ folder
   roles:
     - tomcat
@@ -73,6 +68,24 @@
       with_items: "{{ active_branches }}"
       loop_control:
           loop_var: branch
+
+    #
+    # Restart Tomcat to prevent "Illegal access: this web application instance has been stopped already" in Tomcat Logs.
+    #
+    - name: Restart Tomcat
+      service:
+        name=tomcat8
+        state=restarted
+
+    #
+    # Reimport Builds
+    #
+    - name: Reimport Builds
+      include_role:
+        name: reimportBuilds                # Checkout roles/deployBranch/tasks/main.yml
+      with_items: "{{ active_branches }}"
+      loop_control:
+        loop_var: branch
 
     #
     # UPDATE OVERVIEW PAGE
