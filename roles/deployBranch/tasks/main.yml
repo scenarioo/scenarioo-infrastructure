@@ -148,14 +148,3 @@
     dest: "{{ config.tomcatFolder }}/webapps/scenarioo-{{ branch }}.war"
     sha256sum: "{{ branchConfig.warArtifactSha256 }}"     # Will only download if checksum changed
   no_log: true  # Don't show CIRCLE_TOKEN in logs
-
-- name: "{{ branch }} - Wait for deployment"
-  uri:
-    url: "http://{{ config.scenariooHost }}/scenarioo-{{ branch }}"
-    status_code: 200
-  register: result
-  until: result.status == 200
-  delay: 3
-  retries: 60
-  when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
-
