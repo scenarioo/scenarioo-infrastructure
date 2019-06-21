@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/migrate-managed-tabs-only",
+  "encodedBranchName": "feature-migrate-managed-tabs-only",
+  "timestamp": "1561108784",
+  "buildNumber": "1053",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1053",
+  "warArtifact": "https://1053-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "68f5697c5c2acc3a9eff1c727439a2492edd765a71f49da63b642748e60a40a8",
+  "exampleDocuArtifact": "https://1053-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "d64432c0e4e9191665dfc3c09755016d48789d67763cafdca878e192375ee1ee",
+  "docuArtifacts": [
+    {
+      "url": "https://1053-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "ecedc9477132a040884b4ae7e6552d1b1388beb515de4c9863980a5e6d557ce5",
+      "build": "1053"
+    }
+  ]
+}
