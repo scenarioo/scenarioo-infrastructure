@@ -1,7 +1,7 @@
 {
   "defaultScenariooBranch": "master",
   "demoConfigFolder": "demos",
-  "maxConcurrentDemos": 6,
+  "maxConcurrentDemos": 8,
   "maxBuildsPerDemo": 5,
   "persistentBranches": ["master", "develop", "release-5.0"],
   "scenariooDocuFolder": "/scenarioo/data",
