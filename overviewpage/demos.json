@@ -40,6 +40,26 @@
     ]
   },
   {
+    "branchName": "feature/872-reenable-image-caching-for-step-comparison-performance",
+    "encodedBranchName": "feature-872-reenable-image-caching-for-step-comparison-performance",
+    "timestamp": "1561111831",
+    "buildNumber": "1067",
+    "triggeredBy": "bruderol",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1067",
+    "warArtifact": "https://1067-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "2c3f7ad5bb86ed2063c6443d6977c01879154c49eedfd3389cbdcb2d879b56d2",
+    "exampleDocuArtifact": "https://1067-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "975d5caa3c7678168e5bd86e2124b176a3f1cb3930f22f9fc98b9fb4f1dee2c9",
+    "docuArtifacts": [
+      {
+        "url": "https://1067-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "d634ae7dbceedce233ce0f929d016670f5459b039b03fbdfc2751aacf72ecd7c",
+        "build": "1067"
+      }
+    ]
+  },
+  {
     "branchName": "feature/migrate-annotated-screenshot-to-component",
     "encodedBranchName": "feature-migrate-annotated-screenshot-to-component",
     "timestamp": "1561110932",
