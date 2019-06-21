@@ -1,21 +1,16 @@
 {
   "branchName": "release/5.0",
   "encodedBranchName": "release-5.0",
-  "timestamp": "1561124457",
-  "buildNumber": "1100",
-  "triggeredBy": "bruderol",
-  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/879",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1100",
-  "warArtifact": "https://1100-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "97c871ac29e92409a93f9f6b55ef00655d58354c47170e4caf830a782cfad613",
-  "exampleDocuArtifact": "https://1100-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "c9f8cc206ef1eea6a8e4aeef788466ff53d6e5db464185b501ab62c738fcfdea",
+  "timestamp": "1561125038",
+  "buildNumber": "1111",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1111",
+  "warArtifact": "https://1111-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "dddb1f84655c7e1c439434b61401a7684cf4fa5af25419fb5d988a519fb8fd57",
+  "exampleDocuArtifact": "https://1111-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "451e0258bbdcf720bc1d1b099fff15dc17cace267845a2b87640e7856cfc98b7",
   "docuArtifacts": [
-    {
-      "url": "https://1072-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "d8dc912da9f79f831a667bb1fe386312d182863e60da2538c3774f781c97ecca",
-      "build": "1072"
-    },
     {
       "url": "https://1087-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "d5e29b81543e13b1815ccf758656b184fe166d4e125aa5c182252940a81144b0",
@@ -35,6 +30,11 @@
       "url": "https://1100-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "12dc5fc1b0f0f2e034819d44c2733430e067e7310635b0789ba407f680a35cd8",
       "build": "1100"
+    },
+    {
+      "url": "https://1111-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "905fd364b844dda5509040c9a482fae2e5f3e96b3ad49749393ecbe4fff51b16",
+      "build": "1111"
     }
   ]
 }
