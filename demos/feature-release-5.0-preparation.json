@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/release-5.0-preparation",
+  "encodedBranchName": "feature-release-5.0-preparation",
+  "timestamp": "1561119799",
+  "buildNumber": "1077",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1077",
+  "warArtifact": "https://1077-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "f07c28444ff962aeffe03dfceda565dcfe499fd462daab41b52359dc0d992c93",
+  "exampleDocuArtifact": "https://1077-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "cc712d6c9d62fd6326a2cb52e4a20e670494334b31e0b470e86bcd1f18186003",
+  "docuArtifacts": [
+    {
+      "url": "https://1077-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "c1731ef13da074437c350d4eb2c8ab3aae08f975afa903598b48de19ee1ba0f4",
+      "build": "1077"
+    }
+  ]
+}
