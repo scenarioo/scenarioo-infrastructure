@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/upgrade-location-service",
+  "encodedBranchName": "feature-upgrade-location-service",
+  "timestamp": "1561146984",
+  "buildNumber": "1140",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/884",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1140",
+  "warArtifact": "https://1140-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "bb853f3f331fbf480fb6ca1a137c0031335666812d62ca4150696d37455cf78b",
+  "exampleDocuArtifact": "https://1140-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "5d50922b8e2ee849613b14d6a4308a19a1fa1c0a4673f3a7cf894dba84883a14",
+  "docuArtifacts": [
+    {
+      "url": "https://1140-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "4c84de558289682a6756ce0f3fa58a697deb6008f8377e3bd7ee63115940ee86",
+      "build": "1140"
+    }
+  ]
+}
