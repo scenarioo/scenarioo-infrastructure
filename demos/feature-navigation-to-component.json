@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/navigation-to-component",
+  "encodedBranchName": "feature-navigation-to-component",
+  "timestamp": "1561146384",
+  "buildNumber": "1138",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/883",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1138",
+  "warArtifact": "https://1138-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "4a192bc7135b47fd7ac628dd32b63fb700d17a8c86b4c1fb04f637cd5710e1d5",
+  "exampleDocuArtifact": "https://1138-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "f4b5a9856f057bf9310750689f82e1e64188dd7877f3b53f79f9a2280433ec9d",
+  "docuArtifacts": [
+    {
+      "url": "https://1138-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "b810a6ebb772c764d0d1d9c02d9f6e93bb4e6d6a71e6395bd035bc1a0c66f048",
+      "build": "1138"
+    }
+  ]
+}
