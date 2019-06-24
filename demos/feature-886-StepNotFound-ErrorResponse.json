@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/886-StepNotFound-ErrorResponse",
+  "encodedBranchName": "feature-886-StepNotFound-ErrorResponse",
+  "timestamp": "1561384770",
+  "buildNumber": "1176",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/887",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1176",
+  "warArtifact": "https://1176-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "c96fde0e0c973f5c544a405f2c54be2991ecb8b5428b8b589fb985104d272b5f",
+  "exampleDocuArtifact": "https://1176-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "89b183de3aa6743841ccb839ac2363b558513bd0f89ad00ebf589e12cf628937",
+  "docuArtifacts": [
+    {
+      "url": "https://1176-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "d5e0a85cfc0b0ce359705efb95b6a9082f957119ce84ede4057a30d747ebf3e2",
+      "build": "1176"
+    }
+  ]
+}
