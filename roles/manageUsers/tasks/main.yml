@@ -17,7 +17,7 @@
     state: absent
     remove: yes
   with_items: "{{ users.stdout_lines }}"
-  when: item not in default_users
+  when: item not in default_users and item not in required_users
 
 - name: Add required users
   user:
@@ -25,6 +25,7 @@
     group: scenarioo
     state: present
   with_items: "{{ required_users }}"
+  when: item not in users.stdout_lines
 
 - name: Add SSH public keys
   authorized_key:
