@@ -1,0 +1,20 @@
+{
+  "branchName": "tab",
+  "encodedBranchName": "tab",
+  "timestamp": "1561362580",
+  "buildNumber": "1164",
+  "triggeredBy": "",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1164",
+  "warArtifact": "https://1164-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "dad76f284de9709802566e5005ff428d9d8bcf5335bdfec48eb3a3168fdecf78",
+  "exampleDocuArtifact": "https://1164-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "3355bfa450553d9bf988554a0cdfe043b1a1d3bddd528c791a4b30c44e0e6b2a",
+  "docuArtifacts": [
+    {
+      "url": "https://1164-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "19c2abae77ebd9c7f32375ff067cad0de9e8d2a8c7abfa8f48c24e8eb04d7f59",
+      "build": "1164"
+    }
+  ]
+}
