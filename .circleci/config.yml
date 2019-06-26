@@ -16,9 +16,7 @@ jobs:
               command: sudo pip install ansible --quiet
           - run:
               name: Install jq
-              command: |
-                curl -L -o bin/jq https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64 && \
-                chmod +x bin/jq
+              command: sudo pip install jq
           - run:
               name: Deploy server
               command: |
