@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/889-application-startup-bug",
+  "encodedBranchName": "feature-889-application-startup-bug",
+  "timestamp": "1561534927",
+  "buildNumber": "1201",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1201",
+  "warArtifact": "https://1201-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "68e79eca41e5477c97575568e04a04ca7a392e8b8ae2c3771147db18c3a8fe0e",
+  "exampleDocuArtifact": "https://1201-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "a5e9a9b21ac5bd6337ae59436ed0a4644bfad362970c478fb7b9b7da1e7e0cc6",
+  "docuArtifacts": [
+    {
+      "url": "https://1201-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "85f68fff3a73e68b3d556a505bad2fcb80aae377fad9e2321efb826650adbc06",
+      "build": "1201"
+    }
+  ]
+}
