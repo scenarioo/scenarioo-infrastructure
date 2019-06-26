@@ -18,7 +18,7 @@ jobs:
               name: Deploy server
               command: |
                 export ANSIBLE_HOST_KEY_CHECKING=False    # TODO: Add known_hosts to repository
-                ansible-playbook ./site.yml -i ./hosts/hosts_demoserver_ovh
+                ./do-exclusively ansible-playbook ./site.yml -i ./hosts/hosts_demoserver_ovh
   test_scripts:
     docker:
       # See https://circleci.com/docs/2.0/circleci-images/ ...
