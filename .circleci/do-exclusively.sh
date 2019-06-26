@@ -62,8 +62,6 @@ set -o pipefail
     make_jq_prog
 
     echo "Checking for running builds..."
-    echo "$api_url"
-    echo "$jq_prog"
 
     while true; do
         builds=$(curl -s -H "Accept: application/json" "$api_url" | jq "$jq_prog")
