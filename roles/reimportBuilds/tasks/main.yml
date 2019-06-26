@@ -17,3 +17,13 @@
     status_code: 200,204
   when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
 
+- name: "{{ branch }} - Wait for Imports to finish"
+  uri:
+    url: "http://{{ config.scenariooHost }}/scenarioo-{{ branch }}/rest/builds/importsAndComparisonCalculationsFinished"
+    return_content: yes
+  register: this
+  until: "'true' in this.content"
+  delay: 3
+  retries: 60
+  when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
+
