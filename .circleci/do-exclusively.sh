@@ -54,7 +54,7 @@ set -o pipefail
     branch=""
     tag=""
     rest=()
-    api_url="https://circleci.com/api/v1/project/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME?circle-token=$CIRCLE_TOKEN&limit=100"
+    api_url="https://circleci.com/api/v1/project/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME?limit=100"
 
     parse_args "$@"
     commit_message=$(git log -1 --pretty=%B)
@@ -62,6 +62,8 @@ set -o pipefail
     make_jq_prog
 
     echo "Checking for running builds..."
+    echo "$api_url"
+    echo "$jq_prog"
 
     while true; do
         builds=$(curl -s -H "Accept: application/json" "$api_url" | jq "$jq_prog")
