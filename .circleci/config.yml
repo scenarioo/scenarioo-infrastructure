@@ -16,12 +16,12 @@ jobs:
               command: sudo pip install ansible --quiet
           - run:
               name: Install jq
-              command: sudo pip install jq
+              command: sudo pip install jq --quiet
           - run:
               name: Deploy server
               command: |
                 export ANSIBLE_HOST_KEY_CHECKING=False    # TODO: Add known_hosts to repository
-                ./.circleci/do-exclusively ansible-playbook ./site.yml -i ./hosts/hosts_demoserver_ovh
+                bash ./.circleci/do-exclusively.sh ansible-playbook ./site.yml -i ./hosts/hosts_demoserver_ovh
   test_scripts:
     docker:
       # See https://circleci.com/docs/2.0/circleci-images/ ...
