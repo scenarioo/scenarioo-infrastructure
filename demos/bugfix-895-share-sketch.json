@@ -1,0 +1,20 @@
+{
+  "branchName": "bugfix/895-share-sketch",
+  "encodedBranchName": "bugfix-895-share-sketch",
+  "timestamp": "1561711971",
+  "buildNumber": "1246",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/896",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1246",
+  "warArtifact": "https://1246-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "bd041153d2b42fc4d06bf69b3071ddd2dccba57052fafe13adc4d2bac9373286",
+  "exampleDocuArtifact": "https://1246-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "b42811194b8a10c36ea229dedd9f67686ca7f28c7896d7000ba7a6dddc5e4977",
+  "docuArtifacts": [
+    {
+      "url": "https://1246-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "cbcb98b41ea605af8cb9b06034cafa25b12195e491b833e008093fcafb0df4b2",
+      "build": "1246"
+    }
+  ]
+}
