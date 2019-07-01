@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/877-rest-service-ongoing-imports-comparisons-based-on-release-branch",
+  "encodedBranchName": "feature-877-rest-service-ongoing-imports-comparisons-based-on-release-branch",
+  "timestamp": "1561981948",
+  "buildNumber": "1268",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/898",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1268",
+  "warArtifact": "https://1268-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "29bcd0b6419d0913e6a1b46d9826fa01db4fad8ff63cf83ddd0418a0ea2ea60f",
+  "exampleDocuArtifact": "https://1268-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "4b24f75439e57784e8e6a29a6c901d91d1e6f45148c21aaddb9d356e3f00712c",
+  "docuArtifacts": [
+    {
+      "url": "https://1268-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "765d3a7dd61e67434f5aed7c952ec28a90a97127b43f7e1ee82d22e24d91d440",
+      "build": "1268"
+    }
+  ]
+}
