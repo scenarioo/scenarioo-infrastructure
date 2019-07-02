@@ -182,21 +182,16 @@
   {
     "branchName": "release/5.0",
     "encodedBranchName": "release-5.0",
-    "timestamp": "1561987756",
-    "buildNumber": "1274",
+    "timestamp": "1562050066",
+    "buildNumber": "1291",
     "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1274",
-    "warArtifact": "https://1274-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "1dc7412f4beab23600bb20866f0208f96a3b61456646a83363f4fb187f085219",
-    "exampleDocuArtifact": "https://1274-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "3d33daa433451fb9abc68fe1966d1f4e9a9239087815a33df6fae7aa0fd3cd70",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1291",
+    "warArtifact": "https://1291-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "9cbbaec380ffa5ff1c05324e21f423422ef017ed52bfe687d56ed7f69b6f3a5e",
+    "exampleDocuArtifact": "https://1291-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "3fa2f64ef60887fdbe1ea5719d84b4b9b0db112dcfb23d6f8aadd809930f7fe0",
     "docuArtifacts": [
-      {
-        "url": "https://1111-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "905fd364b844dda5509040c9a482fae2e5f3e96b3ad49749393ecbe4fff51b16",
-        "build": "1111"
-      },
       {
         "url": "https://1192-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "e837b98377150a2cce81d2cc6733fd124dfcddd4f30357eee6690322eeeafa74",
@@ -216,6 +211,11 @@
         "url": "https://1274-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "748e3ebfce4a8dc16d4343aac24fd237b5363853f55374e604bca39d27f9c1df",
         "build": "1274"
+      },
+      {
+        "url": "https://1291-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "f2921105f9e581fcc02a7e0b8f7e90ee184d7b69bb5f16a556c2705f4cfd6ceb",
+        "build": "1291"
       }
     ]
   }
