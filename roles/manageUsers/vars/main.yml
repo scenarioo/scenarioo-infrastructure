@@ -1,0 +1,6 @@
+---
+#
+# USERS WITH ACCESS TO SERVER
+#
+default_users: ['nobody']
+required_users: ['eggerschwiler']
