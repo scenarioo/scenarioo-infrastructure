@@ -30,26 +30,6 @@
     ]
   },
   {
-    "branchName": "bugfix/895-share-sketch",
-    "encodedBranchName": "bugfix-895-share-sketch",
-    "timestamp": "1561711971",
-    "buildNumber": "1246",
-    "triggeredBy": "eggerschwiler",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/896",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1246",
-    "warArtifact": "https://1246-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "bd041153d2b42fc4d06bf69b3071ddd2dccba57052fafe13adc4d2bac9373286",
-    "exampleDocuArtifact": "https://1246-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "b42811194b8a10c36ea229dedd9f67686ca7f28c7896d7000ba7a6dddc5e4977",
-    "docuArtifacts": [
-      {
-        "url": "https://1246-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "cbcb98b41ea605af8cb9b06034cafa25b12195e491b833e008093fcafb0df4b2",
-        "build": "1246"
-      }
-    ]
-  },
-  {
     "branchName": "bugfix/897-standard-jpeg-content-type",
     "encodedBranchName": "bugfix-897-standard-jpeg-content-type",
     "timestamp": "1561989740",
@@ -156,6 +136,26 @@
         "url": "https://1268-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "765d3a7dd61e67434f5aed7c952ec28a90a97127b43f7e1ee82d22e24d91d440",
         "build": "1268"
+      }
+    ]
+  },
+  {
+    "branchName": "feature/extract-components-from-step",
+    "encodedBranchName": "feature-extract-components-from-step",
+    "timestamp": "1562074858",
+    "buildNumber": "1302",
+    "triggeredBy": "eggerschwiler",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1302",
+    "warArtifact": "https://1302-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "9a7ff9cade4e7a62761246a1db8cb2c66db43de765e547633c1af64132c10f11",
+    "exampleDocuArtifact": "https://1302-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "97e6183a5b3183df328f13c93d7a7b44989f961bfea93539bddd580d65cf055a",
+    "docuArtifacts": [
+      {
+        "url": "https://1302-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "eb06174e6a8d1ae0b293a8912b69205558b0208d09dacd7f49e4248fe0b2aa4c",
+        "build": "1302"
       }
     ]
   },
