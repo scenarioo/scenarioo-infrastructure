@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/804-improve-release-documentation",
+  "encodedBranchName": "feature-804-improve-release-documentation",
+  "timestamp": "1562170641",
+  "buildNumber": "1343",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1343",
+  "warArtifact": "https://1343-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "fdaedccad56b434bf0b7d5e7cf0a81412eb293f1b97cbb8984184dd8ec5b844d",
+  "exampleDocuArtifact": "https://1343-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "1b7102522189af6e9e350452af58219b0fe9b9bdd2a0608d48120e93e170a66a",
+  "docuArtifacts": [
+    {
+      "url": "https://1343-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "ef427f0795b41f69ae17c21716438b3cf4e01d212bb45ea0323551eaea452ac1",
+      "build": "1343"
+    }
+  ]
+}
