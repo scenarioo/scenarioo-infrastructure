@@ -182,21 +182,16 @@
   {
     "branchName": "release/5.0",
     "encodedBranchName": "release-5.0",
-    "timestamp": "1562146557",
-    "buildNumber": "1325",
+    "timestamp": "1562154569",
+    "buildNumber": "1328",
     "triggeredBy": "bruderol",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/903",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1325",
-    "warArtifact": "https://1325-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "98757af2b6c4647b8293adc1337dcc8cb771d94365d45f007eb5f94d53450af1",
-    "exampleDocuArtifact": "https://1325-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "d24b98385fa3bfcc38c62ed3af1120c2286421889d4c92b79d5f9a263516d75c",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1328",
+    "warArtifact": "https://1328-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "05a7976fb428f79eb82602f1f57d2034f7b830452c467278283c8c9babc5b1bc",
+    "exampleDocuArtifact": "https://1328-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "6d593b622d2184d8cc443d7dd583a2c0794a395cddcc3d12ae55a6bb9f2baf8b",
     "docuArtifacts": [
-      {
-        "url": "https://1274-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "748e3ebfce4a8dc16d4343aac24fd237b5363853f55374e604bca39d27f9c1df",
-        "build": "1274"
-      },
       {
         "url": "https://1291-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "f2921105f9e581fcc02a7e0b8f7e90ee184d7b69bb5f16a556c2705f4cfd6ceb",
@@ -216,6 +211,11 @@
         "url": "https://1325-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "f72a72a6926446ab402fa114d3d66ac630d0a4b538d307a513c494b469451c7d",
         "build": "1325"
+      },
+      {
+        "url": "https://1328-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "20c8defe60b29cd7f69720c20e86c618329ced25c00b76c8b7605251c0f69770",
+        "build": "1328"
       }
     ]
   }
