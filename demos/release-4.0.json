@@ -1,0 +1,20 @@
+{
+  "branchName": "release/4.0",
+  "encodedBranchName": "release-4.0",
+  "timestamp": "1562144560",
+  "buildNumber": "1319",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1319",
+  "warArtifact": "https://1319-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "474f8d8ca597968b75a8e32b2a896fd00ded730287eaaed529c871d4f91eb156",
+  "exampleDocuArtifact": "https://1319-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "68a47ee46cbab8c60ce56013d72669d5a1ca9fbb220b84325684b7a33a0964d7",
+  "docuArtifacts": [
+    {
+      "url": "https://1319-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "68a47ee46cbab8c60ce56013d72669d5a1ca9fbb220b84325684b7a33a0964d7",
+      "build": "1319"
+    }
+  ]
+}
