@@ -1,0 +1,20 @@
+{
+  "branchName": "bugfix/897-add-jpeg-to-testdata",
+  "encodedBranchName": "bugfix-897-add-jpeg-to-testdata",
+  "timestamp": "1562219899",
+  "buildNumber": "1356",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/906",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1356",
+  "warArtifact": "https://1356-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "7d69708eb7cc24494dd6c0d44ab2b158a6711099bbb741522cc3b8207a2008d4",
+  "exampleDocuArtifact": "https://1356-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "209787c01f1fb5f7730a0a4b990d088e1a1140d71e91839a909e242887d457c8",
+  "docuArtifacts": [
+    {
+      "url": "https://1356-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "720fa09b9775579d89b95e212d9f2615bbb449bd9150b0b4717ff657a23a0b89",
+      "build": "1356"
+    }
+  ]
+}
