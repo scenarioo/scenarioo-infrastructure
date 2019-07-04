@@ -6,9 +6,9 @@ TARGET=$1
 ALTERNATIVE_SSH_KEY=$2
 ENVIRONMENT=""
 
-# Warn if CIRLCE_TOKEN is empty
-if [[ $CIRLCE_TOKEN == "" ]]; then
-    echo "WARNING: CIRLCE_TOKEN is not set. Without it we might not be able to fetch artifacts from builds!"
+# Warn if CIRCLE_TOKEN is empty
+if [[ $CIRCLE_TOKEN == "" ]]; then
+    echo "WARNING: CIRCLE_TOKEN is not set. Without it we might not be able to fetch artifacts from builds!"
 fi
 
 case $TARGET in
@@ -26,7 +26,7 @@ case $TARGET in
         TARGET_HOST_FILE=/vagrant/hosts/hosts_vagrant
         ENVIRONMENT="dev"
         # To avoid installing docker or ansible on dev machine we run ansible directly inside vagrant
-        vagrant ssh -c "CIRLCE_TOKEN=$CIRLCE_TOKEN;TOMCAT_USER_PASSWORD=$TOMCAT_USER_PASSWORD;ENVIRONMENT=$ENVIRONMENT ansible-playbook /vagrant/site.yml -v -i $TARGET_HOST_FILE"
+        vagrant ssh -c "CIRCLE_TOKEN=$CIRCLE_TOKEN;TOMCAT_USER_PASSWORD=$TOMCAT_USER_PASSWORD;ENVIRONMENT=$ENVIRONMENT ansible-playbook /vagrant/site.yml -v -i $TARGET_HOST_FILE"
         exit 0
     ;;
     *)
@@ -67,7 +67,7 @@ docker run --rm -it \
   -v $SSH_KEY:/root/.ssh/id_rsa \
   -v /var/log/ansible/ansible.log \
   -v $(pwd):/ansible/playbooks \
-  -e CIRLCE_TOKEN=$CIRLCE_TOKEN \
+  -e CIRCLE_TOKEN=$CIRCLE_TOKEN \
   -e TOMCAT_USER_PASSWORD=$TOMCAT_USER_PASSWORD \
   -e ENVIRONMENT=$ENVIRONMENT \
   docker-ansible-runner site.yml  -v -i $TARGET_HOST_FILE

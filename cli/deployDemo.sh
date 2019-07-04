@@ -27,10 +27,10 @@ function abort_on_curl_failure() {
         exit $1
     fi
 }
-# Warn if CIRLCE_TOKEN is empty
-CIRCLE_TOKEN=${CIRLCE_TOKEN:-}
+# Warn if CIRCLE_TOKEN is empty
+CIRCLE_TOKEN=${CIRCLE_TOKEN:-}
 if [[ -z $CIRCLE_TOKEN ]]; then
-    echo "WARNING: CIRLCE_TOKEN is not set. Without it we can't fetch artifacts from builds!"
+    echo "WARNING: CIRCLE_TOKEN is not set. Without it we can't fetch artifacts from builds!"
 fi
 ARTIFACT_URL="https://circleci.com/api/v1.1/project/github/scenarioo/scenarioo/${BUILD_NUMBER}/artifacts?circle-token=${CIRCLE_TOKEN}"
 

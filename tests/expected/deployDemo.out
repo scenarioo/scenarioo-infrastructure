@@ -1,4 +1,4 @@
-WARNING: CIRLCE_TOKEN is not set. Without it we can't fetch artifacts from builds!
+WARNING: CIRCLE_TOKEN is not set. Without it we can't fetch artifacts from builds!
 Getting list of artifacts ...
 Getting WAR
 Getting E2E docu
