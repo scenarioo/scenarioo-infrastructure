@@ -65,7 +65,7 @@
     #
     # Restart Tomcat to prevent "Illegal access: this web application instance has been stopped already" in Tomcat Logs.
     #
-    - name: Start Tomcat
+    - name: Restart Tomcat
       service:
         name=tomcat8
         state=restarted

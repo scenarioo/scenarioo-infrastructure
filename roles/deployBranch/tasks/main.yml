@@ -157,6 +157,7 @@
   until: result.status == 200
   delay: 3
   retries: 60
+  ignore_errors: yes
   when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
 
 - name: "{{ branch }} - Wait for Imports to finish"
@@ -167,4 +168,5 @@
   until: "'true' in this.content"
   delay: 3
   retries: 60
+  ignore_errors: yes
   when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
