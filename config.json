@@ -1,9 +1,9 @@
 {
   "defaultScenariooBranch": "master",
   "demoConfigFolder": "demos",
-  "maxConcurrentDemos": 8,
+  "maxConcurrentDemos": 6,
   "maxBuildsPerDemo": 5,
-  "persistentBranches": ["master", "develop", "release-5.0"],
+  "persistentBranches": ["master", "develop"],
   "scenariooDocuFolder": "/scenarioo/data",
   "scenariooHost": "demo.scenarioo.org",
   "tomcatFolder": "/var/lib/tomcat8"
