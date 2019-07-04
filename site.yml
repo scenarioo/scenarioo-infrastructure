@@ -53,14 +53,6 @@
           loop_var: branch
 
     #
-    # Stop Tomcat to prevent "Illegal access: this web application instance has been stopped already" in Tomcat Logs.
-    #
-    - name: Stop Tomcat
-      service:
-        name=tomcat8
-        state=stopped
-
-    #
     # ENSURE ACTIVE BRANCHES ARE DEPLOYED
     #
     - name: Deploy active branches
@@ -71,12 +63,12 @@
           loop_var: branch
 
     #
-    # Start Tomcat to prevent "Illegal access: this web application instance has been stopped already" in Tomcat Logs.
+    # Restart Tomcat to prevent "Illegal access: this web application instance has been stopped already" in Tomcat Logs.
     #
     - name: Start Tomcat
       service:
         name=tomcat8
-        state=started
+        state=restarted
 
     #
     # Reimport Builds
