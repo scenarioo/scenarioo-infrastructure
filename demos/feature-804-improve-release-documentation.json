@@ -1,21 +1,16 @@
 {
   "branchName": "feature/804-improve-release-documentation",
   "encodedBranchName": "feature-804-improve-release-documentation",
-  "timestamp": "1562230158",
-  "buildNumber": "1366",
+  "timestamp": "1562231391",
+  "buildNumber": "1369",
   "triggeredBy": "bruderol",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/907",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1366",
-  "warArtifact": "https://1366-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "4459a143fdccc72e6f8fa246ad6fe5e84e6d011ec8667c42694b1df857dc1484",
-  "exampleDocuArtifact": "https://1366-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "90352f353c406d646799bb1542b3649290aa1d267126c7826b483757c3f2684f",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1369",
+  "warArtifact": "https://1369-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "d72bc0238bdb6e206becacc7859750b9c3613e04e151049f6bed5441d70741b1",
+  "exampleDocuArtifact": "https://1369-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "495c99d7752e0a9d5f3b4e1c2fb066dd6e7ecb7f865d8ad52ab877e68bd43d17",
   "docuArtifacts": [
-    {
-      "url": "https://1342-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "cf167e241a6ac0cb8a7708667103b34d78f6f76489d8639106ff19d6ab3a8108",
-      "build": "1342"
-    },
     {
       "url": "https://1343-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "ef427f0795b41f69ae17c21716438b3cf4e01d212bb45ea0323551eaea452ac1",
@@ -35,6 +30,11 @@
       "url": "https://1366-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "ab125b157e253a4fdc9e63c5ba39a82aa9a30edb5f59d5371211373375ddf963",
       "build": "1366"
+    },
+    {
+      "url": "https://1369-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "ee3d7155e0e720f71c61e704b8e5cc637ab2f496242c0da8acc9033ecb697cdf",
+      "build": "1369"
     }
   ]
 }
