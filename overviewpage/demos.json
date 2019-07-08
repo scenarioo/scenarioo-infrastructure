@@ -80,6 +80,26 @@
     ]
   },
   {
+    "branchName": "feature/871-provide-development-artifacts-for-download",
+    "encodedBranchName": "feature-871-provide-development-artifacts-for-download",
+    "timestamp": "1562595431",
+    "buildNumber": "1440",
+    "triggeredBy": "eggerschwiler",
+    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/926",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1440",
+    "warArtifact": "https://1440-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "12c6a8e36e26e72abfc33908c60e1e34cff5b69cb20a285c292fc9cbd200bea4",
+    "exampleDocuArtifact": "https://1440-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "12959a8c30f6a3d24c7fc3c9f414d203a2f4cfabfd9eb24f23dff28cf016e5a2",
+    "docuArtifacts": [
+      {
+        "url": "https://1440-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "950ad06f5ebba425eb7173bf92e66ff41be32290c276e76f9893758cf3d4c823",
+        "build": "1440"
+      }
+    ]
+  },
+  {
     "branchName": "feature/905-rest-tests-for-image-response-headers",
     "encodedBranchName": "feature-905-rest-tests-for-image-response-headers",
     "timestamp": "1562585009",
@@ -96,26 +116,6 @@
         "url": "https://1438-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "8121469405f0f743cd9a9dab63fee924d181fbc250fa8a538349afef51b7e5ee",
         "build": "1438"
-      }
-    ]
-  },
-  {
-    "branchName": "feature/junit5",
-    "encodedBranchName": "feature-junit5",
-    "timestamp": "1562252698",
-    "buildNumber": "1402",
-    "triggeredBy": "eggerschwiler",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1402",
-    "warArtifact": "https://1402-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "da4f618d459bb4369422cc5cf8ada54eaf2ee76362db6f34c65aac6dcd0ed639",
-    "exampleDocuArtifact": "https://1402-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "6308129da3af85fe741a33bdf7c7aeaf80f352495302b3bfc226ad26d74197d0",
-    "docuArtifacts": [
-      {
-        "url": "https://1402-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "ea53233c3ea04826a763b12a439f41305cd81bf187949f6cd52733af3238390a",
-        "build": "1402"
       }
     ]
   },
