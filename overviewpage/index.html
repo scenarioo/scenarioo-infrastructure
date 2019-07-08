@@ -105,6 +105,11 @@
                 infoElement.appendChild(d.createTextNode(" - "));
                 infoElement.appendChild(prLink);
             }
+            if (demo.warArtifact) {
+                const prLink = createLinkWithText(demo.warArtifact, `Download WAR`);
+                infoElement.appendChild(d.createTextNode(" - "));
+                infoElement.appendChild(prLink);
+            }
             return infoElement;
         }
 
