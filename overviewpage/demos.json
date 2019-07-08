@@ -157,21 +157,16 @@
   {
     "branchName": "release/5.0",
     "encodedBranchName": "release-5.0",
-    "timestamp": "1562313513",
-    "buildNumber": "1417",
+    "timestamp": "1562568851",
+    "buildNumber": "1429",
     "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1417",
-    "warArtifact": "https://1417-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "b66ef762fadaf9db226dfe34e30175471259f8359c00cb4ae4514510af220c45",
-    "exampleDocuArtifact": "https://1417-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "78c47b290646ec7bad984046151919f9e18e198741edfc6693f88ffd8f4ecf02",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1429",
+    "warArtifact": "https://1429-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "ec3042ec3eb68596e7fafb173b441a407f9f48d3f821c96cea6d896658562fe8",
+    "exampleDocuArtifact": "https://1429-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "eaefffe6cf8361f1a63a555363f2aefd1dce1be905f332bba1f4a0687d0d1365",
     "docuArtifacts": [
-      {
-        "url": "https://1328-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "20c8defe60b29cd7f69720c20e86c618329ced25c00b76c8b7605251c0f69770",
-        "build": "1328"
-      },
       {
         "url": "https://1339-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "4edc0ad5cbfe68bffcaa27c080195326df63b44e5424940c0e679ee714240192",
@@ -191,6 +186,11 @@
         "url": "https://1417-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "3925b880fd76c8ab7964abd415848b7e42d6e9011d30951e6d217b204f635bb5",
         "build": "1417"
+      },
+      {
+        "url": "https://1429-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "a288b7ab964a357c2965133ac4959da4111e2571282cc769d07d105d4c2249d1",
+        "build": "1429"
       }
     ]
   }
