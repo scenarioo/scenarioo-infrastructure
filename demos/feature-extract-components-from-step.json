@@ -1,21 +1,16 @@
 {
   "branchName": "feature/extract-components-from-step",
   "encodedBranchName": "feature-extract-components-from-step",
-  "timestamp": "1562835056",
-  "buildNumber": "1486",
+  "timestamp": "1562841912",
+  "buildNumber": "1489",
   "triggeredBy": "eggerschwiler",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/927",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1486",
-  "warArtifact": "https://1486-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "b4b1a59c5477358f9fc0b3b2ffa8476eb76e61e52656ac128f56d3ab1059d766",
-  "exampleDocuArtifact": "https://1486-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "4a17465c5db8eccbad5dbe129e2c8afee276746feb1ccc3490b8b73260685105",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1489",
+  "warArtifact": "https://1489-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "c807b7b7ba900a5534f2a5941c7d8780efebf399911effcf23e00c524041648a",
+  "exampleDocuArtifact": "https://1489-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "6bd77c04560518593b5b31c0abc65be7439d7a6aef89843d9a2ee871d4ac4e33",
   "docuArtifacts": [
-    {
-      "url": "https://1442-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "b1e4647acb67c76928983741b856c9fb57d6e2a637795a66183f36d5275ffc34",
-      "build": "1442"
-    },
     {
       "url": "https://1449-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "55cdaf67aa4d27d145aab978b02a9ee34ca0070ba0c4db2dcd4e5de5c4aeb823",
@@ -35,6 +30,11 @@
       "url": "https://1486-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "38bc5ac7f9d4f0ca283e4a1f1026e3ae2f0aa7a70916f31caece146cf7f95fbf",
       "build": "1486"
+    },
+    {
+      "url": "https://1489-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "e9985007a72b327f9f7d97635f670f7732933c1167521da45652fabf9c1be2ea",
+      "build": "1489"
     }
   ]
 }
