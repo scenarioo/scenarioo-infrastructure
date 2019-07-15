@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/830-migrate-detail-sidebar",
+  "encodedBranchName": "feature-830-migrate-detail-sidebar",
+  "timestamp": "1563198203",
+  "buildNumber": "1540",
+  "triggeredBy": "",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/929",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1540",
+  "warArtifact": "https://1540-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "44783b336cf51ada22ce43332c52a26448a7947985d9e997323d626ea26ca1ee",
+  "exampleDocuArtifact": "https://1540-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "12f1324f933d04fe9f179983b90b4232871d921761c9ef3aec58916ade8cda43",
+  "docuArtifacts": [
+    {
+      "url": "https://1540-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "229cfc67eee6f7dd8cc7cf279dde3291a3f259f4cb1dd1d1816dab3863b62866",
+      "build": "1540"
+    }
+  ]
+}
