@@ -1,15 +1,15 @@
 {
   "branchName": "feature/402-fix-rest-upload-for-pizza-delivery",
   "encodedBranchName": "feature-402-fix-rest-upload-for-pizza-delivery",
-  "timestamp": "1563200411",
-  "buildNumber": "1544",
+  "timestamp": "1563205214",
+  "buildNumber": "1552",
   "triggeredBy": "eggerschwiler",
   "pullRequestUrl": "",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1544",
-  "warArtifact": "https://1544-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "eff2ed9a09ed721703c17fca80b60783512ea51d5a847edc864f7f169660cc0b",
-  "exampleDocuArtifact": "https://1544-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "9329c39b2747b05feb8cb3fa82b55dff86a31b725b9e086a867b1f670b98df8c",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1552",
+  "warArtifact": "https://1552-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "01ccc77eb4b83d6beafada680d05a38eb2244dada633e7381f9e0f623f4865ca",
+  "exampleDocuArtifact": "https://1552-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "5edb424c0a97f07c5b39f6a2001d19f79824ec06b9c0897baa8d2d6f744d2cb8",
   "docuArtifacts": [
     {
       "url": "https://1542-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
@@ -20,6 +20,11 @@
       "url": "https://1544-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "6828015910cb0876f32dca54f242d48a2764b55d0dd57d02df3218df102decb0",
       "build": "1544"
+    },
+    {
+      "url": "https://1552-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "e42af7baec6b6656e24118027c4d74fdea859e1b49c711b80eba3bb3b521c5b9",
+      "build": "1552"
     }
   ]
 }
