@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/402-fix-rest-upload-for-pizza-delivery",
+  "encodedBranchName": "feature-402-fix-rest-upload-for-pizza-delivery",
+  "timestamp": "1563199757",
+  "buildNumber": "1542",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1542",
+  "warArtifact": "https://1542-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "d5a7ad990a66b360f60ee22318f34028922db8dc2f9e31052151da7dca176279",
+  "exampleDocuArtifact": "https://1542-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "becca640558b56dd0f64971737b9c45d11f6f0cb131fe7345b023ab069cc3633",
+  "docuArtifacts": [
+    {
+      "url": "https://1542-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "b2c1a8a5bbe4646aea43b09a561e2b8d441b89972b2a655dd67de74aa944dbd6",
+      "build": "1542"
+    }
+  ]
+}
