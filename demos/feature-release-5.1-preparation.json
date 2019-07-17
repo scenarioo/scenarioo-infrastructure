@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/release-5.1-preparation",
+  "encodedBranchName": "feature-release-5.1-preparation",
+  "timestamp": "1563350032",
+  "buildNumber": "1598",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/937",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1598",
+  "warArtifact": "https://1598-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "87aae4fc74469cb9d154968a12c159cfbede55e3e4bb020691ae74376996ed60",
+  "exampleDocuArtifact": "https://1598-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "d6b8594a54cbe86f0f48dd33272038321286d2aa98be7f4aa4885760c38539da",
+  "docuArtifacts": [
+    {
+      "url": "https://1598-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "a99be068ee698d0c622ff5dacaf0357c753b0905a11f48c9e7b22f318722124b",
+      "build": "1598"
+    }
+  ]
+}
