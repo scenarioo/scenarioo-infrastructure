@@ -156,7 +156,7 @@
   register: result
   until: result.status == 200
   delay: 3
-  retries: 60
+  retries: 20
   ignore_errors: yes
   when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
 
@@ -167,6 +167,6 @@
   register: this
   until: "'true' in this.content"
   delay: 3
-  retries: 60
+  retries: 30
   ignore_errors: yes
   when: lookup('env', 'ENVIRONMENT') != 'dev'   # Because would fail when using vagrant
