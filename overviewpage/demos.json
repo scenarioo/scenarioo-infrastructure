@@ -85,27 +85,22 @@
     ]
   },
   {
-    "branchName": "feature/release-5.1-preparation",
-    "encodedBranchName": "feature-release-5.1-preparation",
-    "timestamp": "1563357877",
-    "buildNumber": "1612",
+    "branchName": "feature/junit5",
+    "encodedBranchName": "feature-junit5",
+    "timestamp": "1563376195",
+    "buildNumber": "1660",
     "triggeredBy": "eggerschwiler",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/937",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1612",
-    "warArtifact": "https://1612-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "09b1b43f92197417ff633a82cb5baf109a90dc3657dfb171e078b4aa567cbac1",
-    "exampleDocuArtifact": "https://1612-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "60fe624dd12e2f63c4e5ba8f274d763c28bc9ea4e65d12bb7b20a15f554f3954",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1660",
+    "warArtifact": "https://1660-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "2da647975730497aac047e1c4677eb97a31ba378ee3ddbae3b1ae58447c593ef",
+    "exampleDocuArtifact": "https://1660-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "501737c6dec86734a02ae69b0d8620ab86d2150a3e0e2ac953417adb73b5f6c2",
     "docuArtifacts": [
       {
-        "url": "https://1598-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "a99be068ee698d0c622ff5dacaf0357c753b0905a11f48c9e7b22f318722124b",
-        "build": "1598"
-      },
-      {
-        "url": "https://1612-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "59ffb06dcd72bf3089b7d77fe5588bef2bafa28ca7f31ad43d47d350f6a9bd7c",
-        "build": "1612"
+        "url": "https://1660-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "2402689797f0101b7b96c2565631df31e2565ad3db730c1fe9e2eb25ef9ccbdc",
+        "build": "1660"
       }
     ]
   },

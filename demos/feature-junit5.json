@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/junit5",
+  "encodedBranchName": "feature-junit5",
+  "timestamp": "1563376195",
+  "buildNumber": "1660",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1660",
+  "warArtifact": "https://1660-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "2da647975730497aac047e1c4677eb97a31ba378ee3ddbae3b1ae58447c593ef",
+  "exampleDocuArtifact": "https://1660-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "501737c6dec86734a02ae69b0d8620ab86d2150a3e0e2ac953417adb73b5f6c2",
+  "docuArtifacts": [
+    {
+      "url": "https://1660-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "2402689797f0101b7b96c2565631df31e2565ad3db730c1fe9e2eb25ef9ccbdc",
+      "build": "1660"
+    }
+  ]
+}
