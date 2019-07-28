@@ -1,21 +1,16 @@
 {
   "branchName": "feature/915-migrate-scenarios-overview",
   "encodedBranchName": "feature-915-migrate-scenarios-overview",
-  "timestamp": "1564159348",
-  "buildNumber": "1730",
+  "timestamp": "1564315123",
+  "buildNumber": "1740",
   "triggeredBy": "",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/932",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1730",
-  "warArtifact": "https://1730-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "5d66df38a5c4d84853f8ae37e068b79621fe9d52df21e0c66491704a3be49322",
-  "exampleDocuArtifact": "https://1730-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "0b27533e0555f0faac227582b66179b2dd9962d426831286ece4c50cdd8f431d",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1740",
+  "warArtifact": "https://1740-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "3c6cfaef9dd26561c60b4ca57ccb2058f02b9f222f7a4e8c7d4969f88c8df67f",
+  "exampleDocuArtifact": "https://1740-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "d06fbec61b774c0fc5d08c075163de70d34202fca48bf640726759d2017b3574",
   "docuArtifacts": [
-    {
-      "url": "https://1698-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "daabda717cd51533efa6f4d4d28c042af1320221d242a85fcdf27cf9e2839d6e",
-      "build": "1698"
-    },
     {
       "url": "https://1700-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "50a46c73207bf128b24d1946bbe46132b7783d8fbec309aa60e7ccb8a37ed2ad",
@@ -35,6 +30,11 @@
       "url": "https://1730-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "5917b4348e276a5b74fb3c080fb2d0b710a20ed64d5d6135db2cd07ba3e244ac",
       "build": "1730"
+    },
+    {
+      "url": "https://1740-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "90122baf985d6ec1b13b3eda06cb5d32d7b848b8903b95bb12235a0bef6d82eb",
+      "build": "1740"
     }
   ]
 }
