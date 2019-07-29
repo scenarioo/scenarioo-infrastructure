@@ -1,21 +1,16 @@
 {
   "branchName": "feature/915-migrate-scenarios-overview",
   "encodedBranchName": "feature-915-migrate-scenarios-overview",
-  "timestamp": "1564336799",
-  "buildNumber": "1744",
+  "timestamp": "1564387774",
+  "buildNumber": "1756",
   "triggeredBy": "",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/932",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1744",
-  "warArtifact": "https://1744-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "fe764e09301f72b52dfc446d190fd88d886be3b892ba4683d9cc5ca6451cba38",
-  "exampleDocuArtifact": "https://1744-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "0fce2f7153dd535c3f342843f92fca88644999fd57a26a95a81fdb0f7049d297",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1756",
+  "warArtifact": "https://1756-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "1ac15f950a3c3fada6b5032e2819bb9e2d2d5a15280461e4b1906c13b17bbecd",
+  "exampleDocuArtifact": "https://1756-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "01152983f35e749c81cb168dff63e5dbe1924ee9079151ef8aabfccfe142935e",
   "docuArtifacts": [
-    {
-      "url": "https://1715-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "44f75bdee35e58eeeb6ccef461ed763eed34392d4ba2c5a3bcb57cfe5aac50a1",
-      "build": "1715"
-    },
     {
       "url": "https://1728-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "dc5ea5e9b7bf153f2733effca9f1c958be534674b4aa68a7738517ea1daa1d76",
@@ -35,6 +30,11 @@
       "url": "https://1744-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "b91762c4eea46b19bdfa99dc14f772c68a26b929810f5eec519fc0ac87aef5df",
       "build": "1744"
+    },
+    {
+      "url": "https://1756-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "d69e22a72f1c7ecfa845bd2120dec536afa0d85c7edbcecf8baf15ecd0c6216a",
+      "build": "1756"
     }
   ]
 }
