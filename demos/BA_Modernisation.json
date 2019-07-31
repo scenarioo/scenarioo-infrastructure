@@ -1,0 +1,20 @@
+{
+  "branchName": "BA_Modernisation",
+  "encodedBranchName": "BA_Modernisation",
+  "timestamp": "1564573702",
+  "buildNumber": "1793",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/950",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1793",
+  "warArtifact": "https://1793-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "16191c732c92da32182372a6441e0e7e117c575daac0a2eaaf7c6cd85656124d",
+  "exampleDocuArtifact": "https://1793-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "273f59a995590499fe937021920926cb0a2a577f66e1ab583481c103cc42f441",
+  "docuArtifacts": [
+    {
+      "url": "https://1793-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "90b99a66fa11ac6bff0c2f8959cf3a0d94c017936ba66b94d479712ee0831e58",
+      "build": "1793"
+    }
+  ]
+}
