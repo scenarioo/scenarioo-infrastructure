@@ -92,21 +92,16 @@
   {
     "branchName": "feature/915-migrate-scenarios-overview",
     "encodedBranchName": "feature-915-migrate-scenarios-overview",
-    "timestamp": "1564387774",
-    "buildNumber": "1756",
+    "timestamp": "1568189523",
+    "buildNumber": "1848",
     "triggeredBy": "",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/932",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1756",
-    "warArtifact": "https://1756-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "1ac15f950a3c3fada6b5032e2819bb9e2d2d5a15280461e4b1906c13b17bbecd",
-    "exampleDocuArtifact": "https://1756-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "01152983f35e749c81cb168dff63e5dbe1924ee9079151ef8aabfccfe142935e",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1848",
+    "warArtifact": "https://1848-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "ade99fe4a7fce881aa5805a1701ed618d208065e7e976cf2d6b7850e8d977c75",
+    "exampleDocuArtifact": "https://1848-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "14a3ca3ee6c2d047153a98ed3c2d16fba1cecd32c36f9743c4134cb24136940f",
     "docuArtifacts": [
-      {
-        "url": "https://1728-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "dc5ea5e9b7bf153f2733effca9f1c958be534674b4aa68a7738517ea1daa1d76",
-        "build": "1728"
-      },
       {
         "url": "https://1730-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "5917b4348e276a5b74fb3c080fb2d0b710a20ed64d5d6135db2cd07ba3e244ac",
@@ -126,6 +121,11 @@
         "url": "https://1756-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "d69e22a72f1c7ecfa845bd2120dec536afa0d85c7edbcecf8baf15ecd0c6216a",
         "build": "1756"
+      },
+      {
+        "url": "https://1848-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "fc39d20667463a1e5b7e18b629b7708eb470fbceb60082fd1381dc7845f43278",
+        "build": "1848"
       }
     ]
   },
