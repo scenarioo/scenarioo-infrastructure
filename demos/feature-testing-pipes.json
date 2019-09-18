@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/testing-pipes",
+  "encodedBranchName": "feature-testing-pipes",
+  "timestamp": "1568791185",
+  "buildNumber": "1867",
+  "triggeredBy": "SteffiSchlumpf",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1867",
+  "warArtifact": "https://1867-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "5d73f819fe6cbd6683cdc051c1325b59382c85743a2d92438cfc8f914923e7f7",
+  "exampleDocuArtifact": "https://1867-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "80166a2f65348c0d45609043e17f0c0d13990e2702aaa143198c6d539d6a1588",
+  "docuArtifacts": [
+    {
+      "url": "https://1867-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "60c680e422dc3fea1254e6cad6a98a1788aba1e158c74fbfac22a21d7d2624fe",
+      "build": "1867"
+    }
+  ]
+}
