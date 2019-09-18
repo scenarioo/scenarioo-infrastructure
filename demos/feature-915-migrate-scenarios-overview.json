@@ -1,21 +1,16 @@
 {
   "branchName": "feature/915-migrate-scenarios-overview",
   "encodedBranchName": "feature-915-migrate-scenarios-overview",
-  "timestamp": "1568189523",
-  "buildNumber": "1848",
-  "triggeredBy": "",
+  "timestamp": "1568802354",
+  "buildNumber": "1870",
+  "triggeredBy": "SteffiSchlumpf",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/932",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1848",
-  "warArtifact": "https://1848-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "ade99fe4a7fce881aa5805a1701ed618d208065e7e976cf2d6b7850e8d977c75",
-  "exampleDocuArtifact": "https://1848-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "14a3ca3ee6c2d047153a98ed3c2d16fba1cecd32c36f9743c4134cb24136940f",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1870",
+  "warArtifact": "https://1870-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "696e2fe5ad169a6db34596d7a2504048688850fad51dd99f13a064523937d618",
+  "exampleDocuArtifact": "https://1870-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "56d5e640c60bf3f4d8a86cffe30435c556ef55f6d400425c5cd94d2acbe9c0a0",
   "docuArtifacts": [
-    {
-      "url": "https://1730-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "5917b4348e276a5b74fb3c080fb2d0b710a20ed64d5d6135db2cd07ba3e244ac",
-      "build": "1730"
-    },
     {
       "url": "https://1740-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "90122baf985d6ec1b13b3eda06cb5d32d7b848b8903b95bb12235a0bef6d82eb",
@@ -35,6 +30,11 @@
       "url": "https://1848-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "fc39d20667463a1e5b7e18b629b7708eb470fbceb60082fd1381dc7845f43278",
       "build": "1848"
+    },
+    {
+      "url": "https://1870-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "f6b6013693ed5a900b2ede6fafb05557baa2f71603cd0a920922201cfe9baa95",
+      "build": "1870"
     }
   ]
 }
