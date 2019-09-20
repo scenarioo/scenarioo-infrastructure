@@ -1,21 +1,16 @@
 {
   "branchName": "feature/915-migrate-scenarios-overview",
   "encodedBranchName": "feature-915-migrate-scenarios-overview",
-  "timestamp": "1568802354",
-  "buildNumber": "1870",
+  "timestamp": "1568992387",
+  "buildNumber": "1885",
   "triggeredBy": "SteffiSchlumpf",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/932",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1870",
-  "warArtifact": "https://1870-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "696e2fe5ad169a6db34596d7a2504048688850fad51dd99f13a064523937d618",
-  "exampleDocuArtifact": "https://1870-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "56d5e640c60bf3f4d8a86cffe30435c556ef55f6d400425c5cd94d2acbe9c0a0",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1885",
+  "warArtifact": "https://1885-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "7de3d3cca60475b62b5a5a29fbd3452b3e879d97d1bca6cd66162c97a4b93a3f",
+  "exampleDocuArtifact": "https://1885-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "1e050c4276d12aa97d3a03f71f689d23a76f4b6bea8e93a901301034c37b929a",
   "docuArtifacts": [
-    {
-      "url": "https://1740-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "90122baf985d6ec1b13b3eda06cb5d32d7b848b8903b95bb12235a0bef6d82eb",
-      "build": "1740"
-    },
     {
       "url": "https://1744-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "b91762c4eea46b19bdfa99dc14f772c68a26b929810f5eec519fc0ac87aef5df",
@@ -35,6 +30,11 @@
       "url": "https://1870-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "f6b6013693ed5a900b2ede6fafb05557baa2f71603cd0a920922201cfe9baa95",
       "build": "1870"
+    },
+    {
+      "url": "https://1885-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "ccab27d88e6572e0779fe5676d3ccd339dfeddef0ad47471c8d8f57919f1284e",
+      "build": "1885"
     }
   ]
 }
