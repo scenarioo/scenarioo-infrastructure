@@ -1,0 +1,20 @@
+{
+  "branchName": "fix/imports",
+  "encodedBranchName": "fix-imports",
+  "timestamp": "1569163123",
+  "buildNumber": "1892",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/955",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1892",
+  "warArtifact": "https://1892-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "95218edbd48f2cebb356600f9ceb4a1bff24d28bbac9d4302997bb5ce1e970c6",
+  "exampleDocuArtifact": "https://1892-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "7653c81c4e58bbcf6cfddb506f9c7511ba9b52848794e5b887e284a423396269",
+  "docuArtifacts": [
+    {
+      "url": "https://1892-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "fe1d7650ddd020379723273bc747dcc6bd3e1cfc49b5930fed6ddc1ed5dbd734",
+      "build": "1892"
+    }
+  ]
+}
