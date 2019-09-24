@@ -42,21 +42,16 @@
   {
     "branchName": "feature/915-migrate-scenarios-overview",
     "encodedBranchName": "feature-915-migrate-scenarios-overview",
-    "timestamp": "1568992387",
-    "buildNumber": "1885",
+    "timestamp": "1569320040",
+    "buildNumber": "1899",
     "triggeredBy": "SteffiSchlumpf",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/932",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1885",
-    "warArtifact": "https://1885-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "7de3d3cca60475b62b5a5a29fbd3452b3e879d97d1bca6cd66162c97a4b93a3f",
-    "exampleDocuArtifact": "https://1885-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "1e050c4276d12aa97d3a03f71f689d23a76f4b6bea8e93a901301034c37b929a",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1899",
+    "warArtifact": "https://1899-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "a26d64a5093c7dd2e0a8edbdabfa18f44ebdededd9b1d5dd5b37aef345832cb5",
+    "exampleDocuArtifact": "https://1899-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "668b1f0885db8a6e29fe0049b23c3423acf4cf1fc65dc34bfa6407743976d40e",
     "docuArtifacts": [
-      {
-        "url": "https://1744-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "b91762c4eea46b19bdfa99dc14f772c68a26b929810f5eec519fc0ac87aef5df",
-        "build": "1744"
-      },
       {
         "url": "https://1756-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "d69e22a72f1c7ecfa845bd2120dec536afa0d85c7edbcecf8baf15ecd0c6216a",
@@ -76,6 +71,11 @@
         "url": "https://1885-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "ccab27d88e6572e0779fe5676d3ccd339dfeddef0ad47471c8d8f57919f1284e",
         "build": "1885"
+      },
+      {
+        "url": "https://1899-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "81f35c796ae9a31b149ae6fe8c482e4019086cf54f32ec02d36095569028a1d6",
+        "build": "1899"
       }
     ]
   },
