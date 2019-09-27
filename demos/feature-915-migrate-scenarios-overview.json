@@ -1,21 +1,16 @@
 {
   "branchName": "feature/915-migrate-scenarios-overview",
   "encodedBranchName": "feature-915-migrate-scenarios-overview",
-  "timestamp": "1569320040",
-  "buildNumber": "1899",
-  "triggeredBy": "SteffiSchlumpf",
+  "timestamp": "1569568997",
+  "buildNumber": "1915",
+  "triggeredBy": "danielsuter",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/932",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1899",
-  "warArtifact": "https://1899-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "a26d64a5093c7dd2e0a8edbdabfa18f44ebdededd9b1d5dd5b37aef345832cb5",
-  "exampleDocuArtifact": "https://1899-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "668b1f0885db8a6e29fe0049b23c3423acf4cf1fc65dc34bfa6407743976d40e",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1915",
+  "warArtifact": "https://1915-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "dacb74d514cb53cb6f8f65dac218a29688fe1a948cd146b294a305d9fee2be29",
+  "exampleDocuArtifact": "https://1915-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "e46824bc59d2b4332ab5e33c54e17601e36ff5d2a0cd3d287dd67ec53e3c837e",
   "docuArtifacts": [
-    {
-      "url": "https://1756-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "d69e22a72f1c7ecfa845bd2120dec536afa0d85c7edbcecf8baf15ecd0c6216a",
-      "build": "1756"
-    },
     {
       "url": "https://1848-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "fc39d20667463a1e5b7e18b629b7708eb470fbceb60082fd1381dc7845f43278",
@@ -35,6 +30,11 @@
       "url": "https://1899-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "81f35c796ae9a31b149ae6fe8c482e4019086cf54f32ec02d36095569028a1d6",
       "build": "1899"
+    },
+    {
+      "url": "https://1915-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "088b1bab2aaa371340a04223d45e29fc63b1dea21b26d326d8d3eb147db8005f",
+      "build": "1915"
     }
   ]
 }
