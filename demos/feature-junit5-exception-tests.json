@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/junit5-exception-tests",
+  "encodedBranchName": "feature-junit5-exception-tests",
+  "timestamp": "1569599079",
+  "buildNumber": "1957",
+  "triggeredBy": "SteffiSchlumpf",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1957",
+  "warArtifact": "https://1957-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "543aee66404abfbaeedb9f09be754d412a4221ca29854ab2b2f0ad1e06f2cdea",
+  "exampleDocuArtifact": "https://1957-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "6da1462a99c972b864d28b6967bfb9e988d8deae48775cc2d27b4f80b6a02cf7",
+  "docuArtifacts": [
+    {
+      "url": "https://1957-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "8906e171682f5e2947c86c8a849c96f80e058272c07ce94b277d8acddccb8561",
+      "build": "1957"
+    }
+  ]
+}
