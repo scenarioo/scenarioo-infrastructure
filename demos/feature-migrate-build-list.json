@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/migrate-build-list",
+  "encodedBranchName": "feature-migrate-build-list",
+  "timestamp": "1569597040",
+  "buildNumber": "1950",
+  "triggeredBy": "sascha-kaufmann",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/1950",
+  "warArtifact": "https://1950-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "79c7dc1586a5012857d1f1c745896e8f895b259f778e49ddde39202e41d6a53a",
+  "exampleDocuArtifact": "https://1950-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "c9cb13fb35621a4fbf00962e7f1918e965356b9a6d10c11f05fae232a75d37fb",
+  "docuArtifacts": [
+    {
+      "url": "https://1950-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "0455de45f310ef559cbce456fda9e7dcdd684c2d38ab0314a6c9f4caa11d702c",
+      "build": "1950"
+    }
+  ]
+}
