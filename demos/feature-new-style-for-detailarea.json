@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/new-style-for-detailarea",
+  "encodedBranchName": "feature-new-style-for-detailarea",
+  "timestamp": "1570087023",
+  "buildNumber": "2021",
+  "triggeredBy": "SteffiSchlumpf",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2021",
+  "warArtifact": "https://2021-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "8130183c896c7c6c0957d57612ba023e40867d5893d64628932e639964c3a94f",
+  "exampleDocuArtifact": "https://2021-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "5391c9f2b6f8af90a6b2d612649d901f635972e607da40ecf996231c87737c15",
+  "docuArtifacts": [
+    {
+      "url": "https://2021-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "3663084e0cd8500434ae76ef4823b28e37318d60be2bc131a25696d5dd4cebb7",
+      "build": "2021"
+    }
+  ]
+}
