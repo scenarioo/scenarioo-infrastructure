@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/938-order-of-main-tabs",
+  "encodedBranchName": "feature-938-order-of-main-tabs",
+  "timestamp": "1570459802",
+  "buildNumber": "2053",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/964",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2053",
+  "warArtifact": "https://2053-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "9584f280d198d280f7e3c60550495f43c726e81869cbfdf91fda2ef2aaacf273",
+  "exampleDocuArtifact": "https://2053-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "47341281445ef81c854e5fcf2c653c72b60ecb26cb92f729534a39391975ae20",
+  "docuArtifacts": [
+    {
+      "url": "https://2053-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "39e557e474e1a24927f05583fc9d2cce0a8504db43d8677d44e82e4f11ce06a2",
+      "build": "2053"
+    }
+  ]
+}
