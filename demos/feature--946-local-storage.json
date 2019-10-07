@@ -1,21 +1,16 @@
 {
   "branchName": "feature/#946-local-storage",
   "encodedBranchName": "feature--946-local-storage",
-  "timestamp": "1570170629",
-  "buildNumber": "2031",
+  "timestamp": "1570427961",
+  "buildNumber": "2047",
   "triggeredBy": "SteffiSchlumpf",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/960",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2031",
-  "warArtifact": "https://2031-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "bda1c3b095aa1ac1865b06af37a72d3c49251aa672bb34081a24bba30aff6963",
-  "exampleDocuArtifact": "https://2031-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "5252d33ffba98e740617bab3f83ccc98876e4b9c9256b48264b1751a037ebf56",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2047",
+  "warArtifact": "https://2047-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "05165050b58c786ced03b7cd4e23ae2990388144e35982ed79490f8bd629a651",
+  "exampleDocuArtifact": "https://2047-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "f86f27937413d0dec19bdf5feba33c11f1e7a6ef2fade423c64530914b05573c",
   "docuArtifacts": [
-    {
-      "url": "https://2007-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "97b17d638dcc1613602e1956d5a9d979ee829c803af53e0d12be311462e8b8ce",
-      "build": "2007"
-    },
     {
       "url": "https://2012-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "3dd0941b555f529083c0d62c4d9f6b857a5b9145902ce8e540af654dca56f738",
@@ -35,6 +30,11 @@
       "url": "https://2031-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "4af8f29fe61472a673cc3a44fc56c4dced1fa4fd4c623d2678d7df772b520272",
       "build": "2031"
+    },
+    {
+      "url": "https://2047-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "7b6216f0acbb998edf26cc3ea643bd0bbecdc81812f5867599ee91ad5b0168f0",
+      "build": "2047"
     }
   ]
 }
