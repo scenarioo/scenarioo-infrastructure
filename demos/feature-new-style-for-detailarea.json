@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/new-style-for-detailarea",
+  "encodedBranchName": "feature-new-style-for-detailarea",
+  "timestamp": "1570461769",
+  "buildNumber": "2055",
+  "triggeredBy": "SteffiSchlumpf",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/963",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2055",
+  "warArtifact": "https://2055-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "25945a3bfa29aca88d6a1b69535a61e47228b3ac2ba6b5ac3a8138b927e301a7",
+  "exampleDocuArtifact": "https://2055-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "02a552ea06d2c2ed37d6f8e171fda854228242a935a999dad7ab347d806093d9",
+  "docuArtifacts": [
+    {
+      "url": "https://2055-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "df25abf4c9d453884a695c199174e3a3e48bf538aecf5b8dbb071817a7752a06",
+      "build": "2055"
+    }
+  ]
+}
