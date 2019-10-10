@@ -1,0 +1,20 @@
+{
+  "branchName": "release/5.0",
+  "encodedBranchName": "release-5.0",
+  "timestamp": "1570712845",
+  "buildNumber": "2066",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2066",
+  "warArtifact": "https://2066-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "720d62bf4868e988d1f7d4859e78be229306944ed50096ec83169ce78783fb02",
+  "exampleDocuArtifact": "https://2066-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "5043534aacf86cfb28b5a549e2a32ee43ef2548c69c1b883a56170ac86106713",
+  "docuArtifacts": [
+    {
+      "url": "https://2066-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "bb4863adf4472096a9cbe81965395b8172a1ed82ba4f114b6ddf8a224c4c8b3b",
+      "build": "2066"
+    }
+  ]
+}
