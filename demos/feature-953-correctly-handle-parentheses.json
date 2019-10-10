@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/953-correctly-handle-parentheses",
+  "encodedBranchName": "feature-953-correctly-handle-parentheses",
+  "timestamp": "1570711902",
+  "buildNumber": "2064",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/957",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2064",
+  "warArtifact": "https://2064-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "526b483f500a5bd76b81547f69686c64e46d17c8887d746f1f3b353c09a5daf2",
+  "exampleDocuArtifact": "https://2064-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "cf7883aae24d14b32c8fd197b3810ca854d02e9f39a32161988b901e19e56c72",
+  "docuArtifacts": [
+    {
+      "url": "https://2064-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "725074fa55472ca308b409780caf198d60673251016f4fcd6d7c35950aaf1b3a",
+      "build": "2064"
+    }
+  ]
+}
