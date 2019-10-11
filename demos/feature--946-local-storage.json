@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/#946-local-storage",
+  "encodedBranchName": "feature--946-local-storage",
+  "timestamp": "1570773777",
+  "buildNumber": "2087",
+  "triggeredBy": "SteffiSchlumpf",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/960",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2087",
+  "warArtifact": "https://2087-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "22741d40011c104b552d4e4d4529f26fafdc268b0f78f4bdbf418343d191125e",
+  "exampleDocuArtifact": "https://2087-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "c488915ed262b9a9ae819f7e271baff91ca9d94d69eba904bcaaa5de85034eb3",
+  "docuArtifacts": [
+    {
+      "url": "https://2087-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "11d545aaa75127041774037ec84bf972763bf330c42552512e4e8b274d510d5d",
+      "build": "2087"
+    }
+  ]
+}
