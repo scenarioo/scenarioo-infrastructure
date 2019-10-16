@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/simplify-detailarea",
+  "encodedBranchName": "feature-simplify-detailarea",
+  "timestamp": "1571224175",
+  "buildNumber": "2104",
+  "triggeredBy": "SteffiSchlumpf",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/962",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2104",
+  "warArtifact": "https://2104-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "b6a5a5fd10eb625732e38e2e28497dc34e4ec2e786ebb43b297bf6ea82f1557b",
+  "exampleDocuArtifact": "https://2104-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "08047201337ca739ffe51e38eb6e58884966744ef6ecc7ad04f5285358cd27b7",
+  "docuArtifacts": [
+    {
+      "url": "https://2104-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "1753435e1fb1a112eedcecffb8af62eb9522a2a0ac3776b451e5f227f7c31dc4",
+      "build": "2104"
+    }
+  ]
+}
