@@ -1,21 +1,16 @@
 {
   "branchName": "feature/testing-pipes",
   "encodedBranchName": "feature-testing-pipes",
-  "timestamp": "1571209247",
-  "buildNumber": "2098",
+  "timestamp": "1571387214",
+  "buildNumber": "2115",
   "triggeredBy": "SteffiSchlumpf",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/958",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2098",
-  "warArtifact": "https://2098-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "944a28544873f580c704bd9b9cd677d51ba597ab55503fbe39631654c0b8ea4e",
-  "exampleDocuArtifact": "https://2098-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "39fbed4a820fba0889c223a505418075aef570867d33994c4b0393fbc1897e38",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2115",
+  "warArtifact": "https://2115-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "21321aca8fb151ed26243701bd9786e434f31b57ab38bc560059a7f6d7076afe",
+  "exampleDocuArtifact": "https://2115-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "7a69c3de728353a2d16a02c1024358ee5e7a0660024fa7f07944a1e5ea16add0",
   "docuArtifacts": [
-    {
-      "url": "https://2022-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "715a7b6229cf97c22529fa4e8c15f83943dad99de6cdecf81807d72d9289976c",
-      "build": "2022"
-    },
     {
       "url": "https://2049-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "a4b7e4e2d8703494fbcf3d1b4ab2994a32c2a920efc769afdabf0dbf5752a496",
@@ -35,6 +30,11 @@
       "url": "https://2098-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "4a894eb5b9963c29ba5edf28f33f7905df64fab4ae282d61a3bd40ce0a0b85c0",
       "build": "2098"
+    },
+    {
+      "url": "https://2115-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "07a9f84d98333a23313b3349c1bd307300c7d49fbdd8dc07f9a00e8545b3bc72",
+      "build": "2115"
     }
   ]
 }
