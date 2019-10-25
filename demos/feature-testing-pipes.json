@@ -1,21 +1,16 @@
 {
   "branchName": "feature/testing-pipes",
   "encodedBranchName": "feature-testing-pipes",
-  "timestamp": "1571387214",
-  "buildNumber": "2115",
-  "triggeredBy": "SteffiSchlumpf",
+  "timestamp": "1572002854",
+  "buildNumber": "2127",
+  "triggeredBy": "bruderol",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/958",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2115",
-  "warArtifact": "https://2115-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "21321aca8fb151ed26243701bd9786e434f31b57ab38bc560059a7f6d7076afe",
-  "exampleDocuArtifact": "https://2115-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "7a69c3de728353a2d16a02c1024358ee5e7a0660024fa7f07944a1e5ea16add0",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2127",
+  "warArtifact": "https://2127-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "4027d95a4f624d01fc2c4c4bcdfe8dd25c45373bdb301ed6f1704440f9623d5e",
+  "exampleDocuArtifact": "https://2127-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "35d4a0ffd31ed80d4fa16a6c914a80b6d4ba1428246f21b05c9452447ab64a2c",
   "docuArtifacts": [
-    {
-      "url": "https://2049-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "a4b7e4e2d8703494fbcf3d1b4ab2994a32c2a920efc769afdabf0dbf5752a496",
-      "build": "2049"
-    },
     {
       "url": "https://2060-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "bff8df3baa4030c2e0bf3a45660e999cfbb4a1d1fac89eabef497d4d51c76774",
@@ -35,6 +30,11 @@
       "url": "https://2115-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "07a9f84d98333a23313b3349c1bd307300c7d49fbdd8dc07f9a00e8545b3bc72",
       "build": "2115"
+    },
+    {
+      "url": "https://2127-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "b7d9c117e34d765bb9b5e22d6cf795e1bb80b938fe793410324089a536b8abf3",
+      "build": "2127"
     }
   ]
 }
