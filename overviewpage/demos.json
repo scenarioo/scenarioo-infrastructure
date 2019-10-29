@@ -72,21 +72,16 @@
   {
     "branchName": "feature/new-style-for-detailarea",
     "encodedBranchName": "feature-new-style-for-detailarea",
-    "timestamp": "1572345850",
-    "buildNumber": "2175",
+    "timestamp": "1572346749",
+    "buildNumber": "2181",
     "triggeredBy": "SteffiSchlumpf",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/963",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2175",
-    "warArtifact": "https://2175-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "c0a1a491f29ddba6da7e97d4126015e2e51b347fc41f1cc6c9bd1357c408d1c1",
-    "exampleDocuArtifact": "https://2175-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "9c9c5b9453fe14e77162083f6766979e161263456e15b4a98398a0c555eee24e",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2181",
+    "warArtifact": "https://2181-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "fbdc1966437a43f0f868b9be106a49701aedea59f76ed72a05fb26a0ccab1063",
+    "exampleDocuArtifact": "https://2181-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "62efe7f00d10443dca80d59606a455e2467da3811084365459f214450d17b49b",
     "docuArtifacts": [
-      {
-        "url": "https://2108-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "ae535f36c046541c8ddd7b79f79c0bd133e7b24878598e56ce50b12ce9444cdd",
-        "build": "2108"
-      },
       {
         "url": "https://2111-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "015cc1c68972821cd43248570943fab14485173544bcc8aadccd220681e579f6",
@@ -106,6 +101,11 @@
         "url": "https://2175-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "76318038d805c563e8e251f2d43d628030afb679e176a6a93e153b7d6f58e42c",
         "build": "2175"
+      },
+      {
+        "url": "https://2181-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "0131af9fbe885eb39fbe3d4438cc21cbd616a06ac78cd594685ee6a4745e34bc",
+        "build": "2181"
       }
     ]
   },
