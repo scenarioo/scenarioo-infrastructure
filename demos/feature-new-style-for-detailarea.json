@@ -1,21 +1,16 @@
 {
   "branchName": "feature/new-style-for-detailarea",
   "encodedBranchName": "feature-new-style-for-detailarea",
-  "timestamp": "1572346749",
-  "buildNumber": "2181",
+  "timestamp": "1572514434",
+  "buildNumber": "2187",
   "triggeredBy": "SteffiSchlumpf",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/963",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2181",
-  "warArtifact": "https://2181-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "fbdc1966437a43f0f868b9be106a49701aedea59f76ed72a05fb26a0ccab1063",
-  "exampleDocuArtifact": "https://2181-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "62efe7f00d10443dca80d59606a455e2467da3811084365459f214450d17b49b",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2187",
+  "warArtifact": "https://2187-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "b77603ff8926fdc2f5352cfb1a6864b36312ee120a50129b7e9e5751bd680b42",
+  "exampleDocuArtifact": "https://2187-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "eb7e27302253cae2baf25a1d89762a2b97fde71adaa135a24fd707c878d377f4",
   "docuArtifacts": [
-    {
-      "url": "https://2111-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "015cc1c68972821cd43248570943fab14485173544bcc8aadccd220681e579f6",
-      "build": "2111"
-    },
     {
       "url": "https://2121-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "f2019b440e09e7a5e3b037a1921ebb94eae61360f5c93eceb9d84d8090fa2e98",
@@ -35,6 +30,11 @@
       "url": "https://2181-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "0131af9fbe885eb39fbe3d4438cc21cbd616a06ac78cd594685ee6a4745e34bc",
       "build": "2181"
+    },
+    {
+      "url": "https://2187-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "fe4d2c879ece472e4d40aa47e931469b888fe5e2045d67ce9bbe2b01239cc982",
+      "build": "2187"
     }
   ]
 }
