@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/disable-animations-for-tests",
+  "encodedBranchName": "feature-disable-animations-for-tests",
+  "timestamp": "1573141297",
+  "buildNumber": "2222",
+  "triggeredBy": "SteffiSchlumpf",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2222",
+  "warArtifact": "https://2222-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "6975d4a7ab81c827e090bd51406bbad7d79826e496232343537b076f5683da41",
+  "exampleDocuArtifact": "https://2222-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "7d5f2666c75f18aa721b971d3750880c0fff3300cf2436ae6f4ef7362a50554b",
+  "docuArtifacts": [
+    {
+      "url": "https://2222-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "c068122dd7489cb159d6b37d3696aa2c38c3957e23b38002def2414117a04a73",
+      "build": "2222"
+    }
+  ]
+}
