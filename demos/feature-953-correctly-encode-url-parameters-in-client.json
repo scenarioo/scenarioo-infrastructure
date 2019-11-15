@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/953-correctly-encode-url-parameters-in-client",
+  "encodedBranchName": "feature-953-correctly-encode-url-parameters-in-client",
+  "timestamp": "1573821067",
+  "buildNumber": "2260",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/976",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2260",
+  "warArtifact": "https://2260-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "07f66c22bb1c66bec368007b2860767e11f26c656e41c724a2c4a66041d4b1e3",
+  "exampleDocuArtifact": "https://2260-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "71e7c1fccb49f2a719e4e2192cabdc21435ded8aeea1b95d39d15ef31b3f969d",
+  "docuArtifacts": [
+    {
+      "url": "https://2260-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "3ecdea15c36066bc01894770b6332988b832c8dccea836e1a65a09d8a41be628",
+      "build": "2260"
+    }
+  ]
+}
