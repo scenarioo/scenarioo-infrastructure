@@ -1,0 +1,20 @@
+{
+  "branchName": "fetaure/978-introduce-swagger-ui",
+  "encodedBranchName": "fetaure-978-introduce-swagger-ui",
+  "timestamp": "1573837946",
+  "buildNumber": "2329",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2329",
+  "warArtifact": "https://2329-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "0e48c259c93c06db04b2554af08459a82ef697874dcca41a2da169e2b0522785",
+  "exampleDocuArtifact": "https://2329-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "f1c5d5be202fa3e9ea006b83039d94e88739ee4c814ee49b42aa86ae615c84ed",
+  "docuArtifacts": [
+    {
+      "url": "https://2329-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "d020b277681042b45b57752db1d195fa3128c4d4e5cca676539a91fbd2e97c2a",
+      "build": "2329"
+    }
+  ]
+}
