@@ -1,0 +1,20 @@
+{
+  "branchName": "dependabot/npm_and_yarn/scenarioo-client/clean-css-4.1.11",
+  "encodedBranchName": "dependabot-npm_and_yarn-scenarioo-client-clean-css-4.1.11",
+  "timestamp": "1573832672",
+  "buildNumber": "2306",
+  "triggeredBy": "",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/972",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2306",
+  "warArtifact": "https://2306-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "ece21d6c0ce2f408649f00c2ad6eb5b95b7db748ce3d6a4b34ba724eb3a6bef8",
+  "exampleDocuArtifact": "https://2306-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "78596d7340287305cbaefd383934ca6c99fccae103b5d2754e84623c205072fb",
+  "docuArtifacts": [
+    {
+      "url": "https://2306-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "3db8655f957c39a0b8436dccb884d630568bb672259cc2bebde0efaa44b3ba6f",
+      "build": "2306"
+    }
+  ]
+}
