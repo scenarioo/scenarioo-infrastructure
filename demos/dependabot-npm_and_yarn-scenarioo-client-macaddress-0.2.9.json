@@ -1,0 +1,20 @@
+{
+  "branchName": "dependabot/npm_and_yarn/scenarioo-client/macaddress-0.2.9",
+  "encodedBranchName": "dependabot-npm_and_yarn-scenarioo-client-macaddress-0.2.9",
+  "timestamp": "1573834158",
+  "buildNumber": "2199",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/971",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2199",
+  "warArtifact": "https://2199-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "1efbff38127a823ced14da3a08e2f781cfe2ac00daa7fb0c102b1389507b4edd",
+  "exampleDocuArtifact": "https://2199-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "2f884a2cc51a0c679d1fff479604d793b52600b7c81f06f85c60897c1e625a81",
+  "docuArtifacts": [
+    {
+      "url": "https://2199-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "8f90a965e916909e4ad9df86b984dc28b8495f13534527b7306a879dccc2c4dd",
+      "build": "2199"
+    }
+  ]
+}
