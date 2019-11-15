@@ -1,0 +1,20 @@
+{
+  "branchName": "dependabot/npm_and_yarn/scenarioo-client/eslint-4.18.2",
+  "encodedBranchName": "dependabot-npm_and_yarn-scenarioo-client-eslint-4.18.2",
+  "timestamp": "1573834212",
+  "buildNumber": "2300",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/969",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2300",
+  "warArtifact": "https://2300-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "b518722b8dac6b2054b2b5723969d34315706eda8afbdda176768e5f2695e787",
+  "exampleDocuArtifact": "https://2300-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "9f8e924dd7c10866461354c92babf37b58fcc0e4073909d3875fa60473465a24",
+  "docuArtifacts": [
+    {
+      "url": "https://2300-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "a0adb37994725a09013951186490e5ca36175a90446a7e93ac909292b2a66c6a",
+      "build": "2300"
+    }
+  ]
+}

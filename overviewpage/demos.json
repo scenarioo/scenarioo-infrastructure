@@ -1,25 +1,5 @@
 [
   {
-    "branchName": "dependabot/npm_and_yarn/scenarioo-client/clean-css-4.1.11",
-    "encodedBranchName": "dependabot-npm_and_yarn-scenarioo-client-clean-css-4.1.11",
-    "timestamp": "1573832672",
-    "buildNumber": "2306",
-    "triggeredBy": "",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/972",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2306",
-    "warArtifact": "https://2306-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "ece21d6c0ce2f408649f00c2ad6eb5b95b7db748ce3d6a4b34ba724eb3a6bef8",
-    "exampleDocuArtifact": "https://2306-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "78596d7340287305cbaefd383934ca6c99fccae103b5d2754e84623c205072fb",
-    "docuArtifacts": [
-      {
-        "url": "https://2306-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "3db8655f957c39a0b8436dccb884d630568bb672259cc2bebde0efaa44b3ba6f",
-        "build": "2306"
-      }
-    ]
-  },
-  {
     "branchName": "dependabot/npm_and_yarn/scenarioo-client/diff-3.5.0",
     "encodedBranchName": "dependabot-npm_and_yarn-scenarioo-client-diff-3.5.0",
     "timestamp": "1573834177",
@@ -36,6 +16,26 @@
         "url": "https://2198-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "6beda5809da2b3fddcd2c2574667d9d52ef7c18c328d18c45b2129860435b3cd",
         "build": "2198"
+      }
+    ]
+  },
+  {
+    "branchName": "dependabot/npm_and_yarn/scenarioo-client/eslint-4.18.2",
+    "encodedBranchName": "dependabot-npm_and_yarn-scenarioo-client-eslint-4.18.2",
+    "timestamp": "1573834212",
+    "buildNumber": "2300",
+    "triggeredBy": "eggerschwiler",
+    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/969",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2300",
+    "warArtifact": "https://2300-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "b518722b8dac6b2054b2b5723969d34315706eda8afbdda176768e5f2695e787",
+    "exampleDocuArtifact": "https://2300-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "9f8e924dd7c10866461354c92babf37b58fcc0e4073909d3875fa60473465a24",
+    "docuArtifacts": [
+      {
+        "url": "https://2300-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "a0adb37994725a09013951186490e5ca36175a90446a7e93ac909292b2a66c6a",
+        "build": "2300"
       }
     ]
   },
