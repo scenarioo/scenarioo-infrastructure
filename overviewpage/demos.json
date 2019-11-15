@@ -40,26 +40,6 @@
     ]
   },
   {
-    "branchName": "feature/#973-do-not-show-arrow-outside-of-detailarea",
-    "encodedBranchName": "feature--973-do-not-show-arrow-outside-of-detailarea",
-    "timestamp": "1573140877",
-    "buildNumber": "2220",
-    "triggeredBy": "SteffiSchlumpf",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2220",
-    "warArtifact": "https://2220-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "51919fce043b032e5cbd5f9a587755006f45ae9384b4407927ae26bc529f76d8",
-    "exampleDocuArtifact": "https://2220-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "2d3b70e3ed4a76159fdadf2cd351df85e583d9a775d44de5d600657b7bf28a14",
-    "docuArtifacts": [
-      {
-        "url": "https://2220-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "e1c3085895b7a22dbe1af7fea41fedacbd77c26cac0f8dded7c2c97b597447f4",
-        "build": "2220"
-      }
-    ]
-  },
-  {
     "branchName": "feature/comparison-selection-transparent",
     "encodedBranchName": "feature-comparison-selection-transparent",
     "timestamp": "1573809580",
@@ -101,6 +81,26 @@
         "url": "https://2222-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "c068122dd7489cb159d6b37d3696aa2c38c3957e23b38002def2414117a04a73",
         "build": "2222"
+      }
+    ]
+  },
+  {
+    "branchName": "feature/migrate-build-list",
+    "encodedBranchName": "feature-migrate-build-list",
+    "timestamp": "1573810846",
+    "buildNumber": "2245",
+    "triggeredBy": "sascha-kaufmann",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2245",
+    "warArtifact": "https://2245-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "d7b77b850ded672979c45a1ac32e26f7a2877305fed8f682189affbab298a604",
+    "exampleDocuArtifact": "https://2245-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "bdedb4f7ebce8fb0e4992f0345c69295cb8a32fcb0e03c15c8f54259b511c17a",
+    "docuArtifacts": [
+      {
+        "url": "https://2245-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "a058e65f71ea46e8a6fa48cd56beb0d2a9d38b3f8835ebb907fa209a267a25d6",
+        "build": "2245"
       }
     ]
   },
