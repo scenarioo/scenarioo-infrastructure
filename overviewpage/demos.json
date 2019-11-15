@@ -1,25 +1,5 @@
 [
   {
-    "branchName": "dependabot/npm_and_yarn/scenarioo-client/diff-3.5.0",
-    "encodedBranchName": "dependabot-npm_and_yarn-scenarioo-client-diff-3.5.0",
-    "timestamp": "1573834177",
-    "buildNumber": "2198",
-    "triggeredBy": "eggerschwiler",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/970",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2198",
-    "warArtifact": "https://2198-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "d3ce7c02370c407634fd587e85c55552a1c921f95115ea0211f7511d742b9964",
-    "exampleDocuArtifact": "https://2198-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "407366cb1672c3b74107f094a3bcf0e3267fc854b289ebb6d362a227a78fe5d3",
-    "docuArtifacts": [
-      {
-        "url": "https://2198-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "6beda5809da2b3fddcd2c2574667d9d52ef7c18c328d18c45b2129860435b3cd",
-        "build": "2198"
-      }
-    ]
-  },
-  {
     "branchName": "dependabot/npm_and_yarn/scenarioo-client/eslint-4.18.2",
     "encodedBranchName": "dependabot-npm_and_yarn-scenarioo-client-eslint-4.18.2",
     "timestamp": "1573834212",
@@ -96,6 +76,26 @@
         "url": "https://994-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "d7343724b94fe794efc0494c1447b02843deb410f93c747a8fb9056c5fc0f103",
         "build": "994"
+      }
+    ]
+  },
+  {
+    "branchName": "feature/migrate-build-list",
+    "encodedBranchName": "feature-migrate-build-list",
+    "timestamp": "1573836505",
+    "buildNumber": "2324",
+    "triggeredBy": "sascha-kaufmann",
+    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/980",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2324",
+    "warArtifact": "https://2324-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "dbbcacfb4987fac116d99bd2a65b31da59b58495b2ed67c690b5617702b58053",
+    "exampleDocuArtifact": "https://2324-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "28114d8767bb577f2aa041a1ea8567f69f1c1b0f2211dd53500ce47718e9e10d",
+    "docuArtifacts": [
+      {
+        "url": "https://2324-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "146768a30bb51a343594dda5fb41cb3e352333ec530d1501a99a6fb119d45a6b",
+        "build": "2324"
       }
     ]
   },
