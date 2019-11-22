@@ -8,19 +8,19 @@ New branch config:
   "branchName": "testBranch",
   "encodedBranchName": "testBranch",
   "timestamp": "1541188077",
-  "buildNumber": "227",
+  "buildNumber": "900",
   "triggeredBy": "testUser",
   "pullRequestUrl": "http://foobar/PR",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/227",
-  "warArtifact": "https://227-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "5cbda4b2145d5a78d695a9a01f37717f2fdb0f69436ad55a28c4a0a00a1664cc",
-  "exampleDocuArtifact": "https://227-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "420d68a8e37e62c19d0b6af47bbb658c673c31746b651d6f90c23b2e5230e416",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/900",
+  "warArtifact": "https://900-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "6990b6ca5e92894a4a9978280bfc5f647c38766a09db070657c831ac9a1f1280",
+  "exampleDocuArtifact": "https://900-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "74b173f28b91aa4455c12d52e99563cfc3479be85b6227eda70f3ee3d3d426e6",
   "docuArtifacts": [
     {
-      "url": "https://227-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "321cf783e6b740b33e69735b513d8aa337bfc45482804162f3b3f39a84b6490e",
-      "build": "227"
+      "url": "https://900-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "2ecc34289389ded67bf37c8d5692090ce45a742ddd4d56aeed7d8647b532297f",
+      "build": 900
     }
   ]
 }

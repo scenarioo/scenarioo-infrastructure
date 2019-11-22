@@ -12,7 +12,7 @@
     "docuArtifacts": [
       {
         "url": "https://188-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "a976801bd71e75fa55227ca93e0a4f424e150c26831bbec16029a92ff8710b94",
+        "sha256": "a976801bd71e75fa55998ca93e0a4f424e150c26831bbec16029a92ff8710b94",
         "build": "188"
       },
       {
@@ -40,7 +40,7 @@
     "docuArtifacts": [
       {
         "url": "https://188-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "a976801bd71e75fa55227ca93e0a4f424e150c26831bbec16029a92ff8710b94",
+        "sha256": "a976801bd71e75fa55998ca93e0a4f424e150c26831bbec16029a92ff8710b94",
         "build": "188"
       },
       {
