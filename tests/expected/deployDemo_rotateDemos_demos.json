@@ -15,7 +15,7 @@
       {
         "url": "https://964-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "1301b6e16ab1bd64f336090fa22f55413fd0f97411a1bb539bcb01cd39ee4565",
-        "build": 964
+        "build": "964"
       }
     ]
   },
@@ -35,7 +35,7 @@
       {
         "url": "https://2363-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "d530ded7151b7c00724e30a1a3c306903b537726e9cfd30cb41a43d7867b391e",
-        "build": 2363
+        "build": "2363"
       }
     ]
   }

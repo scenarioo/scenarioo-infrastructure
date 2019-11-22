@@ -71,7 +71,7 @@ DOCU_ARTIFACT_ITEM=$(cat << EOM
 {
     "url": "$E2E_DOCU_ARTIFACT",
     "sha256": "$E2E_DOCU_ARTIFACT_SHA256",
-    "build": $BUILD_NUMBER
+    "build": "$BUILD_NUMBER"
 }
 EOM
 )

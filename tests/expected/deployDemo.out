@@ -20,7 +20,7 @@ New branch config:
     {
       "url": "https://900-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "2ecc34289389ded67bf37c8d5692090ce45a742ddd4d56aeed7d8647b532297f",
-      "build": 900
+      "build": "900"
     }
   ]
 }
