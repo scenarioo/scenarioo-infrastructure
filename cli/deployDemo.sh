@@ -84,7 +84,7 @@ if [[ -f $BRANCH_CONFIG_FILE ]]; then
     EXISTING_ITEMS=`jq ".docuArtifacts" $BRANCH_CONFIG_FILE`
     if [[ -z `jq -r ".docuArtifacts[] | select(.sha256==\"$E2E_DOCU_ARTIFACT_SHA256\") | .url" $BRANCH_CONFIG_FILE` ]]; then
         # Prepend new docu in DOCU_ARTIFACT_LIST
-        DOCU_ARTIFACT_LIST=`jq ".docuArtifacts |= $DOCU_ARTIFACT_LIST + . | .docuArtifacts | sort_by(.build | toNumber)" $BRANCH_CONFIG_FILE`
+        DOCU_ARTIFACT_LIST=`jq ".docuArtifacts |= $DOCU_ARTIFACT_LIST + . | .docuArtifacts | sort_by(.build | tonumber)" $BRANCH_CONFIG_FILE`
     else
         DOCU_ARTIFACT_LIST="$EXISTING_ITEMS"
     fi
@@ -92,11 +92,11 @@ fi
 
 # Limit the docu artifact list to maxBuildsPerDemo
 MAX_BUILDS_PER_DEMO=`jq '.maxBuildsPerDemo' $CONFIG_FILE`
-ARTIFACTS_TO_BE_REMOVED=`echo $DOCU_ARTIFACT_LIST | jq -r "[. | sort_by(.build | toNumber) | .[:-$MAX_BUILDS_PER_DEMO] | .[].build] | @csv"`
+ARTIFACTS_TO_BE_REMOVED=`echo $DOCU_ARTIFACT_LIST | jq -r "[. | sort_by(.build | tonumber) | .[:-$MAX_BUILDS_PER_DEMO] | .[].build] | @csv"`
 
 if [[ $ARTIFACTS_TO_BE_REMOVED != "" ]]; then
     echo "Removing builds: $ARTIFACTS_TO_BE_REMOVED"
-    DOCU_ARTIFACT_LIST=`echo $DOCU_ARTIFACT_LIST | jq ". | sort_by(.build | toNumber) | .[-$MAX_BUILDS_PER_DEMO:]"`
+    DOCU_ARTIFACT_LIST=`echo $DOCU_ARTIFACT_LIST | jq ". | sort_by(.build | tonumber) | .[-$MAX_BUILDS_PER_DEMO:]"`
 fi
 
 # Final JSON
