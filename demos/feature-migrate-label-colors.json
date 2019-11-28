@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/migrate-label-colors",
+  "encodedBranchName": "feature-migrate-label-colors",
+  "timestamp": "1574950050",
+  "buildNumber": "2419",
+  "triggeredBy": "mi-we",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/983",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2419",
+  "warArtifact": "https://2419-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "476a2c7849e2f14728a612cf9c507500494d6685885c05542c3985838bb81b4b",
+  "exampleDocuArtifact": "https://2419-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "8f398bfb54a22385ddbd2813f1098b9f1e6a157a7c23cdb145a34ec14c52e859",
+  "docuArtifacts": [
+    {
+      "url": "https://2419-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "df9192291044076a49504fc41616c93f73650d267f446d5771d787381b0d84f2",
+      "build": "2419"
+    }
+  ]
+}
