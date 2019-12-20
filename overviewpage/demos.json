@@ -22,21 +22,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1576159712",
-    "buildNumber": "2442",
+    "timestamp": "1576858175",
+    "buildNumber": "2459",
     "triggeredBy": "sascha-kaufmann",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2442",
-    "warArtifact": "https://2442-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "274d6715e47e5b21d4adc31b02fcaa8a0440af68d754d265bbf39a9cb6a2e1d5",
-    "exampleDocuArtifact": "https://2442-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "10c3df981eec43a22b037a9d2336379ac4ac7b9b4e82c8abaed9729521944b1b",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2459",
+    "warArtifact": "https://2459-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "839c431f340f98ea82c2956a1b3852a046481d47db6fbcf5583b172fe9ee8f24",
+    "exampleDocuArtifact": "https://2459-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "f61cda69c2f581ec8718b8176ea3cd354464371d5eeb8d3c4b343749895670de",
     "docuArtifacts": [
-      {
-        "url": "https://2382-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "3dc6e27c66058fff0356e4aa6cf7ff9fdebb58f650874336da7486eba3c34388",
-        "build": "2382"
-      },
       {
         "url": "https://2386-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "2abc9282d2f6cf48118dba62b168b293e658766b344d6559229c7cb3a239e4b8",
@@ -56,6 +51,11 @@
         "url": "https://2442-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "fff16cf4856e4594d4e777823008b46620707dcd06dc0113963098d211fb6e78",
         "build": "2442"
+      },
+      {
+        "url": "https://2459-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "9b1d4119621605ff9745c21b04ab33fbca91ea8572c91a2d5f20a5707f41bb68",
+        "build": "2459"
       }
     ]
   },
