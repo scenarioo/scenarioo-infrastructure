@@ -1,20 +1,25 @@
 {
   "branchName": "internal/gradle-5.6.4",
   "encodedBranchName": "internal-gradle-5.6.4",
-  "timestamp": "1576942294",
-  "buildNumber": "2469",
-  "triggeredBy": "danielsuter",
+  "timestamp": "1577530317",
+  "buildNumber": "2479",
+  "triggeredBy": "eggerschwiler",
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/991",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2469",
-  "warArtifact": "https://2469-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "0b00370c4d21af7b511448d85f6b43a2615c367ed54b2a710b71e78e9d1ea5b1",
-  "exampleDocuArtifact": "https://2469-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "5395f2b4a07183b26f08d4647ee0c55291e0b6bed23fe5bf1521f143ba1eab2d",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2479",
+  "warArtifact": "https://2479-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "69678e03a5574689c269a07bf90fbdcc5fa3093d3d101ccc1bda2bbb1dab5f57",
+  "exampleDocuArtifact": "https://2479-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "3b9f0a55c03dee2a8f85c7e738cc63b3c4215806c6103e3129f2333afa52c32a",
   "docuArtifacts": [
     {
       "url": "https://2469-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "1dbdc445f9672efd16515906551d174a6059d962736275929cc85885a642466c",
       "build": "2469"
+    },
+    {
+      "url": "https://2479-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "671ccfaec94f0ccc06f67aade62c3b0478e5bc5246a62469af913fa0576c4bb9",
+      "build": "2479"
     }
   ]
 }
