@@ -1,0 +1,20 @@
+{
+  "branchName": "revert-993-feature/add-uml-diagrams-for-details-documentation",
+  "encodedBranchName": "revert-993-feature-add-uml-diagrams-for-details-documentation",
+  "timestamp": "1579736290",
+  "buildNumber": "2527",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/994",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2527",
+  "warArtifact": "https://2527-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "9e915bcfd383b0cd21b14f1bb5cef82293e74a205aca90adf5d9312cdd999dbc",
+  "exampleDocuArtifact": "https://2527-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "843bcda3f14c2c7c42a1d97a4d3c42853c5720cadcb72ab19ff957a5f5b40d4d",
+  "docuArtifacts": [
+    {
+      "url": "https://2527-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "0123c8540d6a47f2db9181a22d5844c7a46ee1994c51c48f18baee04daf4505a",
+      "build": "2527"
+    }
+  ]
+}
