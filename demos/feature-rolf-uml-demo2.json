@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/rolf/uml-demo2",
+  "encodedBranchName": "feature-rolf-uml-demo2",
+  "timestamp": "1579739772",
+  "buildNumber": "2538",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2538",
+  "warArtifact": "https://2538-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "1ecdf2da11353fd9902bf322c92d09102b86bcfc32a0e2f8bc6351bbbdadebd4",
+  "exampleDocuArtifact": "https://2538-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "6ab19480fecf8aab422bec02f088c2d3ac0feff64e52c2e92c4f83bf16e5ee86",
+  "docuArtifacts": [
+    {
+      "url": "https://2538-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "e2d42d164a0ef090819c2324b4010a4d4b5434cd480a33de84d455f976520228",
+      "build": "2538"
+    }
+  ]
+}
