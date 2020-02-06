@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1580726527",
-    "buildNumber": "2557",
-    "triggeredBy": "bruderol",
+    "timestamp": "1581031784",
+    "buildNumber": "2588",
+    "triggeredBy": "mi-we",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2557",
-    "warArtifact": "https://2557-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "f1bce6799c870eb98337e55196a894d18bfbc7472ca7321bb29db8699e0208b4",
-    "exampleDocuArtifact": "https://2557-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "d77c662263b835ac35f01a118b3d0c2275bf1e613ad91d45745b5db2ec815a46",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2588",
+    "warArtifact": "https://2588-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "3727152f7495145cce5ec39b3d78f97ccbdd38121f5daa1d3408d7c0e780006e",
+    "exampleDocuArtifact": "https://2588-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "51d638b1f51446499bbb98f7a555a9371ecd16520e15a6c22f7f623e53891ec1",
     "docuArtifacts": [
-      {
-        "url": "https://2464-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "1258c86a001652fc78146311f377fdc134f7aad917bee6bd3a4a325db0de23b9",
-        "build": "2464"
-      },
       {
         "url": "https://2490-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "d69e715be61bd8569d00d613cd5d73f5b4eb4bcd991248da94f954f1b0977029",
@@ -36,6 +31,11 @@
         "url": "https://2557-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "281f3a1fba203138090226b3ac159e7fbcc6ccf99770bd4febc148bc68747fe3",
         "build": "2557"
+      },
+      {
+        "url": "https://2588-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "4428a7bbc42402d43da56e853b5be9c8c80616555747953c8b2061313b5acddd",
+        "build": "2588"
       }
     ]
   },
