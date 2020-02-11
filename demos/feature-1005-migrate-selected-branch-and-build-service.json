@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/1005-migrate-selected-branch-and-build-service",
+  "encodedBranchName": "feature-1005-migrate-selected-branch-and-build-service",
+  "timestamp": "1581415505",
+  "buildNumber": "2613",
+  "triggeredBy": "lynparbone",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2613",
+  "warArtifact": "https://2613-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "03b65685fbc22a98a7d29061a6d06a91172cb8f20f80ac0164bce117a30e6eb5",
+  "exampleDocuArtifact": "https://2613-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "082ba6e105a073060d447474a6347b132075e43f19d9940efbd932892b25153e",
+  "docuArtifacts": [
+    {
+      "url": "https://2613-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "99890f62a8dcbd8e9ccc215416aaf8e6de851e1ede2f18b8b55c50765469acd4",
+      "build": "2613"
+    }
+  ]
+}
