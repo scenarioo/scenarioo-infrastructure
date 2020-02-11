@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/#973-improve-detailarea-layout-and-cleanup",
+  "encodedBranchName": "feature--973-improve-detailarea-layout-and-cleanup",
+  "timestamp": "1581457931",
+  "buildNumber": "2636",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1013",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2636",
+  "warArtifact": "https://2636-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "2fde5a5aeadf940f11b3426c094a4962bd2e40477078299b61bbb49b2e041f4f",
+  "exampleDocuArtifact": "https://2636-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "2b60c012651a633cd694147bb7869e151216c91a41bf888087f57e05323bc072",
+  "docuArtifacts": [
+    {
+      "url": "https://2636-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "69bb48e69d22fae026e4e17f02ea6759ea88da206766e566a67a2e79a1f12997",
+      "build": "2636"
+    }
+  ]
+}
