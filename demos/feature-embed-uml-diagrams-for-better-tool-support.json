@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/embed-uml-diagrams-for-better-tool-support",
+  "encodedBranchName": "feature-embed-uml-diagrams-for-better-tool-support",
+  "timestamp": "1581428689",
+  "buildNumber": "2621",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1009",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2621",
+  "warArtifact": "https://2621-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "cf3a191fd1833d840edadb4cdfdb6188717d5a03d80ca932146ca2bfa67c3b3e",
+  "exampleDocuArtifact": "https://2621-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "a55456846c4081a0c4d6efae62e861e30ee0b4b3269b1c1aa398eac3ee6e4ea2",
+  "docuArtifacts": [
+    {
+      "url": "https://2621-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "72c4959bc53b571a1d2ff2060f04df290c9194ce19995c7d212d3483e279342a",
+      "build": "2621"
+    }
+  ]
+}
