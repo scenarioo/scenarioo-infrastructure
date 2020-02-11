@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1581031784",
-    "buildNumber": "2588",
-    "triggeredBy": "mi-we",
+    "timestamp": "1581424969",
+    "buildNumber": "2618",
+    "triggeredBy": "bruderol",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2588",
-    "warArtifact": "https://2588-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "3727152f7495145cce5ec39b3d78f97ccbdd38121f5daa1d3408d7c0e780006e",
-    "exampleDocuArtifact": "https://2588-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "51d638b1f51446499bbb98f7a555a9371ecd16520e15a6c22f7f623e53891ec1",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2618",
+    "warArtifact": "https://2618-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "3fc84241eb32f8306423dca5a8e30a0b8d5ed3c0a08ca9a995e8652ef2c2630d",
+    "exampleDocuArtifact": "https://2618-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "fc2af277efacb4abc8e2898ac07a3acc0834e3bb35ae38bcc0ae9537e33a97ec",
     "docuArtifacts": [
-      {
-        "url": "https://2490-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "d69e715be61bd8569d00d613cd5d73f5b4eb4bcd991248da94f954f1b0977029",
-        "build": "2490"
-      },
       {
         "url": "https://2524-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "6634cba8f0072d5e7a480e1809a72d5c0aebf63441c69e350af84cd7857e9cd7",
@@ -36,6 +31,11 @@
         "url": "https://2588-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "4428a7bbc42402d43da56e853b5be9c8c80616555747953c8b2061313b5acddd",
         "build": "2588"
+      },
+      {
+        "url": "https://2618-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "b55bb66f99636660b7e2e6d2f3a7ea0ed53da7d5fa3dffda87f717081aebe8fc",
+        "build": "2618"
       }
     ]
   },
