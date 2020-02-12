@@ -85,27 +85,22 @@
     ]
   },
   {
-    "branchName": "feature/1005-migrate-selected-branch-and-build-service",
-    "encodedBranchName": "feature-1005-migrate-selected-branch-and-build-service",
-    "timestamp": "1581436032",
-    "buildNumber": "2630",
-    "triggeredBy": "lynparbone",
-    "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2630",
-    "warArtifact": "https://2630-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "7c1ea192420dc30510e36fe12065706896867a3841b71d2ab797c84c995791d9",
-    "exampleDocuArtifact": "https://2630-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "213087c80a598236c0620b29bddd0723906c33c82f5eacb9e7271edfaa55295a",
+    "branchName": "feature/clean-uml-code-more-logic-order",
+    "encodedBranchName": "feature-clean-uml-code-more-logic-order",
+    "timestamp": "1581518933",
+    "buildNumber": "2653",
+    "triggeredBy": "bruderol",
+    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1010",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2653",
+    "warArtifact": "https://2653-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "21ddb036c541d9bab26958b9d7f2e2af212a126b25f263cf7cdbbc204a2e2cf8",
+    "exampleDocuArtifact": "https://2653-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "159d39870d0354418ab663d8d23f2f7c68011058c14bdf8ff2df6eaad98684ab",
     "docuArtifacts": [
       {
-        "url": "https://2613-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "99890f62a8dcbd8e9ccc215416aaf8e6de851e1ede2f18b8b55c50765469acd4",
-        "build": "2613"
-      },
-      {
-        "url": "https://2630-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "dbb0cca9ed947a48a3f7ef7b1b8a4a82248a407e3950fccbb26c8d172c2c54d1",
-        "build": "2630"
+        "url": "https://2653-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "63273a34a3b8cf6a22e130374542f463b8bde9166245053c8256db12b02b3826",
+        "build": "2653"
       }
     ]
   },
