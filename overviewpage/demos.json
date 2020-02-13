@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1581511495",
-    "buildNumber": "2646",
-    "triggeredBy": "lynparbone",
+    "timestamp": "1581555087",
+    "buildNumber": "2665",
+    "triggeredBy": "bruderol",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2646",
-    "warArtifact": "https://2646-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "3c2e64831fd34380fb5878031478fa8784886da65dbfcfc72ac29f2665917c55",
-    "exampleDocuArtifact": "https://2646-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "da63dabf0b5fcb04c43368f87c0643decdf24b77586fc5a79ded7ce42bb137f9",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2665",
+    "warArtifact": "https://2665-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "ef3a4c9bdbee327ac6ecb01e2b6de95fa2f25703766fb9506a51bc1dd91de7d0",
+    "exampleDocuArtifact": "https://2665-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "a34ace4d2405992876b36d876cbca14d87bc4237745e526bc3ed98a95414c98b",
     "docuArtifacts": [
-      {
-        "url": "https://2557-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "281f3a1fba203138090226b3ac159e7fbcc6ccf99770bd4febc148bc68747fe3",
-        "build": "2557"
-      },
       {
         "url": "https://2588-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "4428a7bbc42402d43da56e853b5be9c8c80616555747953c8b2061313b5acddd",
@@ -36,6 +31,11 @@
         "url": "https://2646-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "e6b9644b004156d341cff6b7e31e75e02b85549b2b6b72c2cbda45d38dbdd862",
         "build": "2646"
+      },
+      {
+        "url": "https://2665-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "a0b3477aca98765d347e02adc3c09aa4ac6bef977df8c4b13c0d9599c49b22a7",
+        "build": "2665"
       }
     ]
   },
