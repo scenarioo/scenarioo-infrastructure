@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1581555221",
-    "buildNumber": "2667",
-    "triggeredBy": "bruderol",
+    "timestamp": "1581624453",
+    "buildNumber": "2684",
+    "triggeredBy": "",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2667",
-    "warArtifact": "https://2667-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "df2d6148b83997b2399c66765ae4742e89c4205d096a9fc70bdc0c884bca3658",
-    "exampleDocuArtifact": "https://2667-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "7f2482098e90c5eaf9d7ba9c3152051533dbd5e9d9e6a99548b34a42050f7a9b",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2684",
+    "warArtifact": "https://2684-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "d96f29700aaa46ff4948d5baa78406a048c776e3c97e0247fecf5d5d904afb6f",
+    "exampleDocuArtifact": "https://2684-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "e4de2598fadd7882ee341a893771c46e6946dc6e627e01bb00883f0d30a6f25b",
     "docuArtifacts": [
-      {
-        "url": "https://2618-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "b55bb66f99636660b7e2e6d2f3a7ea0ed53da7d5fa3dffda87f717081aebe8fc",
-        "build": "2618"
-      },
       {
         "url": "https://2623-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "69fb4d47a87fa784553f979ce54ccc2b970b609a26cce368add6ac2b8be8ba90",
@@ -36,6 +31,11 @@
         "url": "https://2667-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "c1575b2b0541131393579ca141f31757e09640b54bd66084311cc55f1eb787b6",
         "build": "2667"
+      },
+      {
+        "url": "https://2684-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "8d0e3cac1561993aa891a56770587f058ee96d9021b39c838306b1fded0e034c",
+        "build": "2684"
       }
     ]
   },
