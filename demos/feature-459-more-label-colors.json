@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/459-more-label-colors",
+  "encodedBranchName": "feature-459-more-label-colors",
+  "timestamp": "1581668386",
+  "buildNumber": "2689",
+  "triggeredBy": "lynparbone",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1001",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2689",
+  "warArtifact": "https://2689-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "54dad30eaf8028c94b4f1c0667683f60451f20c4ce902a332ab94c4bfbafb15d",
+  "exampleDocuArtifact": "https://2689-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "9c91bcff7277627366da26ce0fb1de656b251db056e8c4f9b49c06512b7075cd",
+  "docuArtifacts": [
+    {
+      "url": "https://2689-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "9ad49806f1f1112dee3c67dddf4f02b78f422934af8a50fd7fe4b0716cd17458",
+      "build": "2689"
+    }
+  ]
+}
