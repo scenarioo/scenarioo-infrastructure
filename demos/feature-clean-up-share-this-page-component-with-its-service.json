@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/clean-up-share-this-page-component-with-its-service",
+  "encodedBranchName": "feature-clean-up-share-this-page-component-with-its-service",
+  "timestamp": "1581691589",
+  "buildNumber": "2705",
+  "triggeredBy": "bruderol",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1018",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2705",
+  "warArtifact": "https://2705-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "ba88585ec8562dabab8ba28fcfc834fdf7a72e49ad92d8b8f64ff2a2a4bfe0a6",
+  "exampleDocuArtifact": "https://2705-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "dc68b476280df886604b791b8b6964ca25dd9f95301d20f0985acb13eb13b7ee",
+  "docuArtifacts": [
+    {
+      "url": "https://2705-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "9ea04414fbded74755f18fba9e5520caaa202dd28e78ee05b51b4304ba172c17",
+      "build": "2705"
+    }
+  ]
+}
