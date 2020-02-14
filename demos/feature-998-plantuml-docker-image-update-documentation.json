@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/998-plantuml-docker-image-update-documentation",
+  "encodedBranchName": "feature-998-plantuml-docker-image-update-documentation",
+  "timestamp": "1581669812",
+  "buildNumber": "2691",
+  "triggeredBy": "lynparbone",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2691",
+  "warArtifact": "https://2691-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "07e65a41bbe3cd9fae088f0d63f56849403c2eb5da0d3ff1b3e9ea42e8b8f96f",
+  "exampleDocuArtifact": "https://2691-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "c73aa963de45bc40be7b4d8b03d4bdf0f6e43f63b059fafeb5c7d63d2be299eb",
+  "docuArtifacts": [
+    {
+      "url": "https://2691-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "600945186ffd92e79a5d1c2e70151d2bcf92c8449a79861492472c7d36f8f6fe",
+      "build": "2691"
+    }
+  ]
+}

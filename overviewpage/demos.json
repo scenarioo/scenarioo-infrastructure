@@ -40,41 +40,6 @@
     ]
   },
   {
-    "branchName": "feature/#973-improve-detailarea-layout-and-cleanup",
-    "encodedBranchName": "feature--973-improve-detailarea-layout-and-cleanup",
-    "timestamp": "1581551197",
-    "buildNumber": "2662",
-    "triggeredBy": "bruderol",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1013",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2662",
-    "warArtifact": "https://2662-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "521119d9011ee7397c39424e880288bb9e5e47bb5f6a2fd5cbd60cef51f8b9a4",
-    "exampleDocuArtifact": "https://2662-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "be50ba493c808093cb5454d1af239935ee760ed1f9f5ea144d83501073368928",
-    "docuArtifacts": [
-      {
-        "url": "https://2636-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "69bb48e69d22fae026e4e17f02ea6759ea88da206766e566a67a2e79a1f12997",
-        "build": "2636"
-      },
-      {
-        "url": "https://2639-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "d02b68f1b8b8cff758670be00b573097296fc11745fbc06e86f98081aeb9cf92",
-        "build": "2639"
-      },
-      {
-        "url": "https://2657-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "0a998fa0fbe1a22c81fc770cde8f13b255b34f085a7eb68596f17481fe04386f",
-        "build": "2657"
-      },
-      {
-        "url": "https://2662-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "3139fe2565b649513841175912439c16330a2488ec27d61775ec3fb33b07a4ca",
-        "build": "2662"
-      }
-    ]
-  },
-  {
     "branchName": "feature/1002-migrate-breadcrumb-without-needless-observable-complexity",
     "encodedBranchName": "feature-1002-migrate-breadcrumb-without-needless-observable-complexity",
     "timestamp": "1581611279",
@@ -151,6 +116,26 @@
         "url": "https://2689-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "9ad49806f1f1112dee3c67dddf4f02b78f422934af8a50fd7fe4b0716cd17458",
         "build": "2689"
+      }
+    ]
+  },
+  {
+    "branchName": "feature/998-plantuml-docker-image-update-documentation",
+    "encodedBranchName": "feature-998-plantuml-docker-image-update-documentation",
+    "timestamp": "1581669812",
+    "buildNumber": "2691",
+    "triggeredBy": "lynparbone",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2691",
+    "warArtifact": "https://2691-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "07e65a41bbe3cd9fae088f0d63f56849403c2eb5da0d3ff1b3e9ea42e8b8f96f",
+    "exampleDocuArtifact": "https://2691-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "c73aa963de45bc40be7b4d8b03d4bdf0f6e43f63b059fafeb5c7d63d2be299eb",
+    "docuArtifacts": [
+      {
+        "url": "https://2691-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "600945186ffd92e79a5d1c2e70151d2bcf92c8449a79861492472c7d36f8f6fe",
+        "build": "2691"
       }
     ]
   },
