@@ -82,21 +82,16 @@
   {
     "branchName": "feature/459-more-label-colors",
     "encodedBranchName": "feature-459-more-label-colors",
-    "timestamp": "1581946295",
-    "buildNumber": "2720",
+    "timestamp": "1581946480",
+    "buildNumber": "2721",
     "triggeredBy": "lynparbone",
     "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1001",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2720",
-    "warArtifact": "https://2720-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "1de0208d1ad7d9bdd6aec88018f4908f36d4749d3c3e4a281c1a5c8edc8362a9",
-    "exampleDocuArtifact": "https://2720-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "3c304029e1beab070c19d318eccb9758b8c42ef261542ea26ff45f50f88d523e",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2721",
+    "warArtifact": "https://2721-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "53d796a1fb5f0a0465f7e4d971211d241957a7f295b54607a01b2df8ff85c7df",
+    "exampleDocuArtifact": "https://2721-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "169ff35922c36d299af9477b8b017a8f93c508a39db22ecdc2d7d0aec3bea1e1",
     "docuArtifacts": [
-      {
-        "url": "https://2695-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "1273218d3e3260c48c44ffec7af44cab411ede6a1aa630316391399070b4d34e",
-        "build": "2695"
-      },
       {
         "url": "https://2697-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "96902d1a9c72a171b4e094f0a6ebb6063e402a294438a7529d817f3ed063e2a0",
@@ -116,6 +111,11 @@
         "url": "https://2720-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "372d14997de9ca146de54c2e1aab5c9cdfca12916177063b461ac3a06b1b614e",
         "build": "2720"
+      },
+      {
+        "url": "https://2721-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "36dda8868cfced8deef98ca63624fc9af4f8629bd78aca0e53f4308cb2018a3a",
+        "build": "2721"
       }
     ]
   },
