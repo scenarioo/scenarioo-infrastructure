@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1581691187",
-    "buildNumber": "2702",
-    "triggeredBy": "lynparbone",
+    "timestamp": "1581947166",
+    "buildNumber": "2725",
+    "triggeredBy": "bruderol",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2702",
-    "warArtifact": "https://2702-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "8dce0c0f6d11c192557103e9c7b9c2c52329adf9d7512b9e4aefced8479d0000",
-    "exampleDocuArtifact": "https://2702-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "d7e18299e52bec25c217f95676b2add3067d422bbb073cf03db3b7b988be6d96",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2725",
+    "warArtifact": "https://2725-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "31bf58761b50f02d99f4d9c3e718d3a05daa395c125b5008e199b8fe2373287f",
+    "exampleDocuArtifact": "https://2725-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "833a9d48d1da22bdacb45c1ad9a0ec33d4a2b8bfc680a01189ef67cda093c7f9",
     "docuArtifacts": [
-      {
-        "url": "https://2646-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "e6b9644b004156d341cff6b7e31e75e02b85549b2b6b72c2cbda45d38dbdd862",
-        "build": "2646"
-      },
       {
         "url": "https://2665-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "a0b3477aca98765d347e02adc3c09aa4ac6bef977df8c4b13c0d9599c49b22a7",
@@ -36,6 +31,11 @@
         "url": "https://2702-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "887908f232ddedad2fff4088d6f98c717f9efab480dcdfc1ab451194b12e87d7",
         "build": "2702"
+      },
+      {
+        "url": "https://2725-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "e341804bf91ad56dd61e3b810e0e0ef62fd48b0e1ec9db5390394a7d1c4b58f1",
+        "build": "2725"
       }
     ]
   },
