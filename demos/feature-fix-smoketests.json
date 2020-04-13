@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/fix-smoketests",
+  "encodedBranchName": "feature-fix-smoketests",
+  "timestamp": "1586758581",
+  "buildNumber": "2815",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2815",
+  "warArtifact": "https://2815-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "411d1b4b499c2ee2ab7096138b91069be62094c91489f915c86156f269a6c755",
+  "exampleDocuArtifact": "https://2815-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "5ffd37c8a6abb6b9ca85d86effd87d5aae80a7594d142299790dfa114837f7eb",
+  "docuArtifacts": [
+    {
+      "url": "https://2815-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "1849fc3ff528a11d4646a41b486cdc35c08758538dac2995b5827fdf92ae587e",
+      "build": "2815"
+    }
+  ]
+}
