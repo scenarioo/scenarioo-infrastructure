@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1582798937",
-    "buildNumber": "2756",
-    "triggeredBy": "bruderol",
+    "timestamp": "1586760355",
+    "buildNumber": "2820",
+    "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2756",
-    "warArtifact": "https://2756-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "e188b5f7f662d02461f40ef5df4282ab3de0518773e1b5781c49ea1a649d7446",
-    "exampleDocuArtifact": "https://2756-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "a408b3e81195ad729f98ec2ca151c403e109c7f4b66a7ebe01494f9019ea8cae",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2820",
+    "warArtifact": "https://2820-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "989140a3d9bfdfb710864b5afe0467d2846dced07b216a0450b49490c84e2c30",
+    "exampleDocuArtifact": "https://2820-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "d46c19a96c77b0822ae3d8268d513481754b99002865ae1670fbe9bd4089dfd3",
     "docuArtifacts": [
-      {
-        "url": "https://2667-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "c1575b2b0541131393579ca141f31757e09640b54bd66084311cc55f1eb787b6",
-        "build": "2667"
-      },
       {
         "url": "https://2684-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "8d0e3cac1561993aa891a56770587f058ee96d9021b39c838306b1fded0e034c",
@@ -36,6 +31,11 @@
         "url": "https://2756-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "78e4ac9bf73db25da58c7317900690e0f217c1ff70ddbab0efb49764c25d2d2f",
         "build": "2756"
+      },
+      {
+        "url": "https://2820-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "a6ea8e953d932635ac342e464fe25e895c15a66a3d6445992b999d904d086d14",
+        "build": "2820"
       }
     ]
   },
