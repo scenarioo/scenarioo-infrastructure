@@ -60,46 +60,6 @@
     ]
   },
   {
-    "branchName": "feature/1005-migrate-selected-branch-and-build-service",
-    "encodedBranchName": "feature-1005-migrate-selected-branch-and-build-service",
-    "timestamp": "1582763023",
-    "buildNumber": "2752",
-    "triggeredBy": "lynparbone",
-    "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1012",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/2752",
-    "warArtifact": "https://2752-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "22a0eed644f61202c0541cd4e6a56e7f7b72399a6c19ae6ff07ab4f6553eb711",
-    "exampleDocuArtifact": "https://2752-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "90691233c826c221e5df810902aac7ad3e860c4d8b63b09bb20a18210df145ef",
-    "docuArtifacts": [
-      {
-        "url": "https://2740-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "9fa93b747e7df462ac15ec00b7c72c168e8a79bf826e119c8b259fa2f8c28121",
-        "build": "2740"
-      },
-      {
-        "url": "https://2742-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "849409c53e4176b3355e2d78f92ff28f5b890e81f492f34ed384467f1652a899",
-        "build": "2742"
-      },
-      {
-        "url": "https://2745-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "82eef22a23c683ad57f19bef6c72d428ca400687dc6478ee5bdc3fe76a914842",
-        "build": "2745"
-      },
-      {
-        "url": "https://2748-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "4baed2d270af6a81386dd0fe5e5fc18660f2f768d6eb182516df8151de9348bb",
-        "build": "2748"
-      },
-      {
-        "url": "https://2752-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "9d2b01d695fc9df24b72b94adc4985695018537e37b2ee29aa1691133962d8f8",
-        "build": "2752"
-      }
-    ]
-  },
-  {
     "branchName": "feature/fix-smoketests",
     "encodedBranchName": "feature-fix-smoketests",
     "timestamp": "1586759530",
@@ -121,6 +81,26 @@
         "url": "https://2817-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "ddcc702503a8d84e70b6a524122139ddf29df4ac942c0589c2d05d1a8020adac",
         "build": "2817"
+      }
+    ]
+  },
+  {
+    "branchName": "feature/flexbox-utility-styles",
+    "encodedBranchName": "feature-flexbox-utility-styles",
+    "timestamp": "1604495546",
+    "buildNumber": "3050",
+    "triggeredBy": "bruderol",
+    "pullRequestUrl": "",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3050",
+    "warArtifact": "https://3050-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a5c5c906933d95adfeaa-0-build/artifacts/scenarioo.war.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T131227Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9e22abab19327e45198a2dd8ffbfe007efec9c9d09b48508c60cfd12dfa5a560>",
+    "exampleDocuArtifact": "https://3050-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a5c5c906933d95adfeaa-0-build/artifacts/exampleScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T131227Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2522f22553450481c89f9e6fe6cf4423f7d5493d7d1f5152dd45444c33f37913>",
+    "docuArtifacts": [
+      {
+        "url": "https://3050-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a5c5c906933d95adfeaa-0-build/artifacts/e2eScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T131227Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=afbdc34c9e92ed07e940f1b0d39973a228d12be66dfea11a7ca476594c2eaac2>",
+        "build": "3050"
       }
     ]
   },
