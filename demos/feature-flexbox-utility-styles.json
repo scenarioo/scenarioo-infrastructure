@@ -1,20 +1,25 @@
 {
   "branchName": "feature/flexbox-utility-styles",
   "encodedBranchName": "feature-flexbox-utility-styles",
-  "timestamp": "1604495546",
-  "buildNumber": "3050",
+  "timestamp": "1604496407",
+  "buildNumber": "3058",
   "triggeredBy": "bruderol",
-  "pullRequestUrl": "",
-  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3050",
-  "warArtifact": "https://3050-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a5c5c906933d95adfeaa-0-build/artifacts/scenarioo.war.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T131227Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9e22abab19327e45198a2dd8ffbfe007efec9c9d09b48508c60cfd12dfa5a560>",
-  "exampleDocuArtifact": "https://3050-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a5c5c906933d95adfeaa-0-build/artifacts/exampleScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T131227Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2522f22553450481c89f9e6fe6cf4423f7d5493d7d1f5152dd45444c33f37913>",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1030",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3058",
+  "warArtifact": "https://3058-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a9905c9fd257535030f1-0-build/artifacts/scenarioo.war.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T132648Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e0334bf7b19b256525e3bd8e903798735846225a350baeed6ec81af559daf00b>",
+  "exampleDocuArtifact": "https://3058-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a9905c9fd257535030f1-0-build/artifacts/exampleScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T132648Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a030eb25b2d4b7b9472c70eb11ea2a4bf1d354624222cfb81489fa66169ce6d9>",
   "docuArtifacts": [
     {
       "url": "https://3050-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
       "sha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a5c5c906933d95adfeaa-0-build/artifacts/e2eScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T131227Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=afbdc34c9e92ed07e940f1b0d39973a228d12be66dfea11a7ca476594c2eaac2>",
       "build": "3050"
+    },
+    {
+      "url": "https://3058-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2a9905c9fd257535030f1-0-build/artifacts/e2eScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T132648Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8c104ae956cc4358316e633b5009cf45d4075e8c25f22780be383184f179232f>",
+      "build": "3058"
     }
   ]
 }
