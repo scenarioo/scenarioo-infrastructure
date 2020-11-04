@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/#1013-cleanup-detailarea",
+  "encodedBranchName": "feature--1013-cleanup-detailarea",
+  "timestamp": "1604486204",
+  "buildNumber": "3040",
+  "triggeredBy": "SteffiSchlumpf",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1029",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3040",
+  "warArtifact": "https://3040-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2817e2c3918241f265b8f-0-build/artifacts/scenarioo.war.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T103645Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=df356dbc82d155e698e3cee6d9b7d65e2dee8c39884eb86d34ce1dab8cf9cfef>",
+  "exampleDocuArtifact": "https://3040-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2817e2c3918241f265b8f-0-build/artifacts/exampleScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T103645Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=adf5fa1d7793151e5c93ee1ca8fe4eeb0d6d34bd804b16dca52fbf232819937f>",
+  "docuArtifacts": [
+    {
+      "url": "https://3040-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fa2817e2c3918241f265b8f-0-build/artifacts/e2eScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201104T103645Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4758aff11e3180fa9ff4cd8c9ebeabb633961d65c47196e8691f3f5b09243559>",
+      "build": "3040"
+    }
+  ]
+}
