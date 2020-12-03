@@ -40,7 +40,8 @@ workflows:
   version: 2
   deploy_infrastructure:
     jobs:
-      - test_scripts
+      # temporarily disable test_scripts
+      #- test_scripts
       - deploy:
           requires:
             - test_scripts
