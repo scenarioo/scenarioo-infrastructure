@@ -43,7 +43,7 @@
     url: "{{ branchConfig.exampleDocuArtifact }}?circle-token={{ lookup('env', 'CIRCLE_TOKEN') }}"
     dest: "{{ config.scenariooDocuFolder }}/{{ branch }}/exampleDocu.zip"
     sha256sum: "{{ branchConfig.exampleDocuArtifactSha256 }}"
-  no_log: true  # Don't show CIRCLE_TOKEN in logs
+  no_log: false  # Don't show CIRCLE_TOKEN in logs
   when:
     - branchConfig.exampleDocuArtifactSha256 is defined
     - example_docu_status.stdout == "UPDATE"
