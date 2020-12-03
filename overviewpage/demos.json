@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1607014134",
-    "buildNumber": "3171",
-    "triggeredBy": "bruderol",
+    "timestamp": "1607018003",
+    "buildNumber": "3174",
+    "triggeredBy": "eggerschwiler",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3171",
-    "warArtifact": "https://3171-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "f457e11fe5c8fa2566ad9f1c4326e17344d7d1afc96037d6428e1fbc3fc710cb",
-    "exampleDocuArtifact": "https://3171-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "3df302c3444db11d620979de4eca0230e38966ab37eaead9d4bd69e90a484de8",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3174",
+    "warArtifact": "https://3174-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "dd79a4e4ec6a97757bbde70593965d420dab9c78c0d9d67ad891362c6c996d6a",
+    "exampleDocuArtifact": "https://3174-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "3fb042052276deaef210eb2adf5ce44869564eddc225b2c45f57a61b09d4a6a4",
     "docuArtifacts": [
-      {
-        "url": "https://3127-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "e4352c0046d328f7e16275ce499a83ed803170caf590739b038316fa538c4dba",
-        "build": "3127"
-      },
       {
         "url": "https://3152-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "e1f4e7777004aea7db7395b3ab891e20407859a49d83426da844e4201af62a9e",
@@ -36,6 +31,11 @@
         "url": "https://3171-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "73a7e6f16af8b3085486f4f2a83abe053ff385b4fdeaf89ad518214d3b6b1499",
         "build": "3171"
+      },
+      {
+        "url": "https://3174-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "ae8beb0b5f4f68dda000c5d90a16af91b1db8bd2f694194f9c6f0e52a1b84b49",
+        "build": "3174"
       }
     ]
   },
