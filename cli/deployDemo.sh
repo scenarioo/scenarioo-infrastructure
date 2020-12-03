@@ -35,7 +35,7 @@ fi
 ARTIFACT_URL="https://circleci.com/api/v1.1/project/github/scenarioo/scenarioo/${BUILD_NUMBER}/artifacts?circle-token=${CIRCLE_TOKEN}"
 
 echo "Getting list of artifacts ..."
-ARTIFACTS=`curl -s $ARTIFACT_URL`
+ARTIFACTS=`curl -L -s $ARTIFACT_URL`
 abort_on_curl_failure $? $ARTIFACT_URL
 
 echo "Getting WAR"
@@ -44,7 +44,7 @@ WAR_ARTIFACT_SHA256_URL=`echo $ARTIFACTS | jq -r '.[] | select(.path=="scenarioo
 if [[ $WAR_ARTIFACT_SHA256_URL == "" ]]; then
     echo "No WAR or WAR SHA256 found in list of artifacts"
 fi
-WAR_ARTIFACT_SHA256=`curl -s $WAR_ARTIFACT_SHA256_URL`
+WAR_ARTIFACT_SHA256=`curl -L -s $WAR_ARTIFACT_SHA256_URL`
 abort_on_curl_failure $? $WAR_ARTIFACT_SHA256_URL
 
 echo "Getting E2E docu"
@@ -53,7 +53,7 @@ E2E_DOCU_ARTIFACT_SHA256_URL=`echo $ARTIFACTS | jq -r '.[] | select(.path=="e2eS
 if [[ $E2E_DOCU_ARTIFACT_SHA256_URL == "" ]]; then
     echo "No docu or docu SHA256 found in list of artifacts"
 fi
-E2E_DOCU_ARTIFACT_SHA256=`curl -s $E2E_DOCU_ARTIFACT_SHA256_URL`
+E2E_DOCU_ARTIFACT_SHA256=`curl -L -s $E2E_DOCU_ARTIFACT_SHA256_URL`
 abort_on_curl_failure $? $E2E_DOCU_ARTIFACT_SHA256_URL
 
 echo "Getting example docu"
@@ -62,7 +62,7 @@ EXAMPLE_DOCU_ARTIFACT_SHA256_URL=`echo $ARTIFACTS | jq -r '.[] | select(.path=="
 if [[ $EXAMPLE_DOCU_ARTIFACT_SHA256_URL == "" ]]; then
     echo "No docu or docu SHA256 found in list of artifacts"
 fi
-EXAMPLE_DOCU_ARTIFACT_SHA256=`curl -s $EXAMPLE_DOCU_ARTIFACT_SHA256_URL`
+EXAMPLE_DOCU_ARTIFACT_SHA256=`curl -L -s $EXAMPLE_DOCU_ARTIFACT_SHA256_URL`
 abort_on_curl_failure $? $EXAMPLE_DOCU_ARTIFACT_SHA256_URL
 
 
