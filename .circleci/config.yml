@@ -43,8 +43,8 @@ workflows:
       # temporarily disable test_scripts
       #- test_scripts
       - deploy:
-          requires:
-            - test_scripts
+          #requires:
+           # - test_scripts
           # Get environment vars: https://circleci.com/docs/2.0/contexts/
           context: Scenarioo    # https://circleci.com/gh/organizations/scenarioo/settings#contexts
           filters:
