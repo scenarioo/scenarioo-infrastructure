@@ -16,7 +16,7 @@ jobs:
               command: sudo pip install 'ansible==2.7' --quiet
           - run:
               name: Install jq
-              command: sudo pip install 'jq==1.6' --quiet
+              command: sudo pip install 'jq==1.0.0' --quiet
           - run:
               name: Deploy server
               command: |
