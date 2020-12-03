@@ -7,13 +7,13 @@
   "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1037",
   "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3158",
   "warArtifact": "https://3158-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-  "warArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fc9024d6053a54b0f8eba30-0-build/artifacts/scenarioo.war.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201203T153248Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b98d47a7124b5f4595b0e61405a7e4e84182c0b9f1008b37aeba87409db17338>",
+  "warArtifactSha256": "479d6e80cc3f5580e707e7a6f26c57890888c736b8c6337e2c09bb214368d55a",
   "exampleDocuArtifact": "https://3158-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-  "exampleDocuArtifactSha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fc9024d6053a54b0f8eba30-0-build/artifacts/exampleScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201203T153248Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=85e4b1ccd33f26406952a4df717a160ad9d451ca1ce33198d38b5740d884f520>",
+  "exampleDocuArtifactSha256": "5117672004cd73c0c565502b4a020881ddddba924bb8c7687ba375bbfeda0ca0",
   "docuArtifacts": [
     {
       "url": "https://3158-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-      "sha256": "Redirecting to <https://circle-production-customer-artifacts.s3.amazonaws.com/picard/531f9846f7d07f50de237fbb/5fc9024d6053a54b0f8eba30-0-build/artifacts/e2eScenariooDocu.zip.sha256?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201203T153248Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=AKIAJR3Q6CR467H7Z55A%2F20201203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9f795758637519cff47864e8531a35abd74593819d1b717acd5fcb2809f2333a>",
+      "sha256": "312a091af096fea3875d7c2015f79eb723538be8626dd030f648b05a140470ca",
       "build": "3158"
     }
   ]
