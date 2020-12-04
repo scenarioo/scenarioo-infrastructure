@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/1025-hash-character-encoding",
+  "encodedBranchName": "feature-1025-hash-character-encoding",
+  "timestamp": "1607093250",
+  "buildNumber": "3207",
+  "triggeredBy": "eggerschwiler",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1032",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3207",
+  "warArtifact": "https://3207-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "f71985419ed9f0c59ef8669959a6c9c5f82251dbd3f407f0169d163525ef76a5",
+  "exampleDocuArtifact": "https://3207-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "9f5dc57bda8025d42638da20ea0b07e6c088a2f838be3747ecba4af0d6394d25",
+  "docuArtifacts": [
+    {
+      "url": "https://3207-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "121ad4f3f48e67e6efd06a0cf16420b15ba57afde4041b68da57e2475f63dd74",
+      "build": "3207"
+    }
+  ]
+}
