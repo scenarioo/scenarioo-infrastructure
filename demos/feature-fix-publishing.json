@@ -1,0 +1,20 @@
+{
+  "branchName": "feature/fix-publishing",
+  "encodedBranchName": "feature-fix-publishing",
+  "timestamp": "1624608568",
+  "buildNumber": "3423",
+  "triggeredBy": "danielsuter",
+  "pullRequestUrl": "https://github.com/scenarioo/scenarioo/pull/1036",
+  "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3423",
+  "warArtifact": "https://3423-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+  "warArtifactSha256": "03637a6e47ff0e88a5074cc5f97b667ac4dc30d14da6cb1d2c3d6810e80d50e7",
+  "exampleDocuArtifact": "https://3423-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+  "exampleDocuArtifactSha256": "3769091a516d34b22e8107bac438b722c4c20972cf10aec62f6232bdaf06adce",
+  "docuArtifacts": [
+    {
+      "url": "https://3423-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+      "sha256": "8238b53a60eb643ad9fe47bf0e09dbd421f941e8095fe59c50f82e1c579e7375",
+      "build": "3423"
+    }
+  ]
+}
