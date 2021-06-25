@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1624600644",
-    "buildNumber": "3418",
-    "triggeredBy": "danielsuter",
+    "timestamp": "1624636610",
+    "buildNumber": "3431",
+    "triggeredBy": "bruderol",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3418",
-    "warArtifact": "https://3418-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "a1053feb72a4ddc5c789b9fdf650e077a8219388c2ea180530117a942af33989",
-    "exampleDocuArtifact": "https://3418-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "364092d163470a55206c6df9c7789f1487174dd1712ad330ed861bc7c965a8b3",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3431",
+    "warArtifact": "https://3431-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "4a947a13b64c988020c0b093ebae288b7321ae3b99b727fa6743be7113f9321b",
+    "exampleDocuArtifact": "https://3431-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "6270e8cd25e1000f35e628f894ecbfe14a6fad8cafb92e3ed92251740c7a1a92",
     "docuArtifacts": [
-      {
-        "url": "https://3182-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "fe0a2d92ac69fd4dab3dbaf05aa861b332d5220ae936b7229cd5715c055a163d",
-        "build": "3182"
-      },
       {
         "url": "https://3184-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "e6be9e1fad9f89f9a747d182f2c263d789814a834c9b19aa3a07da893cd1906a",
@@ -36,6 +31,11 @@
         "url": "https://3418-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "4a9e9fe17179cc0a7b79da53487f4e4661fcf1d4ea61fab0296b6357584d48a7",
         "build": "3418"
+      },
+      {
+        "url": "https://3431-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "156fe9eb3af76c1b040858d390dd6e42db412b3edf163737969af78d71ea9818",
+        "build": "3431"
       }
     ]
   },
