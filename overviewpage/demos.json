@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1607531751",
-    "buildNumber": "3216",
-    "triggeredBy": "eggerschwiler",
+    "timestamp": "1624600644",
+    "buildNumber": "3418",
+    "triggeredBy": "danielsuter",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3216",
-    "warArtifact": "https://3216-10269178-gh.circle-artifacts.com/0/scenarioo.war",
-    "warArtifactSha256": "a025df36836978a0522dde28ec1ca38e678b887bf6f12c3ca74ea17e9d8123f0",
-    "exampleDocuArtifact": "https://3216-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "8f7f03086e23ad7c4b9fd9d9642978e47e0b478293ef57cbe8ab7d405864c557",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3418",
+    "warArtifact": "https://3418-10269178-gh.circle-artifacts.com/0/scenarioo.war",
+    "warArtifactSha256": "a1053feb72a4ddc5c789b9fdf650e077a8219388c2ea180530117a942af33989",
+    "exampleDocuArtifact": "https://3418-10269178-gh.circle-artifacts.com/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "364092d163470a55206c6df9c7789f1487174dd1712ad330ed861bc7c965a8b3",
     "docuArtifacts": [
-      {
-        "url": "https://3174-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "ae8beb0b5f4f68dda000c5d90a16af91b1db8bd2f694194f9c6f0e52a1b84b49",
-        "build": "3174"
-      },
       {
         "url": "https://3182-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "fe0a2d92ac69fd4dab3dbaf05aa861b332d5220ae936b7229cd5715c055a163d",
@@ -36,6 +31,11 @@
         "url": "https://3216-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "a80d618359c5c27c803097d8778ff0e429a6ddbe2113fb92c7ea9e7bd4236e99",
         "build": "3216"
+      },
+      {
+        "url": "https://3418-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
+        "sha256": "4a9e9fe17179cc0a7b79da53487f4e4661fcf1d4ea61fab0296b6357584d48a7",
+        "build": "3418"
       }
     ]
   },
