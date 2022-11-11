@@ -2,21 +2,16 @@
   {
     "branchName": "develop",
     "encodedBranchName": "develop",
-    "timestamp": "1668172675",
-    "buildNumber": "3965",
+    "timestamp": "1668175260",
+    "buildNumber": "3970",
     "triggeredBy": "mi-we",
     "pullRequestUrl": "",
-    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3965",
-    "warArtifact": "https://output.circle-artifacts.com/output/job/22808a31-343c-4cef-a8f5-e94c4fe16e5e/artifacts/0/scenarioo.war",
-    "warArtifactSha256": "41c8c615d9e225e1f5acf83bfa03c741a418ea10ead1bab359716012b344efbb",
-    "exampleDocuArtifact": "https://output.circle-artifacts.com/output/job/22808a31-343c-4cef-a8f5-e94c4fe16e5e/artifacts/0/exampleScenariooDocu.zip",
-    "exampleDocuArtifactSha256": "7cde5c74d759d9a3b6db73f74f6d0dd0cd13c4ee84acc565de099545e3dc60db",
+    "buildUrl": "https://circleci.com/gh/scenarioo/scenarioo/3970",
+    "warArtifact": "https://output.circle-artifacts.com/output/job/e992f15a-18e2-4b40-a748-ebda29811503/artifacts/0/scenarioo.war",
+    "warArtifactSha256": "a70b781410bb115d9d20f3a5b65d8293ab012142327d558f9a872895e6326e3e",
+    "exampleDocuArtifact": "https://output.circle-artifacts.com/output/job/e992f15a-18e2-4b40-a748-ebda29811503/artifacts/0/exampleScenariooDocu.zip",
+    "exampleDocuArtifactSha256": "a98596b7ec832db9210be743649e3bcb0878e5bee7cc619f4d290290b46874c7",
     "docuArtifacts": [
-      {
-        "url": "https://3216-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
-        "sha256": "a80d618359c5c27c803097d8778ff0e429a6ddbe2113fb92c7ea9e7bd4236e99",
-        "build": "3216"
-      },
       {
         "url": "https://3418-10269178-gh.circle-artifacts.com/0/e2eScenariooDocu.zip",
         "sha256": "4a9e9fe17179cc0a7b79da53487f4e4661fcf1d4ea61fab0296b6357584d48a7",
@@ -36,6 +31,11 @@
         "url": "https://output.circle-artifacts.com/output/job/22808a31-343c-4cef-a8f5-e94c4fe16e5e/artifacts/0/e2eScenariooDocu.zip",
         "sha256": "75e27481a632d73c8cc45b15bbf2cade8bce9807aa151eb455dd8c0b65b22826",
         "build": "3965"
+      },
+      {
+        "url": "https://output.circle-artifacts.com/output/job/e992f15a-18e2-4b40-a748-ebda29811503/artifacts/0/e2eScenariooDocu.zip",
+        "sha256": "de37f56b1221bf09441e30ad9dfee1ab383eda17fe95b6c225b7236f9244d581",
+        "build": "3970"
       }
     ]
   },
