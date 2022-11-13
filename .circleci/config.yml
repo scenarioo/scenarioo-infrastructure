@@ -3,7 +3,7 @@ jobs:
   deploy:
     docker:
       # See https://circleci.com/docs/2.0/circleci-images/ ...
-      - image: cimg/python:3.7-node
+      - image: cimg/python:3.7.15-node
     working_directory: ~/infra
     steps:
           - checkout
@@ -12,14 +12,11 @@ jobs:
                 fingerprints:
                   - "61:98:9a:30:06:78:1e:34:a3:43:86:69:9d:42:5a:0b"
           - run:
-              name: Test python installation
+              name: Install ansible
               command: pip install 'ansible==2.5' --quiet
           - run:
-              name: Install ansible
-              command: sudo pip install 'ansible==2.5' --quiet
-          - run:
               name: Install jq
-              command: sudo pip install 'jq==1.0.0' --quiet
+              command: pip install 'jq==1.0.0' --quiet
           - run:
               name: Deploy server
               command: |
