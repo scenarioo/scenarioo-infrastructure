@@ -13,7 +13,7 @@ jobs:
                   - "61:98:9a:30:06:78:1e:34:a3:43:86:69:9d:42:5a:0b"
           - run:
               name: Install ansible
-              command: pip install 'ansible==2.5' --quiet
+              command: pip install 'ansible==2.13' --quiet
           - run:
               name: Install jq
               command: pip install 'jq==1.0.0' --quiet
